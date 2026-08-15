@@ -97,13 +97,44 @@ def extract(base_ucs: Path, current_ucs: Path, out_csv: Path) -> int:
     return rows
 
 
+def extract_all(base_ucs: Path, current_ucs: Path, menu_csv: Path, out_csv: Path) -> int:
+    base = read_ucs(base_ucs)
+    current = read_ucs(current_ucs)
+    menu_translations: dict[int, str] = {}
+    if menu_csv.exists():
+        with open(menu_csv, encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                thai = (row.get("thai") or "").strip()
+                if thai:
+                    menu_translations[int(row["id"])] = thai
+    rows = 0
+    with open(out_csv, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.writer(f, lineterminator="\r\n")
+        w.writerow(["id", "english", "thai", "context"])
+        for sid in sorted(base):
+            english = base[sid]
+            thai = menu_translations.get(sid)
+            if thai is None:
+                cur = current.get(sid, "")
+                thai = "" if cur == english else cur
+            w.writerow([sid, english, thai, FE_CONTEXTS.get(sid, "")])
+            rows += 1
+    return rows
+
+
 def main() -> None:
     cmd = sys.argv[1]
     if cmd == "extract":
         n = extract(Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4]))
         print(f"extracted {n} rows -> {sys.argv[4]}")
+    elif cmd == "extract_all":
+        n = extract_all(Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4]), Path(sys.argv[5]))
+        print(f"extracted {n} rows -> {sys.argv[5]}")
     else:
-        print("usage: ucs_workflow.py extract <base.ucs> <current.ucs> <out.csv>")
+        print(
+            "usage: ucs_workflow.py extract <base.ucs> <current.ucs> <out.csv> | "
+            "extract_all <base.ucs> <current.ucs> <menu.csv> <out.csv>"
+        )
         sys.exit(1)
 
 
