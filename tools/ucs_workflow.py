@@ -2,6 +2,8 @@ import csv
 import sys
 from pathlib import Path
 
+from tools.pua_encode import encode, load_map
+
 FE_CONTEXTS = {
     713500: "ปุ่มต่อแคมเปญ",
     713501: "ชื่อแคมเปญนอร์มังดี",
@@ -186,6 +188,27 @@ def extract_categories(
     return counts
 
 
+def apply(csv_path: Path, base_ucs: Path, out_ucs: Path, map_path: Path) -> list[str]:
+    m = load_map(map_path)
+    entries = read_ucs(base_ucs)
+    warnings: list[str] = []
+    with open(csv_path, encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            thai = (row.get("thai") or "").strip()
+            if not thai:
+                continue
+            encoded, missing = encode(thai, m)
+            if missing:
+                warnings.append(
+                    f"id {row['id']}: new clusters {sorted(missing)} -> run pua_font_builder.py"
+                )
+                entries[int(row["id"])] = thai
+            else:
+                entries[int(row["id"])] = encoded
+    write_ucs(out_ucs, entries)
+    return warnings
+
+
 def main() -> None:
     cmd = sys.argv[1]
     if cmd == "extract":
@@ -200,11 +223,17 @@ def main() -> None:
         )
         for cat, n in counts.items():
             print(f"{cat}: {n}")
+    elif cmd == "apply":
+        warnings = apply(Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4]), Path(sys.argv[5]))
+        for w in warnings:
+            print("WARN:", w)
+        print(f"applied -> {sys.argv[4]}")
     else:
         print(
             "usage: ucs_workflow.py extract <base.ucs> <current.ucs> <out.csv> | "
             "extract_all <base.ucs> <current.ucs> <menu.csv> <out.csv> | "
-            "extract_categories <base.ucs> <current.ucs> <menu.csv> <out_dir>"
+            "extract_categories <base.ucs> <current.ucs> <menu.csv> <out_dir> | "
+            "apply <translate.csv> <base.ucs> <out.ucs> <cluster_map.json>"
         )
         sys.exit(1)
 

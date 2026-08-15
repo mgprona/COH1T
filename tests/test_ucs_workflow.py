@@ -60,6 +60,25 @@ def main() -> None:
             assert sid not in seen, f"duplicate id {sid}"
             seen.add(sid)
     assert seen == set(all_ids)
+
+    # ต่อท้าย main() เดิม
+    from tools.pua_encode import PUA_START, save_map
+    from tools.ucs_workflow import apply
+
+    m = {"ล่": PUA_START, "ต่": PUA_START + 1}
+    save_map(ROOT / "work" / "test_cmap.json", m)
+    csv2 = ROOT / "work" / "test_translate.csv"
+    csv2.write_text(
+        "id,english,thai,context\r\n713512,CAMPAIGN,เล่นต่อ,\r\n713513,Continue,ต่อเก่ง,\r\n",
+        encoding="utf-8-sig",
+    )
+    out2 = ROOT / "work" / "test_applied.ucs"
+    warnings = apply(csv2, base, out2, ROOT / "work" / "test_cmap.json")
+    entries = read_ucs(out2)
+    assert entries[713512] == f"\u0e40{chr(PUA_START)}น{chr(PUA_START + 1)}อ"
+    assert entries[713513] == "ต่อเก่ง"  # เก่ง มี cluster ใหม่ -> fallback ดิบ
+    assert any("ก่" in w for w in warnings)
+    assert entries[5256] == "MAIN MENU"  # ไม่ได้แปล -> คงต้นฉบับ
     print("ok")
 
 
