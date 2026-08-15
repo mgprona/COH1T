@@ -27,7 +27,7 @@
 
 - ไฟล์ให้ทีมแปล: `work/translate_parts/` — 5 หมวด (`01_ui_menu` / `02_units_abilities` / `03_campaign_normandy` / `04_campaign_expansions` / `05_speech_radio`) คอลัมน์ `id,english,thai,context`; **id คือ key ตายตัว อย่าแตะ**
 - ถ้า apply เตือน "new clusters" → รัน pua_font_builder ใหม่ก่อน (cluster ใหม่จากคำแปลใหม่)
-- เทสต์: `uv run python tests/test_thai_cluster.py tests/test_pua_encode.py tests/test_pua_font_builder.py tests/test_ucs_workflow.py tests/test_patch_sga.py` / `uv run ruff check tools tests` / `uv run pyright tools tests`
+- เทสต์: `Get-ChildItem tests\test_*.py | ForEach-Object { uv run python $_.FullName }` / `uv run ruff check tools tests` / `uv run pyright tools tests`
 
 ## วิธีแพตช์ Engine.sga (ถ้าต้องทำใหม่จากศูนย์)
 
