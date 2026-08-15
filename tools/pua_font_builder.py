@@ -23,7 +23,14 @@ def _comp(name: str, dx: int, dy: int) -> GlyphComponent:
     return comp
 
 
-def build_font(base_ttf: Path, clusters: set[str], out_ttf: Path, map_path: Path) -> dict[str, int]:
+def build_font(
+    base_ttf: Path,
+    clusters: set[str],
+    out_ttf: Path,
+    map_path: Path,
+    upem: int | None = None,
+) -> dict[str, int]:
+    """upem: ปรับสเกลทั้งฟอนต์ (ค่าต่ำ = ตัวใหญ่ขึ้นที่ px เดียวกัน) เพื่อ match ฟอนต์เดิมของเกม"""
     m = {c: PUA_START + i for i, c in enumerate(sorted(clusters))}
     font = TTFont(base_ttf)
     glyf = font["glyf"]
@@ -44,6 +51,8 @@ def build_font(base_ttf: Path, clusters: set[str], out_ttf: Path, map_path: Path
         for table in font["cmap"].tables:
             if table.isUnicode():
                 table.cmap[cp] = gname
+    if upem is not None:
+        font["head"].unitsPerEm = upem  # type: ignore[attr-defined]
     out_ttf.parent.mkdir(parents=True, exist_ok=True)
     font.save(out_ttf)
     save_map(map_path, m)
@@ -63,8 +72,11 @@ def main() -> None:
                 if thai:
                     texts.append(thai)
     clusters = collect_clusters(texts)
-    m = build_font(REGULAR, clusters, OUT_DIR / "BaiJamjuree-PUA.ttf", MAP_PATH)
-    build_font(BOLD, clusters, OUT_DIR / "BaiJamjuree-Bold-PUA.ttf", MAP_PATH)
+    # สเกล match ฟอนต์เดิม: trebuc cap/upm=0.715, impact cap/upm=0.791, BaiJamjuree cap=0.700
+    # -> upem = 1000 * 0.700/0.715 = 979 (body) | 1000 * 0.700/0.791 = 885 (display)
+    m = build_font(REGULAR, clusters, OUT_DIR / "BaiJamjuree-PUA.ttf", MAP_PATH, upem=979)
+    build_font(BOLD, clusters, OUT_DIR / "BaiJamjuree-Bold-PUA.ttf", MAP_PATH, upem=979)
+    build_font(BOLD, clusters, OUT_DIR / "BaiJamjuree-Display-PUA.ttf", MAP_PATH, upem=885)
     print(f"built {len(clusters)} PUA glyphs into font/ (map -> {MAP_PATH})")
     print("map:", m)
 
