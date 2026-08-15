@@ -37,6 +37,8 @@ def main() -> None:
     assert (v2.glyphName, v2.x, v2.y) == ("uni0E49", 1225, 0)
     assert hmtx[cmap[m["ผู้"]]][0] == 1225
     assert 0x0E01 in cmap, "original Thai cmap must remain"
+    out.unlink(missing_ok=True)
+    map_path.unlink(missing_ok=True)
     print("ok")
 
 

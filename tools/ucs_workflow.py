@@ -61,7 +61,7 @@ FE_CONTEXTS = {
 
 
 def read_ucs(path: Path) -> dict[int, str]:
-    text = path.read_text(encoding="utf-16")
+    text = path.read_bytes().decode("utf-16")
     assert "\r\r" not in text, f"{path}: double-CR corruption detected"
     entries: dict[int, str] = {}
     for line in text.splitlines():
@@ -78,7 +78,7 @@ def write_ucs(path: Path, entries: dict[int, str]) -> None:
     with open(path, "w", encoding="utf-16", newline="") as f:
         f.write("\r\n".join(lines) + "\r\n")
     raw = path.read_bytes()
-    assert b"\r\r" not in raw, f"{path}: double-CR corruption detected"
+    assert b"\r\x00\r\x00" not in raw, f"{path}: double-CR corruption detected"
 
 
 def extract(base_ucs: Path, current_ucs: Path, out_csv: Path) -> int:
@@ -188,6 +188,29 @@ def extract_categories(
     return counts
 
 
+def merge_parts(parts_dir: Path, menu_csv: Path, out_csv: Path) -> tuple[int, int]:
+    rows: dict[str, dict[str, str]] = {}
+    for src in [*sorted(parts_dir.glob("*.csv")), menu_csv]:
+        if not src.exists():
+            continue
+        with open(src, encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                sid = row["id"]
+                merged = rows.setdefault(sid, {"id": sid, "english": "", "thai": "", "context": ""})
+                for col in ("english", "thai", "context"):
+                    v = (row.get(col) or "").strip()
+                    if v:
+                        merged[col] = v
+    with open(out_csv, "w", encoding="utf-8-sig", newline="") as f:
+        w = csv.writer(f, lineterminator="\r\n")
+        w.writerow(["id", "english", "thai", "context"])
+        for sid in sorted(rows, key=int):
+            r = rows[sid]
+            w.writerow([r["id"], r["english"], r["thai"], r["context"]])
+    translated = sum(1 for r in rows.values() if r["thai"])
+    return len(rows), translated
+
+
 def apply(csv_path: Path, base_ucs: Path, out_ucs: Path, map_path: Path) -> list[str]:
     m = load_map(map_path)
     entries = read_ucs(base_ucs)
@@ -227,6 +250,9 @@ def main() -> None:
         )
         for cat, n in counts.items():
             print(f"{cat}: {n}")
+    elif cmd == "merge_parts":
+        rows, translated = merge_parts(Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4]))
+        print(f"merged {rows} rows ({translated} translated) -> {sys.argv[4]}")
     elif cmd == "apply":
         warnings = apply(Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4]), Path(sys.argv[5]))
         for w in warnings:
@@ -237,6 +263,7 @@ def main() -> None:
             "usage: ucs_workflow.py extract <base.ucs> <current.ucs> <out.csv> | "
             "extract_all <base.ucs> <current.ucs> <menu.csv> <out.csv> | "
             "extract_categories <base.ucs> <current.ucs> <menu.csv> <out_dir> | "
+            "merge_parts <parts_dir> <menu.csv> <out.csv> | "
             "apply <translate.csv> <base.ucs> <out.ucs> <cluster_map.json>"
         )
         sys.exit(1)

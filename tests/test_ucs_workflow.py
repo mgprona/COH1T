@@ -1,4 +1,5 @@
 import sys
+from csv import DictReader
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -35,6 +36,16 @@ def main() -> None:
     assert raw[:2] == b"\xff\xfe"
     assert b"\r\r" not in raw and b"\r\x00\n\x00" in raw
 
+    # read-side double-CR guard ต้องยิงจริง (universal newline translation ต้องไม่ทำลายหลักฐาน)
+    bad = ROOT / "work" / "test_bad.ucs"
+    with open(bad, "w", encoding="utf-16", newline="") as f:
+        f.write("5256\tMAIN MENU\r\r\n")
+    try:
+        read_ucs(bad)
+        raise AssertionError("double-CR guard did not fire")
+    except AssertionError as e:
+        assert "corruption detected" in str(e)
+
     # extract_categories: ทุก id ตกหลุมไหนสักหมวด และไม่มีซ้ำ
     from tools.ucs_workflow import CATEGORY_RANGES, extract_categories
 
@@ -61,6 +72,28 @@ def main() -> None:
             seen.add(sid)
     assert seen == set(all_ids)
 
+    # merge_parts: รวม part csvs + menu csv กลับเป็น csv เดียว
+    from tools.ucs_workflow import merge_parts
+
+    parts_dir = ROOT / "work" / "test_merge_parts"
+    parts_dir.mkdir(parents=True, exist_ok=True)
+    (parts_dir / "01_a.csv").write_text(
+        "id,english,thai,context\r\n1,ONE,,c1\r\n2,TWO,,c2\r\n", encoding="utf-8-sig"
+    )
+    (parts_dir / "02_b.csv").write_text(
+        "id,english,thai,context\r\n3,THREE,สาม,c3\r\n", encoding="utf-8-sig"
+    )
+    menu = ROOT / "work" / "test_merge_menu.csv"
+    menu.write_text("id,english,thai,context\r\n1,,หนึ่ง,\r\n", encoding="utf-8-sig")
+    merged = ROOT / "work" / "test_merged.csv"
+    rows, translated = merge_parts(parts_dir, menu, merged)
+    assert rows == 3, rows
+    assert translated == 2, translated
+    by_id = {r["id"]: r for r in DictReader(merged.read_text(encoding="utf-8-sig").splitlines())}
+    assert by_id["1"]["thai"] == "หนึ่ง"
+    assert by_id["2"]["thai"] == ""
+    assert by_id["3"]["thai"] == "สาม"
+
     # ต่อท้าย main() เดิม
     from tools.pua_encode import PUA_START, save_map
     from tools.ucs_workflow import apply
@@ -79,6 +112,27 @@ def main() -> None:
     assert entries[713513] == "ต่อเก่ง"  # เก่ง มี cluster ใหม่ -> fallback ดิบ
     assert any("ก่" in w for w in warnings)
     assert entries[5256] == "MAIN MENU"  # ไม่ได้แปล -> คงต้นฉบับ
+
+    # ทำความสะอาด test artifacts
+    import shutil
+
+    shutil.rmtree(cats_dir, ignore_errors=True)
+    shutil.rmtree(parts_dir, ignore_errors=True)
+    for p in [
+        base,
+        cur,
+        csv,
+        out,
+        bad,
+        big_base,
+        big_cur,
+        csv2,
+        out2,
+        menu,
+        merged,
+        ROOT / "work" / "test_cmap.json",
+    ]:
+        p.unlink(missing_ok=True)
     print("ok")
 
 

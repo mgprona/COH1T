@@ -22,6 +22,7 @@ def main() -> None:
     out2, missing2 = encode("เล่นต่อเก่ง", m)
     assert missing2 == {"ก่"}
     assert "เก่ง" in out2  # fallback เป็นตัวดิบ
+    tmp.unlink(missing_ok=True)
     print("ok")
 
 

@@ -36,6 +36,8 @@ def main() -> None:
         slot = out[off : off + length]
         assert slot[:4] == b"\x00\x01\x00\x00", f"{path}: slot not patched"
         assert zlib.crc32(slot) & 0xFFFFFFFF == int.from_bytes(out[off - 4 : off], "little")
+    src.unlink(missing_ok=True)
+    dst.unlink(missing_ok=True)
     print("ok")
 
 

@@ -15,7 +15,7 @@ Phase A แก้ปัญหานี้ด้วยฟอนต์ PUA แบ�
 ## ขอบเขต (รอบแรก)
 
 - ข้อความเมนูหลัก (ID 713495–713560) + ที่แปลแล้ว (5256, 9250–9252)
-- ฟอนต์ฐาน: Leelawadee UI (LeelawUI.ttf regular / LeelaUIb.ttf bold) — พิสูจน์แล้วว่า engine วาดได้
+- ฟอนต์ฐาน: Leelawadee (leelawad.ttf regular / leelawdb.ttf bold) — LeelawUI เคยใช้แต่ฟอนต์ผลลัพธ์ 391KB เกินสล็อต archive 134KB จึงสลับเป็น leelawad (96KB, ตระกูลเดียวกัน)
 - ยังไม่ทำ: ข้อความในแมตช์, หน่วยรบ, chat — รอบถัดไป
 
 ## หลักการทำงาน

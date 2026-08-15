@@ -31,7 +31,7 @@
 **Interfaces:**
 - Produces:
   - `is_thai(ch: str) -> bool` — True ถ้า U+0E00–U+0E7F
-  - `tokenize_clusters(text: str) -> list[str]` — แยกข้อความเป็น cluster; cluster = ตัวอักษรฐาน (ที่ไม่ใช่ combining mark) + combining marks ที่ตามมา (U+0E31, U+0E34–0E3A, U+0E47–0E4E); สระหน้า เ แ โ ใ ไ และ ำ เป็นฐาน (cluster เดี่ยว)
+  - `tokenize_clusters(text: str) -> list[str]` — แยกข้อความเป็น cluster; cluster = ตัวอักษรฐาน (ที่ไม่ใช่ combining mark) + combining marks ที่ตามมา (U+0E31, U+0E34–0E3A, U+0E47–0E4E); สระที่เรนเดอร์ถูกตำแหน่งเองโดยไม่ต้อง shaping (สระหน้า เ แ โ ใ ไ และสระระยะ า ะ ำ) เป็นฐาน = cluster เดี่ยว
 
 - [ ] **Step 1: เขียน test**
 
@@ -47,9 +47,9 @@ def main() -> None:
     assert is_thai("ก") and is_thai("่") and not is_thai("A") and not is_thai(" ")
     assert tokenize_clusters("เมนูหลัก") == ["เ", "ม", "นู", "ห", "ลั", "ก"]
     assert tokenize_clusters("เล่นต่อ") == ["เ", "ล่", "น", "ต่", "อ"]
-    assert tokenize_clusters("ผู้เล่นหลายคน") == ["ผู้", "เ", "ล่", "น", "ห", "ลา", "ย", "ค", "น"]
+    assert tokenize_clusters("ผู้เล่นหลายคน") == ["ผู้", "เ", "ล่", "น", "ห", "ล", "า", "ย", "ค", "น"]
     assert tokenize_clusters("เก่ง") == ["เ", "ก่", "ง"]
-    assert tokenize_clusters("ศึกรวดเร็ว") == ["ศึ", "ก", "ร", "ว", "ด", "เร็", "ว"]
+    assert tokenize_clusters("ศึกรวดเร็ว") == ["ศึ", "ก", "ร", "ว", "ด", "เ", "ร็", "ว"]
     assert tokenize_clusters("Hello ไทย") == ["H", "e", "l", "l", "o", " ", "ไ", "ท", "ย"]
     print("ok")
 
@@ -446,7 +446,7 @@ git commit -m "feat: add ucs extract to translation csv"
 - Produces:
   - `build_font(base_ttf: Path, clusters: set[str], out_ttf: Path, map_path: Path) -> dict[str, int]`
     — shape แต่ละ cluster ด้วย uharfbuzz → สร้าง composite glyph (`glyf` components + `hmtx` advance + `cmap` PUA) → save font + map; คืน cluster map
-  - `main()` CLI: `pua_font_builder.py <clusters.json?>...` — ไม่มี arg: สแกนคอลัมน์ thai ของ `work/translate.csv` → build regular (`font/LeelawUI-PUA.ttf`) + bold (`font/LeelaUIb-PUA.ttf`) → เขียน `work/cluster_map.json`
+  - `main()` CLI: `pua_font_builder.py <clusters.json?>...` — ไม่มี arg: สแกนคอลัมน์ thai ของ `work/translate.csv` → build regular (`font/Leelawad-PUA.ttf`) + bold (`font/Leelawdb-PUA.ttf`) → เขียน `work/cluster_map.json`
 
 - [ ] **Step 1: ติดตั้ง uharfbuzz**
 
@@ -509,8 +509,8 @@ from fontTools.ttLib.tables._g_l_y_f import Glyph, GlyphComponent
 
 from tools.pua_encode import PUA_START, collect_clusters, load_map, save_map
 
-REGULAR = Path(r"C:\Windows\Fonts\LeelawUI.ttf")
-BOLD = Path(r"C:\Windows\Fonts\LeelaUIb.ttf")
+REGULAR = Path(r"C:\Windows\Fonts\leelawad.ttf")
+BOLD = Path(r"C:\Windows\Fonts\leelawdb.ttf")
 OUT_DIR = Path("font")
 CSV_PATH = Path("work/translate.csv")
 MAP_PATH = Path("work/cluster_map.json")
@@ -559,8 +559,8 @@ def main() -> None:
                 if thai:
                     texts.append(thai)
     clusters = collect_clusters(texts)
-    m = build_font(REGULAR, clusters, OUT_DIR / "LeelawUI-PUA.ttf", MAP_PATH)
-    build_font(BOLD, clusters, OUT_DIR / "LeelaUIb-PUA.ttf", MAP_PATH)
+    m = build_font(REGULAR, clusters, OUT_DIR / "Leelawad-PUA.ttf", MAP_PATH)
+    build_font(BOLD, clusters, OUT_DIR / "Leelawdb-PUA.ttf", MAP_PATH)
     print(f"built {len(clusters)} PUA glyphs into font/ (map -> {MAP_PATH})")
     print("map:", m)
 
@@ -644,7 +644,9 @@ def apply(csv_path: Path, base_ucs: Path, out_ucs: Path, map_path: Path) -> list
             encoded, missing = encode(thai, m)
             if missing:
                 warnings.append(f"id {row['id']}: new clusters {sorted(missing)} -> run pua_font_builder.py")
-            entries[int(row["id"])] = encoded
+                entries[int(row["id"])] = thai
+            else:
+                entries[int(row["id"])] = encoded
     write_ucs(out_ucs, entries)
     return warnings
 ```
@@ -690,7 +692,7 @@ git commit -m "feat: add ucs apply with pua encoding"
 
 **Interfaces:**
 - Produces:
-  - `FONT_SLOTS: dict[str, tuple[int, int, str]]` — เปลี่ยน replacement path เป็น `font/LeelawUI-PUA.ttf` / `font/LeelaUIb-PUA.ttf` (regular→trebuc+impact slots, bold→trebucbd slot)
+  - `FONT_SLOTS: dict[str, tuple[int, int, str]]` — เปลี่ยน replacement path เป็น `font/Leelawad-PUA.ttf` / `font/Leelawdb-PUA.ttf` (regular→trebuc+impact slots, bold→trebucbd slot)
   - `main()` — รับ arg เสริม: `patch_sga.py [src.sga] [dst.sga]` (default: backup\Engine.sga → work\Engine_patched.sga)
 
 - [ ] **Step 1: เขียน test**
@@ -758,9 +760,9 @@ from pathlib import Path
 # each entry: data immediately follows its u32 CRC32 field in the TOC.
 FONT_SLOTS = {
     # path in archive -> (file offset, store length, replacement source file)
-    r"font\trebuc.ttf": (0x12092B73, 134108, r"font\LeelawUI-PUA.ttf"),
-    r"font\trebucbd.ttf": (0x120B3853, 123096, r"font\LeelaUIb-PUA.ttf"),
-    r"font\impact.ttf": (0x120716E3, 136076, r"font\LeelawUI-PUA.ttf"),
+    r"font\trebuc.ttf": (0x12092B73, 134108, r"font\Leelawad-PUA.ttf"),
+    r"font\trebucbd.ttf": (0x120B3853, 123096, r"font\Leelawdb-PUA.ttf"),
+    r"font\impact.ttf": (0x120716E3, 136076, r"font\Leelawad-PUA.ttf"),
 }
 
 
@@ -811,7 +813,7 @@ git commit -m "feat: generalize patch_sga for pua fonts"
 ### Task 7: Integration — deploy จริง + ทดสอบในเกม
 
 **Files:**
-- Produces: `work/cluster_map.json`, `font/LeelawUI-PUA.ttf`, `font/LeelaUIb-PUA.ttf`, `work/Engine_patched.sga`, `work/RelicCOH.English.ucs` (PUA)
+- Produces: `work/cluster_map.json`, `font/Leelawad-PUA.ttf`, `font/Leelawdb-PUA.ttf`, `work/Engine_patched.sga`, `work/RelicCOH.English.ucs` (PUA)
 - Modify (ในโฟลเดอร์เกม): `Engine\Archives\Engine.sga`, `CoH\Engine\Locale\English\RelicCOH.English.ucs`
 
 - [ ] **Step 1: รัน font builder จริง**
@@ -822,7 +824,7 @@ Expected: `built N PUA glyphs into font/ (map -> work/cluster_map.json)` — N �
 - [ ] **Step 2: ตรวจฟอนต์ผลลัพธ์**
 
 Run: `uv run python tests/test_pua_font_builder.py` แล้ว
-`uv run python -c "from fontTools.ttLib import TTFont; f=TTFont('font/LeelawUI-PUA.ttf'); print('glyphs:', len(f.getBestCmap()))"`
+`uv run python -c "from fontTools.ttLib import TTFont; f=TTFont('font/Leelawad-PUA.ttf'); print('glyphs:', len(f.getBestCmap()))"`
 Expected: test ผ่าน, glyph นับ > 340 (Leelawadee เดิม 340 + PUA)
 
 - [ ] **Step 3: apply แปล → .ucs PUA**
