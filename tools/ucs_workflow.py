@@ -210,6 +210,10 @@ def apply(csv_path: Path, base_ucs: Path, out_ucs: Path, map_path: Path) -> list
 
 
 def main() -> None:
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[attr-defined]
+    except (AttributeError, ValueError):
+        pass
     cmd = sys.argv[1]
     if cmd == "extract":
         n = extract(Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4]))

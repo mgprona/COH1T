@@ -1,4 +1,5 @@
 import csv
+import sys
 from pathlib import Path
 
 import uharfbuzz as hb
@@ -53,6 +54,10 @@ def build_font(base_ttf: Path, clusters: set[str], out_ttf: Path, map_path: Path
 
 
 def main() -> None:
+    try:
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[attr-defined]
+    except (AttributeError, ValueError):
+        pass
     texts: list[str] = []
     if CSV_PATH.exists():
         with open(CSV_PATH, encoding="utf-8-sig", newline="") as f:
