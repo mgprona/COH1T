@@ -1,0 +1,6 @@
+backup/
+work/
+.venv/
+__pycache__/
+*.pyc
+font/
