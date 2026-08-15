@@ -4,7 +4,7 @@ from pathlib import Path
 from fontTools.pens.boundsPen import BoundsPen
 from fontTools.ttLib import TTFont
 
-sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[attr-defined]
 
 FONTS = [
     (r"C:\Windows\Fonts\leelawad.ttf", "Leelawadee"),
@@ -26,7 +26,7 @@ def main() -> None:
             continue
         font = TTFont(p)
         gs = font.getGlyphSet()
-        cmap = font.getBestCmap()
+        cmap = font.getBestCmap() or {}
         verdict = "naive ✓"
         for name, uni in MARKS.items():
             gname = cmap.get(int(uni[3:], 16))

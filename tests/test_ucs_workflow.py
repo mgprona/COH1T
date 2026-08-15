@@ -113,11 +113,48 @@ def main() -> None:
     assert any("ก่" in w for w in warnings)
     assert entries[5256] == "MAIN MENU"  # ไม่ได้แปล -> คงต้นฉบับ
 
+    # extract_unique: dedupe + all_ids + แจก section + apply กระจาย all_ids
+    from tools.ucs_workflow import extract_unique
+
+    uni_base = ROOT / "work" / "test_uni_base.ucs"
+    uni_parts = ROOT / "work" / "test_uni_parts"
+    uni_out = ROOT / "work" / "test_uni_out"
+    _make_ucs(
+        uni_base,
+        {
+            1: "CONTINUE",
+            2: "CONTINUE",
+            100000: "Good vs. Tanks",
+            713512: "CAMPAIGN",
+        },
+    )
+    uni_parts.mkdir(parents=True, exist_ok=True)
+    (uni_parts / "p1.csv").write_text(
+        "id,english,thai,context\r\n1,CONTINUE,ต่อ,\r\n2,CONTINUE,ต่อ,\r\n100000,Good vs. Tanks,เก่งรถถัง,\r\n713512,CAMPAIGN,แคมเปญ,\r\n",
+        encoding="utf-8-sig",
+    )
+    counts = extract_unique(uni_base, uni_parts, uni_out)
+    assert sum(counts.values()) == 3  # CONTINUE รวมเป็นแถวเดียว
+    ui_system = (uni_out / "01_ui" / "01_system.csv").read_text(encoding="utf-8-sig").splitlines()
+    cont_rows = [l for l in ui_system if l.startswith("1,CONTINUE")]
+    assert len(cont_rows) == 1 and cont_rows[0].endswith("|2")
+    stat_rows = (uni_out / "02_units" / "03_stats.csv").read_text(encoding="utf-8-sig").splitlines()
+    assert any(l.startswith("100000,Good vs. Tanks") for l in stat_rows)
+    out3 = ROOT / "work" / "test_applied3.ucs"
+    _ = apply(uni_out, uni_base, out3, ROOT / "work" / "test_cmap.json")
+    e3 = read_ucs(out3)
+    assert (
+        e3[1] == chr(PUA_START + 1) + "\u0e2d" and e3[2] == chr(PUA_START + 1) + "\u0e2d"
+    )  # all_ids กระจายครบ + PUA encode
+    assert e3[713512] == "\u0e41\u0e04\u0e21\u0e40\u0e1b\u0e0d"  # ไม่มี cluster ใน map -> fallback ดิบ
+
     # ทำความสะอาด test artifacts
     import shutil
 
     shutil.rmtree(cats_dir, ignore_errors=True)
     shutil.rmtree(parts_dir, ignore_errors=True)
+    shutil.rmtree(uni_parts, ignore_errors=True)
+    shutil.rmtree(uni_out, ignore_errors=True)
     for p in [
         base,
         cur,
@@ -130,6 +167,8 @@ def main() -> None:
         out2,
         menu,
         merged,
+        uni_base,
+        out3,
         ROOT / "work" / "test_cmap.json",
     ]:
         p.unlink(missing_ok=True)

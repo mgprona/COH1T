@@ -3,6 +3,7 @@ import sys
 from pathlib import Path
 
 from tools.pua_encode import encode, load_map
+from tools.ucs_sections import Section, section_of
 
 FE_CONTEXTS = {
     713500: "ปุ่มต่อแคมเปญ",
@@ -190,7 +191,7 @@ def extract_categories(
 
 def merge_parts(parts_dir: Path, menu_csv: Path, out_csv: Path) -> tuple[int, int]:
     rows: dict[str, dict[str, str]] = {}
-    for src in [*sorted(parts_dir.glob("*.csv")), menu_csv]:
+    for src in [*sorted(parts_dir.rglob("*.csv")), menu_csv]:
         if not src.exists():
             continue
         with open(src, encoding="utf-8-sig", newline="") as f:
@@ -211,25 +212,83 @@ def merge_parts(parts_dir: Path, menu_csv: Path, out_csv: Path) -> tuple[int, in
     return len(rows), translated
 
 
+def _row_ids(row: dict[str, str]) -> list[int]:
+    raw = row.get("all_ids") or row.get("id") or ""
+    ids: list[int] = []
+    for token in raw.replace("|", " ").replace(";", " ").split():
+        if token.isdigit():
+            ids.append(int(token))
+    return ids
+
+
+def collect_translations(src: Path) -> tuple[dict[int, str], list[str]]:
+    """อ่านคำแปลจาก csv เดียวหรือโฟลเดอร์ csvs (กระจาย all_ids) -> ({id: thai}, warnings)"""
+    trans: dict[int, str] = {}
+    warnings: list[str] = []
+    paths = sorted(src.rglob("*.csv")) if src.is_dir() else [src]
+    for p in paths:
+        with open(p, encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                thai = (row.get("thai") or "").strip()
+                if not thai:
+                    continue
+                for sid in _row_ids(row):
+                    if sid in trans and trans[sid] != thai:
+                        warnings.append(f"id {sid}: มีคำแปลซ้ำขัดกันในไฟล์ ({p.name}) -> ใช้ค่าหลัง")
+                    trans[sid] = thai
+    return trans, warnings
+
+
 def apply(csv_path: Path, base_ucs: Path, out_ucs: Path, map_path: Path) -> list[str]:
     m = load_map(map_path)
     entries = read_ucs(base_ucs)
     warnings: list[str] = []
-    with open(csv_path, encoding="utf-8-sig", newline="") as f:
-        for row in csv.DictReader(f):
-            thai = (row.get("thai") or "").strip()
-            if not thai:
-                continue
-            encoded, missing = encode(thai, m)
-            if missing:
-                warnings.append(
-                    f"id {row['id']}: new clusters {sorted(missing)} -> run pua_font_builder.py"
-                )
-                entries[int(row["id"])] = thai
-            else:
-                entries[int(row["id"])] = encoded
+    trans, dup_warnings = collect_translations(csv_path)
+    warnings.extend(dup_warnings)
+    for sid in sorted(trans):
+        thai = trans[sid]
+        if sid not in entries:
+            warnings.append(f"id {sid}: ไม่มีใน ucs ต้นฉบับ -> ข้าม")
+            continue
+        encoded, missing = encode(thai, m)
+        if missing:
+            warnings.append(f"id {sid}: new clusters {sorted(missing)} -> run pua_font_builder.py")
+            entries[sid] = thai
+        else:
+            entries[sid] = encoded
     write_ucs(out_ucs, entries)
     return warnings
+
+
+def extract_unique(base_ucs: Path, parts_dir: Path, out_dir: Path) -> dict[str, int]:
+    """โครงสร้างใหม่: dedupe แบบ (english,thai) + all_ids + ไฟล์ต่อ section (ตาม ucs_sections)"""
+    base = read_ucs(base_ucs)
+    trans, dup_warnings = collect_translations(parts_dir)
+    for w in dup_warnings:
+        print("WARN:", w)
+    groups: dict[tuple[str, str], list[int]] = {}
+    for sid in sorted(base):
+        e = base[sid]
+        t = trans.get(sid, "")
+        groups.setdefault((e, t), []).append(sid)
+    rows_by_sec: dict[Section, list[tuple[str, str, list[int]]]] = {}
+    for (e, t), ids in groups.items():
+        sec = section_of(ids[0], e)
+        rows_by_sec.setdefault(sec, []).append((e, t, ids))
+    counts: dict[str, int] = {}
+    for sec, rows in rows_by_sec.items():
+        d = out_dir / sec.category
+        d.mkdir(parents=True, exist_ok=True)
+        with open(d / sec.file, "w", encoding="utf-8-sig", newline="") as f:
+            w = csv.writer(f, lineterminator="\r\n")
+            w.writerow(["id", "english", "thai", "context", "all_ids"])
+            for e, t, ids in sorted(rows, key=lambda r: r[2][0]):
+                context = sec.context
+                if ids[0] in FE_CONTEXTS:
+                    context = f"{sec.context} | {FE_CONTEXTS[ids[0]]}"
+                w.writerow([ids[0], e, t, context, "|".join(map(str, ids))])
+        counts[f"{sec.category}/{sec.file}"] = len(rows)
+    return counts
 
 
 def main() -> None:
@@ -250,6 +309,11 @@ def main() -> None:
         )
         for cat, n in counts.items():
             print(f"{cat}: {n}")
+    elif cmd == "extract_unique":
+        counts = extract_unique(Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4]))
+        for sec, n in sorted(counts.items()):
+            print(f"{sec}: {n} rows")
+        print(f"รวม {sum(counts.values())} rows")
     elif cmd == "merge_parts":
         rows, translated = merge_parts(Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4]))
         print(f"merged {rows} rows ({translated} translated) -> {sys.argv[4]}")
@@ -263,8 +327,9 @@ def main() -> None:
             "usage: ucs_workflow.py extract <base.ucs> <current.ucs> <out.csv> | "
             "extract_all <base.ucs> <current.ucs> <menu.csv> <out.csv> | "
             "extract_categories <base.ucs> <current.ucs> <menu.csv> <out_dir> | "
+            "extract_unique <base.ucs> <parts_dir> <out_dir> | "
             "merge_parts <parts_dir> <menu.csv> <out.csv> | "
-            "apply <translate.csv> <base.ucs> <out.ucs> <cluster_map.json>"
+            "apply <translate.csv|parts_dir> <base.ucs> <out.ucs> <cluster_map.json>"
         )
         sys.exit(1)
 
