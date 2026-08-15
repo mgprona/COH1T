@@ -12,20 +12,30 @@ BASE = Path(r"C:\Windows\Fonts\leelawad.ttf")
 
 
 def main() -> None:
-    clusters = {"ล่", "ต่", "ผู้"}
+    clusters = {"ลื", "ผู้"}
     out = ROOT / "work" / "test_pua.ttf"
     map_path = ROOT / "work" / "test_map.json"
     m = build_font(BASE, clusters, out, map_path)
     assert m == load_map(map_path)
-    assert sorted(m) == ["\u0e15\u0e48", "\u0e1c\u0e39\u0e49", "\u0e25\u0e48"]
     font = TTFont(out)
     cmap = font.getBestCmap() or {}
     glyf = font["glyf"]
-    for c, cp in m.items():
-        gname = cmap[cp]
-        g = glyf[gname]
-        assert g.numberOfContours == -1, f"{c}: not composite"
-        assert len(g.components) == len(c), f"{c}: {len(g.components)} comps != {len(c)} chars"
+    hmtx = font["hmtx"]
+
+    ลื = glyf[cmap[m["ลื"]]]
+    assert len(ลื.components) == 2
+    c0, c1 = ลื.components
+    assert (c0.glyphName, c0.x, c0.y) == ("uni0E25", 0, 0)
+    assert (c1.glyphName, c1.x, c1.y) == ("uni0E37", 1104, 0)
+    assert hmtx[cmap[m["ลื"]]][0] == 1104
+
+    ผู้ = glyf[cmap[m["ผู้"]]]
+    assert len(ผู้.components) == 3
+    b, v1, v2 = ผู้.components
+    assert (b.glyphName, b.x, b.y) == ("uni0E1C", 0, 0)
+    assert (v1.glyphName, v1.x, v1.y) == ("uni0E39", 1225, 0)
+    assert (v2.glyphName, v2.x, v2.y) == ("uni0E49", 1225, 0)
+    assert hmtx[cmap[m["ผู้"]]][0] == 1225
     assert 0x0E01 in cmap, "original Thai cmap must remain"
     print("ok")
 

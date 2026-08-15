@@ -2,7 +2,6 @@ import csv
 import sys
 from pathlib import Path
 
-import uharfbuzz as hb
 from fontTools.ttLib import TTFont
 from fontTools.ttLib.tables._g_l_y_f import Glyph, GlyphComponent
 
@@ -15,35 +14,33 @@ CSV_PATH = Path("work/translate.csv")
 MAP_PATH = Path("work/cluster_map.json")
 
 
+def _comp(name: str, dx: int, dy: int) -> GlyphComponent:
+    comp = GlyphComponent()
+    comp.glyphName = name
+    comp.flags = 0
+    comp.x = dx
+    comp.y = dy
+    return comp
+
+
 def build_font(base_ttf: Path, clusters: set[str], out_ttf: Path, map_path: Path) -> dict[str, int]:
     m = {c: PUA_START + i for i, c in enumerate(sorted(clusters))}
     font = TTFont(base_ttf)
-    order = font.getGlyphOrder()
     glyf = font["glyf"]
     hmtx = font["hmtx"]
-    face = hb.Face(base_ttf.read_bytes())  # type: ignore[attr-defined]
-    hbfont = hb.Font(face)  # type: ignore[attr-defined]
+    cmap = font.getBestCmap() or {}
     for cluster, cp in m.items():
-        buf = hb.Buffer()  # type: ignore[attr-defined]
-        buf.add_str(cluster)
-        buf.guess_segment_properties()
-        hb.shape(hbfont, buf)  # type: ignore[attr-defined]
-        positions = buf.glyph_positions
-        infos = buf.glyph_infos
-        gname = f"pua{cp:X}"
+        base_name = cmap[ord(cluster[0])]
+        cons_advance = hmtx[base_name][0]
         g = Glyph()
         g.numberOfContours = -1
-        g.components = []
-        for info, pos in zip(infos, positions):
-            comp_name = order[info.codepoint]
-            comp = GlyphComponent()
-            comp.glyphName = comp_name
-            comp.flags = 0
-            comp.x = round(pos.x_offset)
-            comp.y = round(pos.y_offset)
-            g.components.append(comp)
+        g.components = [_comp(base_name, 0, 0)]
+        for mark in cluster[1:]:
+            mark_name = cmap[ord(mark)]
+            g.components.append(_comp(mark_name, cons_advance, 0))
+        gname = f"pua{cp:X}"
         glyf[gname] = g
-        hmtx[gname] = (round(sum(p.x_advance for p in positions)), 0)
+        hmtx[gname] = (cons_advance, 0)
         for table in font["cmap"].tables:
             if table.isUnicode():
                 table.cmap[cp] = gname
