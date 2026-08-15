@@ -7,8 +7,8 @@ from fontTools.ttLib.tables._g_l_y_f import Glyph, GlyphComponent
 
 from tools.pua_encode import PUA_START, collect_clusters, save_map
 
-REGULAR = Path(r"C:\Windows\Fonts\leelawad.ttf")
-BOLD = Path(r"C:\Windows\Fonts\leelawdb.ttf")
+REGULAR = Path(r"work\BaiJamjuree-Regular.ttf")
+BOLD = Path(r"work\BaiJamjuree-Bold.ttf")
 OUT_DIR = Path("font")
 CSV_PATH = Path("work/translate.csv")
 MAP_PATH = Path("work/cluster_map.json")
@@ -63,8 +63,8 @@ def main() -> None:
                 if thai:
                     texts.append(thai)
     clusters = collect_clusters(texts)
-    m = build_font(REGULAR, clusters, OUT_DIR / "Leelawad-PUA.ttf", MAP_PATH)
-    build_font(BOLD, clusters, OUT_DIR / "Leelawdb-PUA.ttf", MAP_PATH)
+    m = build_font(REGULAR, clusters, OUT_DIR / "BaiJamjuree-PUA.ttf", MAP_PATH)
+    build_font(BOLD, clusters, OUT_DIR / "BaiJamjuree-Bold-PUA.ttf", MAP_PATH)
     print(f"built {len(clusters)} PUA glyphs into font/ (map -> {MAP_PATH})")
     print("map:", m)
 

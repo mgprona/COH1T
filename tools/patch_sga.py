@@ -6,9 +6,9 @@ from pathlib import Path
 # each entry: data immediately follows its u32 CRC32 field in the TOC.
 FONT_SLOTS = {
     # path in archive -> (file offset, store length, replacement source file)
-    r"font\trebuc.ttf": (0x12092B73, 134108, r"font\Leelawad-PUA.ttf"),
-    r"font\trebucbd.ttf": (0x120B3853, 123096, r"font\Leelawdb-PUA.ttf"),
-    r"font\impact.ttf": (0x120716E3, 136076, r"font\Leelawad-PUA.ttf"),
+    r"font\trebuc.ttf": (0x12092B73, 134108, r"font\BaiJamjuree-PUA.ttf"),
+    r"font\trebucbd.ttf": (0x120B3853, 123096, r"font\BaiJamjuree-Bold-PUA.ttf"),
+    r"font\impact.ttf": (0x120716E3, 136076, r"font\BaiJamjuree-PUA.ttf"),
 }
 
 
