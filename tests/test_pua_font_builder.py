@@ -8,7 +8,7 @@ from tools.pua_encode import load_map
 from tools.pua_font_builder import build_font
 
 ROOT = Path(__file__).parent.parent
-BASE = Path(r"C:\Windows\Fonts\LeelawUI.ttf")
+BASE = Path(r"C:\Windows\Fonts\leelawad.ttf")
 
 
 def main() -> None:
