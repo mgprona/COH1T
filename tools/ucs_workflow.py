@@ -122,6 +122,70 @@ def extract_all(base_ucs: Path, current_ucs: Path, menu_csv: Path, out_csv: Path
     return rows
 
 
+CATEGORY_RANGES = {
+    "01_ui_menu": [(0, 100000), (500000, 800000), (12000000, 20000000)],
+    "02_units_abilities": [(100000, 200000), (2000000, 2300000)],
+    "03_campaign_normandy": [(200000, 500000)],
+    "04_campaign_expansions": [
+        (1300000, 1500000),
+        (9000000, 9600000),
+        (10000000, 10100000),
+        (11000000, 12000000),
+    ],
+    "05_speech_radio": [(800000, 900000), (6000000, 7500000)],
+}
+
+CATEGORY_CONTEXTS = {
+    "01_ui_menu": "UI/เมนู/ตั้งค่า/ระบบ",
+    "02_units_abilities": "ยูนิต/อาวุธ/สกิล/อัปเกรด/สิ่งปลูกสร้าง",
+    "03_campaign_normandy": "แคมเปญนอร์มังดี: บทพูด/บรีฟภารกิจ/เป้าหมาย",
+    "04_campaign_expansions": "แคมเปญเสริม: ก็อง/มาร์เก็ตการ์เดน/ToV",
+    "05_speech_radio": "เสียงพากย์/วิทยุสื่อสาร/เสียงตอบรับ",
+}
+
+
+def _category_of(sid: int) -> str:
+    for cat, ranges in CATEGORY_RANGES.items():
+        for lo, hi in ranges:
+            if lo <= sid < hi:
+                return cat
+    raise ValueError(f"id {sid} not covered by CATEGORY_RANGES")
+
+
+def extract_categories(
+    base_ucs: Path, current_ucs: Path, menu_csv: Path, out_dir: Path
+) -> dict[str, int]:
+    base = read_ucs(base_ucs)
+    current = read_ucs(current_ucs)
+    menu_translations: dict[int, str] = {}
+    if menu_csv.exists():
+        with open(menu_csv, encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                thai = (row.get("thai") or "").strip()
+                if thai:
+                    menu_translations[int(row["id"])] = thai
+    out_dir.mkdir(parents=True, exist_ok=True)
+    rows_by_cat: dict[str, list[tuple[int, str, str]]] = {c: [] for c in CATEGORY_RANGES}
+    for sid in sorted(base):
+        english = base[sid]
+        thai = menu_translations.get(sid)
+        if thai is None:
+            cur = current.get(sid, "")
+            thai = "" if cur == english else cur
+        rows_by_cat[_category_of(sid)].append((sid, english, thai))
+    counts: dict[str, int] = {}
+    for cat, rows in rows_by_cat.items():
+        path = out_dir / f"{cat}.csv"
+        with open(path, "w", encoding="utf-8-sig", newline="") as f:
+            w = csv.writer(f, lineterminator="\r\n")
+            w.writerow(["id", "english", "thai", "context"])
+            for sid, english, thai in rows:
+                context = FE_CONTEXTS.get(sid) or CATEGORY_CONTEXTS[cat]
+                w.writerow([sid, english, thai, context])
+        counts[cat] = len(rows)
+    return counts
+
+
 def main() -> None:
     cmd = sys.argv[1]
     if cmd == "extract":
@@ -130,10 +194,17 @@ def main() -> None:
     elif cmd == "extract_all":
         n = extract_all(Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4]), Path(sys.argv[5]))
         print(f"extracted {n} rows -> {sys.argv[5]}")
+    elif cmd == "extract_categories":
+        counts = extract_categories(
+            Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4]), Path(sys.argv[5])
+        )
+        for cat, n in counts.items():
+            print(f"{cat}: {n}")
     else:
         print(
             "usage: ucs_workflow.py extract <base.ucs> <current.ucs> <out.csv> | "
-            "extract_all <base.ucs> <current.ucs> <menu.csv> <out.csv>"
+            "extract_all <base.ucs> <current.ucs> <menu.csv> <out.csv> | "
+            "extract_categories <base.ucs> <current.ucs> <menu.csv> <out_dir>"
         )
         sys.exit(1)
 

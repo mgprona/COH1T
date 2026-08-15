@@ -34,6 +34,32 @@ def main() -> None:
     raw = out.read_bytes()
     assert raw[:2] == b"\xff\xfe"
     assert b"\r\r" not in raw and b"\r\x00\n\x00" in raw
+
+    # extract_categories: ทุก id ตกหลุมไหนสักหมวด และไม่มีซ้ำ
+    from tools.ucs_workflow import CATEGORY_RANGES, extract_categories
+
+    big_base = ROOT / "work" / "test_big_base.ucs"
+    big_cur = ROOT / "work" / "test_big_cur.ucs"
+    all_ids: dict[int, str] = {}
+    for cat, ranges in CATEGORY_RANGES.items():
+        for lo, hi in ranges:
+            all_ids[lo] = f"cat {cat} lo"
+            all_ids[hi - 1] = f"cat {cat} hi"
+    _make_ucs(big_base, all_ids)
+    _make_ucs(big_cur, all_ids)
+    cats_dir = ROOT / "work" / "test_cats"
+    counts = extract_categories(big_base, big_cur, csv, cats_dir)
+    assert sum(counts.values()) == len(all_ids)
+    seen: set[int] = set()
+    for cat in CATEGORY_RANGES:
+        p = cats_dir / f"{cat}.csv"
+        content = p.read_text(encoding="utf-8-sig").splitlines()
+        assert content[0] == "id,english,thai,context"
+        for line in content[1:]:
+            sid = int(line.split(",")[0])
+            assert sid not in seen, f"duplicate id {sid}"
+            seen.add(sid)
+    assert seen == set(all_ids)
     print("ok")
 
 
