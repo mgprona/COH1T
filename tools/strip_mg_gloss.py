@@ -10,7 +10,8 @@ PATTERN = " (Operation Market Garden)"
 def main() -> None:
     total = 0
     for p in sorted(Path("work/translate_parts_v2").rglob("*.csv")):
-        rows = list(csv.DictReader(open(p, encoding="utf-8-sig", newline="")))
+        with open(p, encoding="utf-8-sig", newline="") as fh:
+            rows = list(csv.DictReader(fh))
         changed = False
         for r in rows:
             t = r["thai"]
@@ -28,5 +29,5 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[attr-defined]
     main()

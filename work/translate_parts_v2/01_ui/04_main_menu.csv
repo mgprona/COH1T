@@ -1,0 +1,30 @@
+﻿id,english,thai,context,all_ids
+713501,Battle for Normandy,ยุทธการนอร์มังดี,UI: เมนูหลัก Relaunch | ชื่อแคมเปญนอร์มังดี,713501
+713502,Start Battle of Normandy Campaign,เริ่มแคมเปญยุทธการนอร์มังดี,UI: เมนูหลัก Relaunch | tooltip เริ่มแคมเปญนอร์มังดี,713502
+713504,Version Number,หมายเลขเวอร์ชัน,UI: เมนูหลัก Relaunch | ฉลากเวอร์ชันเกม,713504
+713505,Play the Single Player Campaign,เล่นแคมเปญเนื้อเรื่องคนเดียว,UI: เมนูหลัก Relaunch | tooltip เล่นแคมเปญผู้เล่นเดี่ยว,713505
+713506,Invasion of Caen,ยุทธการยึดเมืองก็อง,UI: เมนูหลัก Relaunch | ชื่อแคมเปญบุกคาน,713506
+713507,Start the Tutorial,เริ่มการฝึกรบ,UI: เมนูหลัก Relaunch | tooltip เริ่มบทเรียน,713507
+713508,Exit Company of Heroes,ออกจากเกม Company of Heroes,UI: เมนูหลัก Relaunch | tooltip ออกจากเกม,713508
+713511,Start Invasion of Caen Campaign,เริ่มแคมเปญยุทธการยึดเมืองก็อง,UI: เมนูหลัก Relaunch | tooltip เริ่มแคมเปญบุกคาน,713511
+713513,Continue Battle of Normandy Campaign,เล่นต่อแคมเปญยุทธการนอร์มังดี,UI: เมนูหลัก Relaunch | tooltip ต่อแคมเปญนอร์มังดี,713513
+713514,Operation Market Garden,ปฏิบัติการมาร์เก็ตการ์เดน,UI: เมนูหลัก Relaunch | ชื่อแคมเปญมาร์เก็ตการ์เดน,713514|1309200
+713516,Play a CPU Skirmish Match,เล่นโหมดศึกประจัญบานกับบอท,UI: เมนูหลัก Relaunch | tooltip ศึกรวดเร็วกับ CPU,713516
+713517,Continue Invasion of Caen Campaign,เล่นต่อแคมเปญยุทธการยึดเมืองก็อง,UI: เมนูหลัก Relaunch | tooltip ต่อแคมเปญบุกคาน,713517
+713518,Start Operation Market Garden Campaign,เริ่มแคมเปญปฏิบัติการมาร์เก็ตการ์เดน,UI: เมนูหลัก Relaunch | tooltip เริ่มแคมเปญมาร์เก็ตการ์เดน,713518
+713522,Configure Company of Heroes,ตั้งค่าตัวเกม Company of Heroes,UI: เมนูหลัก Relaunch | tooltip ตั้งค่าเกม,713522
+713523,SELECT MISSION,เลือกภารกิจ,UI: เมนูหลัก Relaunch | ปุ่มเลือกภารกิจ,713523|713529|713531|713533|713540|713543
+713525,"To unlock Operations, please purchase Company of Heroes: Tales of Valor",หากต้องการปลดล็อกโหมดปฏิบัติการ กรุณาซื้อ Company of Heroes: Tales of Valor,UI: เมนูหลัก Relaunch | tooltip ล็อกปฏิบัติการ (ต้องมี Tales of Valor),713525
+713528,WORKSHOP,เวิร์กชอป,UI: เมนูหลัก Relaunch | ปุ่มเมนูหลัก: เวิร์กชอป,713528|717002
+713535,Access Steam Workshop,เข้าสู่ Steam Workshop,UI: เมนูหลัก Relaunch | tooltip เข้า Steam Workshop,713535
+713541,Start Falaise Pocket Campaign,เริ่มแคมเปญวงล้อมฟาเลส์,UI: เมนูหลัก Relaunch | tooltip เริ่มแคมเปญฟาแลสพ็อกเก็ต,713541|9391702
+713542,Continue Falaise Pocket Campaign,เล่นต่อแคมเปญวงล้อมฟาเลส์,UI: เมนูหลัก Relaunch | tooltip ต่อแคมเปญฟาแลสพ็อกเก็ต,713542|9391703
+713544,OPERATIONS,โหมดปฏิบัติการ,UI: เมนูหลัก Relaunch | ปุ่มเมนูหลัก: ปฏิบัติการ,713544
+713545,Causeway,สมรภูมิคอสเวย์,UI: เมนูหลัก Relaunch | ชื่อแคมเปญคอสเวย์,713545|9419700
+713547,Start Causeway Campaign,เริ่มแคมเปญสมรภูมิคอสเวย์,UI: เมนูหลัก Relaunch | tooltip เริ่มแคมเปญคอสเวย์,713547
+713548,Falaise Pocket,วงล้อมฟาเลส์,UI: เมนูหลัก Relaunch | ชื่อแคมเปญฟาแลสพ็อกเก็ต,713548|9391740
+713552,Continue Operation Market Garden Campaign,เล่นต่อแคมเปญปฏิบัติการมาร์เก็ตการ์เดน,UI: เมนูหลัก Relaunch | tooltip ต่อแคมเปญมาร์เก็ตการ์เดน,713552
+713555,Start Tiger Ace Campaign,เริ่มแคมเปญไทเกอร์ เอซ,UI: เมนูหลัก Relaunch | tooltip เริ่มแคมเปญเสือเหล็ก,713555
+713556,Continue Tiger Ace Campaign,เล่นต่อแคมเปญไทเกอร์ เอซ,UI: เมนูหลัก Relaunch | tooltip ต่อแคมเปญเสือเหล็ก,713556
+713557,Continue Causeway Campaign,เล่นต่อแคมเปญสมรภูมิคอสเวย์,UI: เมนูหลัก Relaunch | tooltip ต่อแคมเปญคอสเวย์,713557
+713558,Play a Multiplayer Operations Match,เล่นโหมดปฏิบัติการแบบผู้เล่นหลายคน,UI: เมนูหลัก Relaunch | tooltip ปฏิบัติการผู้เล่นหลายคน,713558

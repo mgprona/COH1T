@@ -1,0 +1,113 @@
+﻿id,english,thai,context,all_ids
+289012,38th SS PanzerGrenadier Regiment,กรมทหารราบที่ 38 SS Panzerเกรนาเดียร์,บทพูด/ภารกิจ M09 เนิน 192,289012
+289020,Secure St. Fromond,ยึดแซงต์ฟรอมงด์,บทพูด/ภารกิจ M09 เนิน 192,289020
+289021,St. Fromond overlooks a vital bridge spanning the river Vire. Capture the Strategic Point in the center of the town square to establish a bridgehead.,แซงต์ฟรอมงด์มองลงมาที่สะพานสำคัญข้ามแม่น้ำเวียร์ ยึดจุดยุทธศาสตร์กลางจัตุรัสเพื่อสร้างหัวสะพาน,บทพูด/ภารกิจ M09 เนิน 192,289021
+289030,Repair Bridge,ซ่อมสะพาน,บทพูด/ภารกิจ M09 เนิน 192,289030|9394643
+289031,Order Engineers to Repair the bridge over the river Vire. Once repaired eliminate all Axis troops defending St. Fromond.,สั่งให้ทหารช่างสนามซ่อมแซมสะพานข้ามแม่น้ำเวียร์ เมื่อซ่อมแซมเสร็จแล้ว กำจัดกองกำลังฝ่ายอักษะทั้งหมดที่ปกป้องแซงต์ฟรอมงด์,บทพูด/ภารกิจ M09 เนิน 192,289031
+289032,Order Engineers to REPAIR Bridge,สั่งให้ทหารช่างสนามซ่อมแซมสะพาน,บทพูด/ภารกิจ M09 เนิน 192,289032
+289034,Left-Click to REPAIR Bridge,คลิกซ้ายเพื่อซ่อมแซมสะพาน,บทพูด/ภารกิจ M09 เนิน 192,289034
+289040,Neutralize Nebelwerfers,กำจัด Nebelwerfers,บทพูด/ภารกิจ M09 เนิน 192,289040
+289041,Hunt down and destroy the Nebelwerfer batteries that are bombarding St. Fromond.,ตามล่าและทำลายฐานยิงจรวดเนเบลแวร์เฟอร์ที่กำลังถล่มแซงต์ฟรอมงด์,บทพูด/ภารกิจ M09 เนิน 192,289041
+289043,Nebelwerfer Firing!,เนเบลแวร์เฟอร์ ยิงแล้ว!,บทพูด/ภารกิจ M09 เนิน 192,289043
+289044,Nebelwerfer Spotted!,เนเบลเวอร์เฟอร์ถูกพบเห็น!,บทพูด/ภารกิจ M09 เนิน 192,289044
+289046,Nebelwerfer Target,เป้าหมายของเนเบลเวอร์เฟอร์,บทพูด/ภารกิจ M09 เนิน 192,289046
+289050,Destroy the Axis Chateau HQ,ทำลายกองบัญชาการ Axis Chateau,บทพูด/ภารกิจ M09 เนิน 192,289050
+289051,The 38th SS is using the Chateau to the north as a forward HQ. Destroy the Axis HQ.,SS ที่ 38 ใช้ปราสาททางเหนือเป็นศูนย์บัญชาการข้างหน้า ทำลายศูนย์บัญชาการฝ่ายอักษะ,บทพูด/ภารกิจ M09 เนิน 192,289051
+289052,Axis Chateau,ปราสาทฝ่ายอักษะ,บทพูด/ภารกิจ M09 เนิน 192,289052
+289053,Axis HQ Spotted!,กองบัญชาการฝ่ายอักษะถูกพบแล้ว!,บทพูด/ภารกิจ M09 เนิน 192,289053
+289064,Select Goliath,เลือกโกลิอัท,บทพูด/ภารกิจ M09 เนิน 192,289064
+289070,Defend St. Fromond for %1NumberOfMinutes% Minutes,ป้องกันแซงต์ฟรอมงด์เป็นเวลา %1NumberOfMinutes% นาที,บทพูด/ภารกิจ M09 เนิน 192,289070
+289071,Elements of the 38th SS are mobilizing to counter-attack. Fortify St. Fromond and defend the town and bridge at all costs.,องค์ประกอบของ SS ที่ 38 กำลังระดมกำลังเพื่อตอบโต้การโจมตี เสริมกำลัง แซงต์ฟรอมงด์ และปกป้องเมืองและสะพานทุกวิถีทาง,บทพูด/ภารกิจ M09 เนิน 192,289071
+289072,Defend St. Fromond,ปกป้องแซงต์ฟรอมงด์,บทพูด/ภารกิจ M09 เนิน 192,289072
+289101,Bridge Repaired,ซ่อมแซมสะพานแล้ว,บทพูด/ภารกิจ M09 เนิน 192,289101|9404627
+289102,Town Square Captured,ยึดจัตุรัสกลางเมืองได้แล้ว,บทพูด/ภารกิจ M09 เนิน 192,289102
+289103,Nebelwerfers Attack,การโจมตีของเนเบลเวอร์เฟอร์,บทพูด/ภารกิจ M09 เนิน 192,289103
+289106,20 Minutes Remaining,เหลืออีก 20 นาที,บทพูด/ภารกิจ M09 เนิน 192,289106
+289107,10 Minutes Remaining,เหลือเวลาอีก 10 นาที,บทพูด/ภารกิจ M09 เนิน 192,289107
+289108,5 Minutes Remaining,เหลืออีก 5 นาที,บทพูด/ภารกิจ M09 เนิน 192,289108|339057
+289200,Engineers not repairing,ทหารช่างสนามไม่ซ่อม.,บทพูด/ภารกิจ M09 เนิน 192,289200
+289201,Bridge Status: Repairs Started,สถานะสะพาน: เริ่มการซ่อมแซมแล้ว,บทพูด/ภารกิจ M09 เนิน 192,289201
+289202,Bridge: 25% repaired,สะพาน: ซ่อมแซมแล้ว 25%,บทพูด/ภารกิจ M09 เนิน 192,289202
+289203,Bridge: 50% repaired,สะพาน: ซ่อมแซมแล้ว 50%,บทพูด/ภารกิจ M09 เนิน 192,289203
+289204,Bridge: 75% repaired,สะพาน: ซ่อมแซมแล้ว 75%,บทพูด/ภารกิจ M09 เนิน 192,289204
+289205,Bridge: Engineers Dead,สะพาน: ทหารช่างสนามเสียชีวิต,บทพูด/ภารกิจ M09 เนิน 192,289205
+289220,%1SingularMinute% minute left to defend St. Fromond,เหลือเวลาป้องกันเมือง แซงต์ฟรอมงด์ อีก %1SingularMinute% นาที,บทพูด/ภารกิจ M09 เนิน 192,289220
+289221,%1NumberOfMinutes% minutes left to defend town square,เหลือเวลา %1NumberOfMinutes% นาทีในการปกป้องจัตุรัสกลางเมือง,บทพูด/ภารกิจ M09 เนิน 192,289221
+289222,%1NumberofSeconds% seconds left to defend town square,เหลือเวลา %1NumberofSeconds% วินาทีเพื่อปกป้องจัตุรัสกลางเมือง,บทพูด/ภารกิจ M09 เนิน 192,289222
+289230,Garrison a Sniper in the church,ส่งสไนเปอร์เข้าประจำการในโบสถ์,บทพูด/ภารกิจ M09 เนิน 192,289230
+289231,Defensive Position: Church,ตำแหน่งป้องกัน: โบสถ์,บทพูด/ภารกิจ M09 เนิน 192,289231
+289235,Losing St. Fromond!,กำลังจะเสียแซงต์ฟรอมงด์!,บทพูด/ภารกิจ M09 เนิน 192,289235
+289236,St. Fromond recaptured!,ยึดแซงต์ฟรอมงด์คืนได้แล้ว!,บทพูด/ภารกิจ M09 เนิน 192,289236
+289237,Panzers attacking!,แพนเซอร์บุกโจมตี!,บทพูด/ภารกิจ M09 เนิน 192,289237
+289239,Truck destroyed: Goliath dropped!,รถบรรทุกถูกทำลาย: โกลิอัทหล่น!,บทพูด/ภารกิจ M09 เนิน 192,289239
+289240,Goliath available for recovery,โกลิอัทพร้อมให้เก็บกู้,บทพูด/ภารกิจ M09 เนิน 192,289240
+289300,%1PercentBridgeRepaired%%% of Bridge Repaired,%1PercentBridgeRepaired%%% ของการซ่อมแซมสะพานแล้ว,บทพูด/ภารกิจ M09 เนิน 192,289300
+289900,-- MISSION COMPLETE --,-- ภารกิจเสร็จสิ้น --,บทพูด/ภารกิจ M09 เนิน 192,289900
+290001,What’s the matter Franks?,เป็นอะไรไป แฟรงค์?,บทพูด/ภารกิจ M09 เนิน 192,290001
+290002,Never seen a dead body before?,ไม่เคยเห็นคนตายมาก่อนรึไง?,บทพูด/ภารกิจ M09 เนิน 192,290002
+290030,"For three days our division has been trying to capture Hill 192. The German 352nd Grenadier holds it, we're gonna take it.",ตลอดสามวันที่ผ่านมา กองพลของเราพยายามยึดเนิน 192 กรมทหารราบเกรนาเดียร์ที่ 352 ของเยอรมันยึดเนินนี้ไว้ และเราจะไปแย่งมันมา,บทพูด/ภารกิจ M09 เนิน 192,290030
+290050,"We'll be clawing our way uphill, against entrenched positions hidden in the hedgerows so watch your flanks.",เราจะต้องตะเกียกตะกายขึ้นเนิน ฝ่าแนวตั้งรับที่ฝังตัวอยู่ในแนวพุ่มไม้ทึบ ดังนั้นจงระวังปีกข้างของพวกนายไว้ให้ดี,บทพูด/ภารกิจ M09 เนิน 192,290050
+290080,"That's not all, the 352nd is reinforcing from these towns. If we can secure these areas, it'll stop them from attacking our line of advance. ",ยังไม่หมดแค่นั้น กรมที่ 352 กำลังส่งกำลังเสริมมาจากเมืองเหล่านี้ ถ้าเราสามารถควบคุมพื้นที่เหล่านี้ได้ จะช่วยสกัดไม่ให้พวกมันมาโจมตีแนวรุกของเราได้,บทพูด/ภารกิจ M09 เนิน 192,290080
+290090,"Listen up, Able Company.  We need a way to cut through these hedgerows.",ฟังให้ดี กองร้อยเอเบิล เราต้องหาวิธีตัดผ่านแนวพุ่มไม้หนาทึบพวกนี้,บทพูด/ภารกิจ M09 เนิน 192,290090
+290100,Deploy Sherman Crocodiles and upgrade them with bulldozer blades.,ส่งรถถังเชอร์แมน คร็อกโคไดล์ เข้าประจำการ แล้วอัปเกรดติดตั้งใบมีดดันดิน,บทพูด/ภารกิจ M09 เนิน 192,290100
+290120,Panzer!,แพนเซอร์!,บทพูด/ภารกิจ M09 เนิน 192,290120
+290130,Jerry's got armor here!,พวกเยอรมันมียานเกราะอยู่ที่นี่!,บทพูด/ภารกิจ M09 เนิน 192,290130
+290140,Artillery!  Incoming!,ปืนใหญ่! กระสุนมาแล้ว!,บทพูด/ภารกิจ M09 เนิน 192,290140
+290150,The Germans are using a tower and are spotting our positions.  Take it out.  ,พวกเยอรมันกำลังใช้หอคอยเพื่อชี้เป้าตำแหน่งของเรา จัดการทำลายมันซะ,บทพูด/ภารกิจ M09 เนิน 192,290150
+290160,They got 88's covering the road!,พวกมันมีปืน 88 คุมแนวยิงบนถนน!,บทพูด/ภารกิจ M09 เนิน 192,290160
+290161,Taking fire! They got an 88!,กำลังถูกยิง! พวกมันมีปืน 88!,บทพูด/ภารกิจ M09 เนิน 192,290161
+290170,Stay off the road and find some way to flank it.,หลบออกจากถนนแล้วหาทางเข้าตีโอบมันซะ,บทพูด/ภารกิจ M09 เนิน 192,290170
+290190,Goliath Incoming!,รถถังจิ๋วโกลิอัท กำลังมา!,บทพูด/ภารกิจ M09 เนิน 192,290190
+290200,They're hitting us with Goliaths here!,พวกมันกำลังส่งรถถังระเบิดโกลิอัทมาโจมตีเราที่นี่!,บทพูด/ภารกิจ M09 เนิน 192,290200
+290210,Goliath! Watch out! ,รถถังจิ๋วโกลิอัท! ระวัง!,บทพูด/ภารกิจ M09 เนิน 192,290210
+290220,The Germans are reinforcing their left flank from here.,พวกเยอรมันกำลังเสริมกำลังปีกซ้ายจากจุดนี้,บทพูด/ภารกิจ M09 เนิน 192,290220
+290230,"I want to see that town in ruins, now!",ฉันต้องการเห็นเมืองนั้นพังยับเยิน เดี๋ยวนี้!,บทพูด/ภารกิจ M09 เนิน 192,290230
+290240,We can't have Jerry coming in and cutting off our advance. ,เราจะปล่อยให้พวกเยอรมันเข้ามาตัดเส้นทางรุกคืบของเราไม่ได้,บทพูด/ภารกิจ M09 เนิน 192,290240
+290250,This is where Charlie Company got ambushed.,นี่คือจุดที่กองร้อยชาร์ลี ถูกซุ่มโจมตี,บทพูด/ภารกิจ M09 เนิน 192,290250
+290260,We should secure this town to protect our right flank. ,เราควรควบคุมเมืองนี้ไว้เพื่อคุ้มกันปีกขวาของเรา,บทพูด/ภารกิจ M09 เนิน 192,290260
+290280,The Germans are using the hedgerows to flank our main line of advance.,พวกเยอรมันกำลังใช้แนวพุ่มไม้เพื่อลอบเข้าตีโอบแนวรุกหลักของเรา,บทพูด/ภารกิจ M09 เนิน 192,290280
+290290,Defend our flanks by deploying MGs and mortar squads along the hedgerows.,ป้องกันปีกข้างของเราโดยการวางกำลังปืนกลและหมู่ปืนครกไปตามแนวพุ่มไม้,บทพูด/ภารกิจ M09 เนิน 192,290290
+290310,Now that we have Hill 192 we are in position to take Saint Lo.,เมื่อเรายึดเนิน 192 ได้แล้ว เราก็พร้อมที่จะเข้ายึดเมืองแซงต์โล,บทพูด/ภารกิจ M09 เนิน 192,290310
+290311,Recon indicates the town is already in very bad shape and the Germans are going to be dug in deep.,หน่วยลาดตระเวนระบุว่าเมืองนี้พังยับเยินอย่างหนัก และพวกเยอรมันคงจะขุดสนามเพลาะตั้งรับอย่างแน่นหนา,บทพูด/ภารกิจ M09 เนิน 192,290311
+290312,...there will be a lot of cover and obstacles in this terrain...,...จะมีที่กำบังและอุปสรรคมากมายในภูมิประเทศนี้...,บทพูด/ภารกิจ M09 เนิน 192,290312
+290330,Without those dozers on our Shermans we're not going anywhere.,หากไม่มีรถดันดินบนรถเชอร์แมนของเรา เราก็ไปกันไม่ได้,บทพูด/ภารกิจ M09 เนิน 192,290330
+290340,Crush the hedgerows to avoid chokepoints,บดขยี้แนวพุ่มไม้เพื่อหลีกเลี่ยงจุดอับคอ,บทพูด/ภารกิจ M09 เนิน 192,290340
+293001,"The hedgerows are heavily defended. This means we'll be clawing our way uphill, under intense fire so watch your flanks.",แนวพุ่มไม้มีการป้องกันอย่างแน่นหนา นั่นหมายความว่าเราจะต้องฝ่าการระดมยิงอย่างหนักขึ้นเนินไป ดังนั้นจงระวังปีกข้างของพวกนายไว้ให้ดี,บทพูด/ภารกิจ M09 เนิน 192,293001
+293002,"Expect these two roads to be well defended, avoid them for as long as you can.",คาดหวังว่าถนนทั้งสองสายนี้จะได้รับการปกป้องอย่างดี หลีกเลี่ยงให้นานที่สุดเท่าที่จะทำได้,บทพูด/ภารกิจ M09 เนิน 192,293002
+293003,Taking Hill 192 won't be easy.  Charlie Company was wiped out trying to take this hill.  Now it's up to us.,การยึดเนิน 192 ไม่ใช่เรื่องง่าย กองร้อยชาร์ลี ถูกกวาดล้างจนหมดขณะพยายามยึดเนินนี้ ตอนนี้หน้าที่ตกเป็นของพวกเราแล้ว,บทพูด/ภารกิจ M09 เนิน 192,293003
+293004,Good luck Able.,โชคดีนะ กองร้อยเอเบิล,บทพูด/ภารกิจ M09 เนิน 192,293004
+293005,Taking automatic fire from the hedgerows!,กำลังถูกอาวุธอัตโนมัติระดมยิงมาจากแนวพุ่มไม้!,บทพูด/ภารกิจ M09 เนิน 192,293005
+293006,"Down and fast, taking fire from the hedgerows",หมอบลงเร็วเข้า เรากำลังถูกยิงจากแนวพุ่มไม้!,บทพูด/ภารกิจ M09 เนิน 192,293006
+293007,Damn Krauts are hiding in the bushes. Get down!,พวกเยอรมันเวรซ่อนตัวอยู่ในพุ่มไม้ หมอบลง!,บทพูด/ภารกิจ M09 เนิน 192,293007
+293008,Get a bulldozer and breach that hedgerow... We have to flank the Krauts!,เอารถไถดันดินมาพังแนวพุ่มไม้นั่น... เราต้องเข้าตีโอบพวกเยอรมัน!,บทพูด/ภารกิจ M09 เนิน 192,293008
+293009,We're taking fire from all directions!,เรากำลังถูกยิงจากทุกทิศทุกทาง!,บทพูด/ภารกิจ M09 เนิน 192,293009
+293010,Contact... Enemy fire from the hedgerows!,ปะทะข้าศึก... มีเสียงปืนยิงมาจากแนวพุ่มไม้!,บทพูด/ภารกิจ M09 เนิน 192,293010
+293011,Keep moving... Fire,เดินหน้าต่อไป... ยิง!,บทพูด/ภารกิจ M09 เนิน 192,293011
+293012,Don't bunch up... dammit... keep those sight lines clear!,อย่าเกาะกลุ่มกัน... บัดซบ... รักษาแนวสายตาให้โล่งไว้!,บทพูด/ภารกิจ M09 เนิน 192,293012
+293013,I can’t see where they're shooting from,ฉันมองไม่เห็นว่าพวกมันยิงมาจากไหน!,บทพูด/ภารกิจ M09 เนิน 192,293013
+293014,No way... No way... They're killing us where!,ไม่มีทาง... ไม่มีทาง... พวกมันกำลังฆ่าเรายับแล้ว!,บทพูด/ภารกิจ M09 เนิน 192,293014
+293015,They're fucking slaughtering us!,พวกมันกำลังเชือดพวกเราตายเป็นเบือ!,บทพูด/ภารกิจ M09 เนิน 192,293015
+293016,Just shoot at the hedgerows...,ยิงใส่แนวพุ่มไม้นั่นไปเลย...,บทพูด/ภารกิจ M09 เนิน 192,293016
+293017,Enemy... Coming through the hedgerow,ข้าศึก... กำลังฝ่าแนวพุ่มไม้เข้ามา!,บทพูด/ภารกิจ M09 เนิน 192,293017
+293018,American squads... Open fire,พวกทหารอเมริกัน... เปิดฉากยิง!,บทพูด/ภารกิจ M09 เนิน 192,293018
+293019,"Third gruppe, attack now",หมู่สาม โจมตีเดี๋ยวนี้!,บทพูด/ภารกิจ M09 เนิน 192,293019
+299000,XXXX Mortain,XXXX มอร์แต็ง,บทพูด/ภารกิจ M09 เนิน 192,299000
+299001,XXXX 6th June 1944,XXXX 6 มิถุนายน พ.ศ. 2487,บทพูด/ภารกิจ M09 เนิน 192,299001
+299002,XXXX Press ANY KEY to start,XXXX กดปุ่มใดก็ได้เพื่อเริ่มต้น,บทพูด/ภารกิจ M09 เนิน 192,299002
+299020,Capture Hill 192.,ยึดเนิน 192,บทพูด/ภารกิจ M09 เนิน 192,299020
+299021,Destroy Artillery Tower,ทำลายหอคอยตรวจการณ์ปืนใหญ่,บทพูด/ภารกิจ M09 เนิน 192,299021
+299022,Capture Hill 192 in %1NUMBER% minutes,ยึดเนิน 192 ให้ได้ภายใน %1NUMBER% นาที,บทพูด/ภารกิจ M09 เนิน 192,299022
+299030,Able Company orders are to capture Hill 192. Elements 352nd Grenadier Rgt. are defending all the approaches to the hill. Advance with caution.,คำสั่งของกองร้อยเอเบิล คือยึดเนิน 192 กองกำลังส่วนหนึ่งของกรมทหารราบเกรนาเดียร์ที่ 352 กำลังป้องกันทางเข้าสู่เนินเขาทุกทิศทาง จงรุกคืบด้วยความระมัดระวัง,บทพูด/ภารกิจ M09 เนิน 192,299030
+299031,Axis Artillery spotters are coordinating artillery strikes from the Tower. Destroy the Tower to silence the Axis rockets.,พลชี้เป้าปืนใหญ่ฝ่ายอักษะกำลังประสานการโจมตีจากหอคอย ทำลายหอคอยเพื่อหยุดยั้งการระดมยิงจรวดของฝ่ายอักษะ,บทพูด/ภารกิจ M09 เนิน 192,299031
+299032,Capture Hill 192 within the required time.,ยึดเนิน 192 ภายในเวลาที่กำหนด,บทพูด/ภารกิจ M09 เนิน 192,299032
+299041,352nd Grenadier Regiment,กรมทหารราบเกรนาเดียร์ที่ 352,บทพูด/ภารกิจ M09 เนิน 192,299041|309041|319041
+299051,Capturing Territory,ยึดดินแดน,บทพูด/ภารกิจ M09 เนิน 192,299051
+299052,Artillery Tower Blown,หอคอยปืนใหญ่ถูกทำลายแล้ว,บทพูด/ภารกิจ M09 เนิน 192,299052
+299053,Allies On Hill 192,กองกำลังสัมพันธมิตรขึ้นสู่เนิน 192 แล้ว,บทพูด/ภารกิจ M09 เนิน 192,299053
+299061,Axis Artillery Tower,หอคอยปืนใหญ่ฝ่ายอักษะ,บทพูด/ภารกิจ M09 เนิน 192,299061
+299105,Sherman Crocodile Bulldozer Available.,สามารถเรียกรถถังเชอร์แมน คร็อกโคไดล์ ติดใบมีดดันดินได้แล้ว,บทพูด/ภารกิจ M09 เนิน 192,299105
+299933,Mission Failed!,ภารกิจล้มเหลว!,บทพูด/ภารกิจ M09 เนิน 192,299933|359933
+299940,Rocket Strike Incoming,การโจมตีด้วยจรวดกำลังมา,บทพูด/ภารกิจ M09 เนิน 192,299940
+299941,Sherman Crocodile Bulldozer Available,สามารถเรียกรถถังเชอร์แมน คร็อกโคไดล์ ติดใบมีดดันดินได้แล้ว,บทพูด/ภารกิจ M09 เนิน 192,299941
+299942,Goliath Incoming,รถถังจิ๋วโกลิอัทกำลังเข้ามา,บทพูด/ภารกิจ M09 เนิน 192,299942
+299943,Flak88 Firing ,ปืน Flak 88 กำลังยิง,บทพูด/ภารกิจ M09 เนิน 192,299943

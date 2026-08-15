@@ -2,7 +2,7 @@ import csv
 import sys
 from pathlib import Path
 
-sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[attr-defined]
 
 FIXES: dict[str, dict[str, str]] = {
     # file -> {english-substring: new thai}
@@ -23,7 +23,8 @@ def main() -> None:
     total_fixed = 0
     for path, subs in FIXES.items():
         p = Path(path)
-        rows = list(csv.DictReader(open(p, encoding="utf-8-sig", newline="")))
+        with open(p, encoding="utf-8-sig", newline="") as fh:
+            rows = list(csv.DictReader(fh))
         fieldnames = list(rows[0].keys()) if rows else []
         fixed = 0
         for r in rows:

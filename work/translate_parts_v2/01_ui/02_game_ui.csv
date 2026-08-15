@@ -1,0 +1,175 @@
+﻿id,english,thai,context,all_ids
+32265,RESUME,เล่นต่อ,UI: หน้าจอเกม/save-load/แคมเปญ,32265|705279|708004
+32266,HELP TEXT HERE,ข้อความช่วยเหลือที่นี่,UI: หน้าจอเกม/save-load/แคมเปญ,32266|708005
+32267,Economy and Base Building,เศรษฐกิจและการสร้างฐาน,UI: หน้าจอเกม/save-load/แคมเปญ,32267|75259|708006
+32268,Armor Training,การฝึกรบยานเกราะ,UI: หน้าจอเกม/save-load/แคมเปญ,32268|75258|409059|409911|708007
+32269,Infantry training,การฝึกทหารราบ,UI: หน้าจอเกม/save-load/แคมเปญ,32269|708008
+32270,Basic Training,การฝึกรบขั้นพื้นฐาน,UI: หน้าจอเกม/save-load/แคมเปญ,32270|75256|409022|409050|409915|708011
+32271,TUTORIAL MENU,เมนูการฝึกรบ,UI: หน้าจอเกม/save-load/แคมเปญ,32271
+38001,"June 6th, 1944.  D-Day.  The allies are about to invade Normandy, France.  Command Able Company as they battle on Omaha Beach, through a secret V2 rocket base, and on the streets of Cherbourg in an attempt to turn the tide of the greatest war of the 20th Century.",6 มิถุนายน 1944 ดีเดย์ ฝ่ายสัมพันธมิตรกำลังจะบุกนอร์มังดี ประเทศฝรั่งเศส บัญชาการกองร้อยเอเบิลเข้าต่อสู้บนหาดโอมาฮา ฝ่าฐานจรวด V2 ลับ และบนท้องถนนของแชร์บูร์ก เพื่อพลิกกระแสสงครามที่ยิ่งใหญ่ที่สุดแห่งศตวรรษที่ 20,UI: หน้าจอเกม/save-load/แคมเปญ,38001
+38002,"June 6th, 1944.  D-Day.  Command the American Army as Able Company battles through Normandy to free France from the Wehrmacht Army.",6 มิถุนายน 1944 ดีเดย์ บัญชาการกองทัพสหรัฐ นำกองร้อยเอเบิลต่อสู้ฝ่านอร์มังดีเพื่อปลดปล่อยฝรั่งเศสจากกองทัพแวร์มัคท์,UI: หน้าจอเกม/save-load/แคมเปญ,38002
+38010,Omaha Beach. 0700hrs,หาดโอมาฮา. 0700น,UI: หน้าจอเกม/save-load/แคมเปญ,38010
+38011,June 6th D-Day,ดีเดย์ 6 มิถุนายน,UI: หน้าจอเกม/save-load/แคมเปญ,38011
+38012,Vierville – St. Come du Mont road.,ถนนเวียร์วิลล์-แซงคัม็อดูมงต์,UI: หน้าจอเกม/save-load/แคมเปญ,38012
+38013,"0128hrs, June 6th, D-Day",01.28 น. 6 มิถุนายน ดีเดย์,UI: หน้าจอเกม/save-load/แคมเปญ,38013
+38014,Vierville –St. Come du Mont road.,ถนนเวียร์วิลล์ - แซงต์กงต์ดูมงต์,UI: หน้าจอเกม/save-load/แคมเปญ,38014
+38015,"0302hrs, June 6th, D-Day",03.02 น. 6 มิถุนายน วันดีเดย์,UI: หน้าจอเกม/save-load/แคมเปญ,38015
+38016,Carentan. 0735hrs,คาเรนตัน. 07.35น,UI: หน้าจอเกม/save-load/แคมเปญ,38016
+38017,"June 12th, D-Day +6",12 มิถุนายน ดีเดย์ +6,UI: หน้าจอเกม/save-load/แคมเปญ,38017
+38018,Carentan. 1435hrs,คาเรนตัน. 14.35 น,UI: หน้าจอเกม/save-load/แคมเปญ,38018
+38019,"June 13th, D-Day +7",13 มิถุนายน ดีเดย์ +7,UI: หน้าจอเกม/save-load/แคมเปญ,38019
+38020,"Liberty Highway, outside Monteburg.",ทางหลวงลิเบอร์ตี้ นอกเมืองมอนเตเบิร์ก,UI: หน้าจอเกม/save-load/แคมเปญ,38020
+38021,"1335hrs, June 16th, D-Day +10",13.35 น. 16 มิถุนายน ดีเดย์ +10,UI: หน้าจอเกม/save-load/แคมเปญ,38021
+38022,Cherbourg. 1136hrs,เชอร์บูร์ก. 11.36 น,UI: หน้าจอเกม/save-load/แคมเปญ,38022
+38023,"June 26th, D-Day +20",26 มิถุนายน ดีเดย์ +20,UI: หน้าจอเกม/save-load/แคมเปญ,38023
+38024,Sottevast. 0256hrs,ซอตเตอวาสต์. 0256น,UI: หน้าจอเกม/save-load/แคมเปญ,38024
+38025,"June 27th, D-Day +21",27 มิถุนายน ดีเดย์ +21,UI: หน้าจอเกม/save-load/แคมเปญ,38025
+38026,St. Fromond. 0551hrs,แซงต์ฟรอมงต์ 05.51 น.,UI: หน้าจอเกม/save-load/แคมเปญ,38026
+38027,July 7th. Operation Cobra.,7 กรกฎาคม ปฏิบัติการคอบร้า,UI: หน้าจอเกม/save-load/แคมเปญ,38027
+38028,Hill 192. 1830hrs,เนิน 192. 18.30 น,UI: หน้าจอเกม/save-load/แคมเปญ,38028
+38029,July 11th. Operation Cobra.,11 กรกฎาคม ปฏิบัติการคอบร้า,UI: หน้าจอเกม/save-load/แคมเปญ,38029
+38030,St. Lo. 1439hrs,แซงต์โล 14.39 น.,UI: หน้าจอเกม/save-load/แคมเปญ,38030
+38031,July 12th. Operation Cobra,12 กรกฎาคม. ปฏิบัติการคอบร้า,UI: หน้าจอเกม/save-load/แคมเปญ,38031
+38032,Near St. Lo. 1125hrs,ใกล้แซงต์โล 11.25 น.,UI: หน้าจอเกม/save-load/แคมเปญ,38032
+38033,July 25th D-Day +49,25 กรกฎาคม ดีเดย์ +49,UI: หน้าจอเกม/save-load/แคมเปญ,38033
+38034,Hill 317 outside of Mortain.,เนินเขา 317 นอกมอร์แต็ง,UI: หน้าจอเกม/save-load/แคมเปญ,38034
+38035,"2003hrs, August 6th. D-Day +61",20.03 น. 6 สิงหาคม ดีเดย์ +61,UI: หน้าจอเกม/save-load/แคมเปญ,38035
+38036,Hill 317. 0017hrs,เนิน 317. 00.17 น.,UI: หน้าจอเกม/save-load/แคมเปญ,38036
+38037,August 7th. D-Day +62,7 สิงหาคม ดีเดย์ +62,UI: หน้าจอเกม/save-load/แคมเปญ,38037
+38038,Mortain. 0612hrs,มอร์แต็ง. 06.12 น,UI: หน้าจอเกม/save-load/แคมเปญ,38038
+38039,August 7th,7 สิงหาคม,UI: หน้าจอเกม/save-load/แคมเปญ,38039
+38040,East of Autry. 1645hrs,ทางตะวันออกของออทรี 1645น,UI: หน้าจอเกม/save-load/แคมเปญ,38040
+38041,August 15th. The Falaise Pocket.,15 สิงหาคม วงล้อมฟาเลส์,UI: หน้าจอเกม/save-load/แคมเปญ,38041
+38042,"Chambois, Closing the Falaise Pocket.",ช็องบัวส์ ปิดวงล้อมฟาเลส์,UI: หน้าจอเกม/save-load/แคมเปญ,38042
+38043,"1425hrs, August 19th, D-Day +74",14.25 น. 19 สิงหาคม ดีเดย์ +74,UI: หน้าจอเกม/save-load/แคมเปญ,38043
+38045,SEGA Presents,เซก้านำเสนอ,UI: หน้าจอเกม/save-load/แคมเปญ,38045
+38046,A Relic Entertainment Production,ผลงานสร้างโดย Relic Entertainment,UI: หน้าจอเกม/save-load/แคมเปญ,38046
+38070,Requires: %1REQUIREMENTSLIST%,ต้องการ: %1REQUIREMENTSLIST%,UI: หน้าจอเกม/save-load/แคมเปญ,38070
+38071,",",",",UI: หน้าจอเกม/save-load/แคมเปญ,38071
+38072,...,...,UI: หน้าจอเกม/save-load/แคมเปญ,38072|551020
+38073,Must be in territory,จะต้องอยู่ในอาณาเขต,UI: หน้าจอเกม/save-load/แคมเปญ,38073
+38074,Population Cap reached. Capture more Sectors to increase Population Cap.,ถึงขีดจำกัดประชากรแล้ว ยึดเซกเตอร์เพิ่มเติมเพื่อเพิ่มขีดจำกัดประชากร,UI: หน้าจอเกม/save-load/แคมเปญ,38074
+38075,No Availability.,ไม่พร้อมใช้งาน,UI: หน้าจอเกม/save-load/แคมเปญ,38075
+38076,Disabled.,ปิดใช้งาน,UI: หน้าจอเกม/save-load/แคมเปญ,38076
+38077,Not enough Resources.,ทรัพยากรไม่เพียงพอ,UI: หน้าจอเกม/save-load/แคมเปญ,38077
+38078,Need cover.,ต้องการที่กำบัง,UI: หน้าจอเกม/save-load/แคมเปญ,38078
+38079,Unable to Perform Actions.,ไม่สามารถดำเนินการได้,UI: หน้าจอเกม/save-load/แคมเปญ,38079
+38080,%1PREREQS% OR %2PREREQS%,%1PREREQS% หรือ %2PREREQS%,UI: หน้าจอเกม/save-load/แคมเปญ,38080
+38081,%1PREREQS% AND %2PREREQS%,%1PREREQS% และ %2PREREQS%,UI: หน้าจอเกม/save-load/แคมเปญ,38081
+38082,Not the correct race.,ไม่ใช่ฝ่ายที่ถูกต้อง,UI: หน้าจอเกม/save-load/แคมเปญ,38082
+38083,Must be near HQ.,ต้องอยู่ใกล้กองบัญชาการ,UI: หน้าจอเกม/save-load/แคมเปญ,38083
+38084,Not enough Squad members.,สมาชิกหน่วยไม่เพียงพอ,UI: หน้าจอเกม/save-load/แคมเปญ,38084
+38085,Can't attack: Weapons disabled,ไม่สามารถโจมตีได้: อาวุธถูกปิดใช้งาน,UI: หน้าจอเกม/save-load/แคมเปญ,38085
+38086,Can't move: disabled,ไม่สามารถเคลื่อนที่ได้: ถูกปิดใช้งาน,UI: หน้าจอเกม/save-load/แคมเปญ,38086
+38087,NOT %1PREREQS%,ไม่ใช่ %1PREREQS%,UI: หน้าจอเกม/save-load/แคมเปญ,38087
+38088,Recharging (%1SECONDS% secs left),กำลังชาร์จ,UI: หน้าจอเกม/save-load/แคมเปญ,38088
+38089,Active for %1SECONDS% secs,ใช้งานเป็นเวลา %1SECONDS% วินาที,UI: หน้าจอเกม/save-load/แคมเปญ,38089
+38090,Producing...,กำลังผลิต...,UI: หน้าจอเกม/save-load/แคมเปญ,38090
+38091,Missing map entry point,ไม่มีจุดเข้าแผนที่,UI: หน้าจอเกม/save-load/แคมเปญ,38091
+38092,Population Cap reached.,ถึงจำนวนประชากรสูงสุดแล้ว,UI: หน้าจอเกม/save-load/แคมเปญ,38092
+38093,Generator capacity reached. Construct more generators to produce this building.,ถึงขีดจำกัดเครื่องกำเนิดพลังงานแล้ว สร้างเครื่องกำเนิดเพิ่มเติมเพื่อสร้างอาคารนี้,UI: หน้าจอเกม/save-load/แคมเปญ,38093
+38094,Ability is active.,ความสามารถเปิดใช้งานอยู่,UI: หน้าจอเกม/save-load/แคมเปญ,38094
+38095,Population cap reached. Buy an upgrade from the Tank Depot to increase Population,ถึงขีดจำกัดประชากรแล้ว ซื้อการอัปเกรดจากคลังรถถัง เพื่อเพิ่มขีดจำกัดประชากร,UI: หน้าจอเกม/save-load/แคมเปญ,38095
+38100,World,โลก,UI: หน้าจอเกม/save-load/แคมเปญ,38100
+38101,%1SQUADNAME% (%2SQUADNUM%/%3SQUADMAX%),%1SQUADNAME%,UI: หน้าจอเกม/save-load/แคมเปญ,38101
+38102,Select %1BUILDING%,เลือก %1BUILDING%,UI: หน้าจอเกม/save-load/แคมเปญ,38102
+38103,Left-click this button twice to center your screen on the %1BUILDING%.,คลิกซ้ายที่ปุ่มนี้สองครั้งเพื่อให้หน้าจอของคุณอยู่ตรงกลางที่ %1BUILDING%,UI: หน้าจอเกม/save-load/แคมเปญ,38103
+38104,Need specific terrain.,ต้องการภูมิประเทศที่เฉพาะเจาะจง,UI: หน้าจอเกม/save-load/แคมเปญ,38104
+38105,Must be damaged.,จะต้องได้รับความเสียหาย,UI: หน้าจอเกม/save-load/แคมเปญ,38105|129204|2129204|2256802
+38106,Must be healed.,จะต้องได้รับการเยียวยา,UI: หน้าจอเกม/save-load/แคมเปญ,38106
+38107,Must be still and not moving.,จะต้องอยู่นิ่งและไม่เคลื่อนไหว,UI: หน้าจอเกม/save-load/แคมเปญ,38107
+38108,Must be garrisoned.,ต้องเข้าประจำการในอาคาร,UI: หน้าจอเกม/save-load/แคมเปญ,38108
+38109,Must be setup in territory.,จะต้องติดตั้งในอาณาเขต,UI: หน้าจอเกม/save-load/แคมเปญ,38109
+38110,Weapon is not enabled.,ไม่ได้เปิดใช้งานอาวุธ,UI: หน้าจอเกม/save-load/แคมเปญ,38110
+38111,Team Weapon must be setup.,ต้องติดตั้งอาวุธประจำหน่วยก่อน,UI: หน้าจอเกม/save-load/แคมเปญ,38111
+38112,Hero fatigue has been drained,ความเหนื่อยล้าของฮีโร่ได้ถูกระบายออกไปแล้ว,UI: หน้าจอเกม/save-load/แคมเปญ,38112
+38119,Must be in combat.,จะต้องอยู่ในการต่อสู้,UI: หน้าจอเกม/save-load/แคมเปญ,38119
+38120,Hero production limit is reached,ถึงขีดจำกัดการผลิตฮีโร่แล้ว,UI: หน้าจอเกม/save-load/แคมเปญ,38120
+38121,Requires: Squad Casualty,ต้องการ: การสูญเสียในหน่วย,UI: หน้าจอเกม/save-load/แคมเปญ,38121
+38252,(%1HOTKEY%),,UI: หน้าจอเกม/save-load/แคมเปญ,38252
+38254,%1SQUAD-CURRENT%/%2SQUAD-MAX%,%1SQUAD-CURRENT%/%2SQUAD-MAX%,UI: หน้าจอเกม/save-load/แคมเปญ,38254
+38257,+%1RESOURCE-RATE%,+%1RESOURCE-RATE%,UI: หน้าจอเกม/save-load/แคมเปญ,38257
+38258,??,??,UI: หน้าจอเกม/save-load/แคมเปญ,38258
+38275,Garrisonable Building,อาคารที่เข้าประจำการได้,UI: หน้าจอเกม/save-load/แคมเปญ,38275
+38280,Strategic Point captureable,จุดยุทธศาสตร์ที่สามารถยึดได้,UI: หน้าจอเกม/save-load/แคมเปญ,38280
+38281,Strategic Point currently being captured by team %1TEAMNUM%,จุดยุทธศาสตร์กำลังถูกยึดครองโดยทีม %1TEAMNUM%,UI: หน้าจอเกม/save-load/แคมเปญ,38281
+38282,Strategic Point currently held by team %1TEAMNUM%,จุดยุทธศาสตร์ที่ทีม %1TEAMNUM% ยึดครองอยู่,UI: หน้าจอเกม/save-load/แคมเปญ,38282
+38283,This Structures capacity is %1NUMSLOTS%/%2NUMTOTAL%,ความจุของอาคารนี้คือ %1NUMSLOTS%/%2NUMTOTAL%,UI: หน้าจอเกม/save-load/แคมเปญ,38283
+38284,This structure is full %1NUMSLOTS%/%2NUMTOTAL%,อาคารนี้เต็มแล้ว %1NUMSLOTS%/%2NUMTOTAL%,UI: หน้าจอเกม/save-load/แคมเปญ,38284
+38285,Weapon requires %1NUMROLES% units for capture,อาวุธต้องใช้ %1NUMROLES% หน่วยในการยึด,UI: หน้าจอเกม/save-load/แคมเปญ,38285
+38286,Rank %1VETERAN_RANK% Veteran %2SQUAD_NAME% (%3NUM_REMAINING% available),ยศ %1VETERAN_RANK% ทหารผ่านศึก %2SQUAD_NAME%,UI: หน้าจอเกม/save-load/แคมเปญ,38286
+38287,Left-click to begin Upgrading.,คลิกซ้ายเพื่อเริ่มการอัพเกรด,UI: หน้าจอเกม/save-load/แคมเปญ,38287
+38288,Left-click to call one Reinforcement.,คลิกซ้ายเพื่อเรียกกำลังเสริม 1 นาย,UI: หน้าจอเกม/save-load/แคมเปญ,38288
+38289,Left-click to begin Deployment.,คลิกซ้ายเพื่อเริ่มส่งกำลังพล,UI: หน้าจอเกม/save-load/แคมเปญ,38289
+38290,Left-click to view available Buildings for construction.,คลิกซ้ายเพื่อดูอาคารที่สามารถสร้างได้,UI: หน้าจอเกม/save-load/แคมเปญ,38290
+38291,Left-click to select Demolition location.,คลิกซ้ายเพื่อเลือกตำแหน่งรื้อถอน,UI: หน้าจอเกม/save-load/แคมเปญ,38291
+38292,Left-click to select Build location.,คลิกซ้ายเพื่อเลือกตำแหน่งสร้าง,UI: หน้าจอเกม/save-load/แคมเปญ,38292
+38293,%1SQUAD_NAME%,%1SQUAD_NAME%,UI: หน้าจอเกม/save-load/แคมเปญ,38293
+38294,Level %1HERO_LEVEL%,ระดับ %1HERO_LEVEL%,UI: หน้าจอเกม/save-load/แคมเปญ,38294
+38295,(%1NUM_FATIGUE% left),,UI: หน้าจอเกม/save-load/แคมเปญ,38295
+38350,Available: %1NUMAVAILABLE% (%2TIMEUNTILINCREASE%),พร้อมใช้งาน: %1NUMAVAILABLE%,UI: หน้าจอเกม/save-load/แคมเปญ,38350
+38352,Supply limit,ขีดจำกัดซัพพลาย,UI: หน้าจอเกม/save-load/แคมเปญ,38352
+38353,Capacity %1CURRENT%/%2MAX%,ความจุ %1CURRENT%/%2MAX%,UI: หน้าจอเกม/save-load/แคมเปญ,38353
+38900,To All:,ถึงทุกคน:,UI: หน้าจอเกม/save-load/แคมเปญ,38900
+38901,To Team:,ถึงทีม:,UI: หน้าจอเกม/save-load/แคมเปญ,38901
+38902,[All],[ทั้งหมด],UI: หน้าจอเกม/save-load/แคมเปญ,38902
+38903,[Team],[ทีม],UI: หน้าจอเกม/save-load/แคมเปญ,38903
+38904,[SYSTEM],[ระบบ],UI: หน้าจอเกม/save-load/แคมเปญ,38904|38927
+38905,%1SENDER% :,%1SENDER% :,UI: หน้าจอเกม/save-load/แคมเปญ,38905
+38906,[Whisper],[กระซิบ],UI: หน้าจอเกม/save-load/แคมเปญ,38906
+38907,[Whisper To],[กระซิบถึง],UI: หน้าจอเกม/save-load/แคมเปญ,38907
+38910,Select a target,เลือกเป้าหมาย,UI: หน้าจอเกม/save-load/แคมเปญ,38910|38911|38912|38914
+38913,Left-click on a position to use this ability,คลิกซ้ายที่ตำแหน่งเพื่อใช้ความสามารถนี้,UI: หน้าจอเกม/save-load/แคมเปญ,38913
+38915,Click on a position or a target Building,คลิกที่ตำแหน่งหรืออาคารเป้าหมาย,UI: หน้าจอเกม/save-load/แคมเปญ,38915
+38916,Left-click on a target to use this ability,คลิกซ้ายที่เป้าหมายเพื่อใช้ความสามารถนี้,UI: หน้าจอเกม/save-load/แคมเปญ,38916
+38920,[TEAM],[ทีม],UI: หน้าจอเกม/save-load/แคมเปญ,38920
+38921,[BUGLE]		,[แตรเดี่ยว],UI: หน้าจอเกม/save-load/แคมเปญ,38921
+38922,[GUILD],[กิลด์],UI: หน้าจอเกม/save-load/แคมเปญ,38922
+38923,[NORMAL],[ปกติ],UI: หน้าจอเกม/save-load/แคมเปญ,38923
+38924,[WHISPER],[กระซิบ],UI: หน้าจอเกม/save-load/แคมเปญ,38924
+38925,[PARTY],[ปาร์ตี้],UI: หน้าจอเกม/save-load/แคมเปญ,38925
+38926,[TRUMPET],[ทรัมเป็ต],UI: หน้าจอเกม/save-load/แคมเปญ,38926
+38954,%1RATING%,%1RATING%,UI: หน้าจอเกม/save-load/แคมเปญ,38954
+38955,+%1RATING%,+%1RATING%,UI: หน้าจอเกม/save-load/แคมเปญ,38955
+39250,OBJECTIVES :,เป้าหมายภารกิจ :,UI: หน้าจอเกม/save-load/แคมเปญ,39250|70000
+39251,BONUS OBJECTIVES :,วัตถุประสงค์โบนัส:,UI: หน้าจอเกม/save-load/แคมเปญ,39251
+39252,???,???,UI: หน้าจอเกม/save-load/แคมเปญ,39252|511755|607755
+39253,COMPLETE,สำเร็จ,UI: หน้าจอเกม/save-load/แคมเปญ,39253
+39254,-INCOMPLETE,-ยังไม่สำเร็จ,UI: หน้าจอเกม/save-load/แคมเปญ,39254
+39255,FAILED,ล้มเหลว,UI: หน้าจอเกม/save-load/แคมเปญ,39255|800751
+39256,Maximum Command Points Earned,ได้รับแต้มบัญชาการสูงสุดแล้ว,UI: หน้าจอเกม/save-load/แคมเปญ,39256
+39257,Mission Complete,ภารกิจเสร็จสิ้น,UI: หน้าจอเกม/save-load/แคมเปญ,39257|229930|239930|249930|299930|339930|359930|9419645
+39300,Objective Completed: %1OBJECTIVE_TITLE%,วัตถุประสงค์สำเร็จ: %1OBJECTIVE_TITLE%,UI: หน้าจอเกม/save-load/แคมเปญ,39300
+39301,Objective Failed: %1OBJECTIVE_TITLE%,วัตถุประสงค์ล้มเหลว: %1OBJECTIVE_TITLE%,UI: หน้าจอเกม/save-load/แคมเปญ,39301
+39302,Primary Objective: %1OBJECTIVE_TITLE%,วัตถุประสงค์หลัก: %1OBJECTIVE_TITLE%,UI: หน้าจอเกม/save-load/แคมเปญ,39302
+39303,Secondary Objective: %1OBJECTIVE_TITLE%,วัตถุประสงค์รอง: %1OBJECTIVE_TITLE%,UI: หน้าจอเกม/save-load/แคมเปญ,39303
+39304,%1MEDAL_NAME% Awarded: %2OBJECTIVE_TITLE%,%1MEDAL_NAME% ได้รับรางวัล: %2OBJECTIVE_TITLE%,UI: หน้าจอเกม/save-load/แคมเปญ,39304
+39305,Medal Lost: %1OBJECTIVE_TITLE%,พลาดเหรียญรางวัล: %1OBJECTIVE_TITLE%,UI: หน้าจอเกม/save-load/แคมเปญ,39305
+39306,Medal Opportunity: %1OBJECTIVE_TITLE%,โอกาสได้รับเหรียญรางวัล: %1OBJECTIVE_TITLE%,UI: หน้าจอเกม/save-load/แคมเปญ,39306
+39307,Objective Updated: %1OBJECTIVE_TITLE%,อัปเดตวัตถุประสงค์: %1OBJECTIVE_TITLE%,UI: หน้าจอเกม/save-load/แคมเปญ,39307
+39320,%1CURRENT%/%2GOAL%,%1CURRENT%/%2GOAL%,UI: หน้าจอเกม/save-load/แคมเปญ,39320
+39321,Press SPACE to Start,กด SPACE เพื่อเริ่ม,UI: หน้าจอเกม/save-load/แคมเปญ,39321
+39322,Reinforcements,กำลังเสริม,UI: หน้าจอเกม/save-load/แคมเปญ,39322|42814
+39323,Reinforcements have Arrived!,กำลังเสริมมาแล้ว!,UI: หน้าจอเกม/save-load/แคมเปญ,39323
+39350,Axis now control all Victory Points,ฝ่ายอักษะควบคุมจุดชัยชนะทั้งหมดแล้ว,UI: หน้าจอเกม/save-load/แคมเปญ,39350
+39351,Allies now control all Victory Points,ฝ่ายสัมพันธมิตรควบคุมจุดชัยชนะทั้งหมดแล้ว,UI: หน้าจอเกม/save-load/แคมเปญ,39351
+39360,Allies have less than 400 points,ฝ่ายสัมพันธมิตรมีคะแนนเหลือน้อยกว่า 400 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39360
+39361,Allies have less than 300 points,ฝ่ายสัมพันธมิตรมีคะแนนเหลือน้อยกว่า 300 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39361
+39362,Allies have less than 200 points,ฝ่ายสัมพันธมิตรมีคะแนนเหลือน้อยกว่า 200 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39362
+39363,Allies have less than 100 points,ฝ่ายสัมพันธมิตรมีคะแนนเหลือน้อยกว่า 100 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39363
+39364,Allies have less than 50 points,ฝ่ายสัมพันธมิตรมีคะแนนเหลือน้อยกว่า 50 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39364
+39365,Allies have less than 25 points,ฝ่ายสัมพันธมิตรมีคะแนนเหลือน้อยกว่า 25 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39365
+39366,Allies have less than 500 points,ฝ่ายสัมพันธมิตรมีคะแนนเหลือน้อยกว่า 500 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39366
+39367,Allies have less than 750 points,ฝ่ายสัมพันธมิตรมีคะแนนเหลือน้อยกว่า 750 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39367
+39370,Axis have less than 400 points,ฝ่ายอักษะมีคะแนนเหลือน้อยกว่า 400 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39370
+39371,Axis have less than 300 points,ฝ่ายอักษะมีคะแนนเหลือน้อยกว่า 300 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39371
+39372,Axis have less than 200 points,ฝ่ายอักษะมีคะแนนเหลือน้อยกว่า 200 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39372
+39373,Axis have less than 100 points,ฝ่ายอักษะมีคะแนนเหลือน้อยกว่า 100 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39373
+39374,Axis have less than 50 points,ฝ่ายอักษะมีคะแนนเหลือน้อยกว่า 50 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39374
+39375,Axis have less than 25 points,ฝ่ายอักษะมีคะแนนเหลือน้อยกว่า 25 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39375
+39376,Axis have less than 500 points,ฝ่ายอักษะมีคะแนนเหลือน้อยกว่า 500 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39376
+39377,Axis have less than 750 points,ฝ่ายอักษะมีคะแนนเหลือน้อยกว่า 750 แต้ม,UI: หน้าจอเกม/save-load/แคมเปญ,39377
+39400,Capture barrels,ยึดถังเชื้อเพลิง,UI: หน้าจอเกม/save-load/แคมเปญ,39400
+39401,"You must capture 5 barrels to win.  If you do not, elephants will destroy you.",คุณต้องยึดถังเชื้อเพลิง 5 ถังเพื่อชนะ หากทำไม่สำเร็จ ศัตรูจะทำลายคุณ,UI: หน้าจอเกม/save-load/แคมเปญ,39401
+39402,Destroy the HQ,ทำลายกองบัญชาการ,UI: หน้าจอเกม/save-load/แคมเปญ,39402
+39403,Infiltrate enemy territory and plant Satchel Charges on their HQ.  Detonate the Charges and return to base camp before the enemy detects you.,แทรกซึมเข้าสู่ดินแดนศัตรูและวางระเบิดกระเป๋าหิ้ว ที่กองบัญชาการ จุดชนวนระเบิดแล้วถอนตัวกลับฐานก่อนที่ศัตรูจะตรวจพบ,UI: หน้าจอเกม/save-load/แคมเปญ,39403

@@ -1,0 +1,937 @@
+﻿id,english,thai,context,all_ids
+400000,Welcome to Company of Heroes.,ยินดีต้อนรับสู่กองร้อยฮีโร่,บทเรียน/เทรนนิ่ง,400000
+400010,"COMPANY OF HEROES is a Real-Time Strategy Game that focuses on frontline combat, capturing key strategic points, and leading your company to victory.",COMPANY OF HEROES เป็นเกมวางแผนแบบเรียลไทม์ที่เน้นการต่อสู้แนวหน้า ยึดจุดยุทธศาสตร์สำคัญ และนำกองร้อยของคุณไปสู่ชัยชนะ,บทเรียน/เทรนนิ่ง,400010
+400900,Click CONTINUE,คลิกดำเนินการต่อ,บทเรียน/เทรนนิ่ง,400900|407015|407500
+400920,You have no unit currently selected. Left-Click on a unit to select it.,คุณไม่ได้เลือกหน่วยในขณะนี้ คลิกซ้ายที่หน่วยเพื่อเลือก,บทเรียน/เทรนนิ่ง,400920|407016|407501
+400925,Click on the flashing button on the Command Panel.,คลิกที่ปุ่มกระพริบบนแผงคำสั่ง,บทเรียน/เทรนนิ่ง,400925|407017|407502
+400930,Good.,ดี.,บทเรียน/เทรนนิ่ง,400930|401133|407038|407515
+400940,Well done.,ทำได้ดี.,บทเรียน/เทรนนิ่ง,400940|407039|407516
+400950,Excellent.,ยอดเยี่ยม.,บทเรียน/เทรนนิ่ง,400950|405580|407040|407158|407517
+400960,Select your Riflemen squad.,เลือกทีมไรเฟิลแมนของคุณ,บทเรียน/เทรนนิ่ง,400960
+400961,Select your Paratrooper squad.,เลือกหมู่ทหารพลร่มของคุณ,บทเรียน/เทรนนิ่ง,400961
+400962,Select your Engineer squad.,เลือกทีมทหารช่างสนามของคุณ,บทเรียน/เทรนนิ่ง,400962
+400963,Select your Heavy Machine Gun Team.,เลือกทีมปืนกลหนักของคุณ,บทเรียน/เทรนนิ่ง,400963
+400964,Select your Sherman Tank.,เลือกรถถังเชอร์แมนของคุณ,บทเรียน/เทรนนิ่ง,400964
+400965,Select your Crocodile Tank.,เลือกรถถังคร็อกโคไดล์ ของคุณ,บทเรียน/เทรนนิ่ง,400965
+400966,Select your HQ.,เลือกกองบัญชาการของคุณ,บทเรียน/เทรนนิ่ง,400966
+400967,Select your Barracks.,เลือกค่ายทหารของคุณ,บทเรียน/เทรนนิ่ง,400967
+400968,Select the local building.,เลือกอาคารท้องถิ่น,บทเรียน/เทรนนิ่ง,400968|407026
+400969,Select your Units.,เลือกหน่วยของคุณ,บทเรียน/เทรนนิ่ง,400969|407027
+400970,You have de-selected your squad. LEFT-CLICK on your Riflemen squad to select it.,คุณได้ยกเลิกการเลือกทีมของคุณ คลิกซ้ายที่ทีมไรเฟิลแมนของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,400970
+400971,You have de-selected your squad. LEFT-CLICK on your Paratrooper squad to select it.,คุณได้ยกเลิกการเลือกทีมของคุณ คลิกซ้ายที่หมู่ทหารพลร่มของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,400971
+400972,You have de-selected your squad. LEFT-CLICK on your Engineer squad to select it.,คุณได้ยกเลิกการเลือกทีมของคุณ คลิกซ้ายที่ทีมทหารช่างสนามของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,400972
+400973,You have de-selected your squad. LEFT-CLICK on your Heavy Machine Gun Team to select it.,คุณได้ยกเลิกการเลือกทีมของคุณ คลิกซ้ายที่ทีมปืนกลหนักของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,400973
+400974,You have de-selected your tank. LEFT-CLICK on your Sherman Tank to select it.,คุณได้ยกเลิกการเลือกรถถังของคุณ คลิกซ้ายบนรถถัง Sherman ของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,400974
+400975,You have de-selected your tank. LEFT-CLICK on your Crocodile Tank to select it.,คุณได้ยกเลิกการเลือกรถถังของคุณ คลิกซ้ายบนถังคร็อกโคไดล์ของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,400975
+400976,You have de-selected your HQ. LEFT-CLICK on your HQ to select it.,คุณได้ยกเลิกการเลือก HQ ของคุณแล้ว คลิกซ้ายที่ HQ ของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,400976
+400977,You have de-selected your Barracks. LEFT-CLICK on your Barracks to select it.,คุณได้ยกเลิกการเลือกค่ายทหารของคุณแล้ว คลิกซ้ายบนค่ายทหารของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,400977
+400978,You have de-selected the building.  LEFT-CLICK on the local building to select it.,คุณได้ยกเลิกการเลือกอาคารแล้ว คลิกซ้ายบนสิ่งปลูกสร้างท้องถิ่นเพื่อเลือก,บทเรียน/เทรนนิ่ง,400978
+400979,You have de-selected your units. LEFT-CLICK on one of your units to select it.,คุณได้ยกเลิกการเลือกหน่วยของคุณ คลิกซ้ายที่หน่วยใดหน่วยหนึ่งของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,400979|407037
+401000,Welcome to Basic Training.,ยินดีต้อนรับสู่การฝึกอบรมขั้นพื้นฐาน,บทเรียน/เทรนนิ่ง,401000
+401001,"This training exercise will cover Unit Selection, Camera Control, and Basic Orders.",แบบฝึกหัดการฝึกอบรมนี้จะครอบคลุมถึงการเลือกหน่วย การควบคุมกล้อง และคำสั่งพื้นฐาน,บทเรียน/เทรนนิ่ง,401001
+401002,Welcome to Basic Training.  Click continue.,ยินดีต้อนรับสู่การฝึกอบรมขั้นพื้นฐาน คลิกดำเนินการต่อ,บทเรียน/เทรนนิ่ง,401002
+401005,During the game you will receive OBJECTIVES to complete.,ในระหว่างเกม คุณจะได้รับวัตถุประสงค์ให้เสร็จสิ้น,บทเรียน/เทรนนิ่ง,401005
+401006,Here's an example. You can see your objectives listed on the LEFT SIDE of the screen.,นี่คือตัวอย่าง คุณสามารถดูวัตถุประสงค์ของคุณได้ทางด้านซ้ายของหน้าจอ,บทเรียน/เทรนนิ่ง,401006
+401007,Moving your mouse cursor over the OBJECTIVE ICON reveals its description.,การเลื่อนเคอร์เซอร์ของเมาส์ไปที่ OBJECTIVE ICON จะแสดงคำอธิบาย,บทเรียน/เทรนนิ่ง,401007
+401008,"Good. If the OBJECTIVE is off-screen, an ARROW will point to it. For training purposes the description and direction arrow will remain on-screen.",ดี. หากวัตถุประสงค์อยู่นอกหน้าจอ ลูกศรจะชี้ไปที่เป้าหมายนั้น เพื่อวัตถุประสงค์ในการฝึกอบรม คำอธิบายและลูกศรทิศทางจะยังคงอยู่บนหน้าจอ,บทเรียน/เทรนนิ่ง,401008
+401010,This is a RIFLEMAN SQUAD - the basic infantry unit. Note the Riflemen icon and the squad's health bar above the unit. ,นี่คือ RIFLEMAN SQUAD - หมู่ทหารราบพื้นฐาน สังเกตไอคอนพลปืนไรเฟิลและแถบพลังชีวิตของหน่วยเหนือยูนิต,บทเรียน/เทรนนิ่ง,401010
+401011,Good. Now we will cover how to select units.,ดี. ตอนนี้เราจะพูดถึงวิธีการเลือกหน่วย,บทเรียน/เทรนนิ่ง,401011
+401016,Notice that enemy units are shown in red.  Your units are shown in blue.,โปรดสังเกตว่าหน่วยศัตรูจะแสดงเป็นสีแดง หน่วยของคุณจะแสดงเป็นสีน้ำเงิน,บทเรียน/เทรนนิ่ง,401016
+401020,"In Company of Heroes you issue orders to squads, not individual soldiers.",ใน Company of Heroes คุณจะออกคำสั่งไปยังหน่วย ไม่ใช่ทหารรายบุคคล,บทเรียน/เทรนนิ่ง,401020
+401030,A squad needs to be selected before you can give them orders.,จำเป็นต้องเลือกทีมก่อนจึงจะสามารถออกคำสั่งได้,บทเรียน/เทรนนิ่ง,401030
+401040,Good. You can see they're selected by the CIRCLE on the ground around them. ,ดี. คุณจะเห็นว่าพวกเขาถูกเลือกโดย CIRCLE บนพื้นรอบๆ พวกเขา,บทเรียน/เทรนนิ่ง,401040
+401041,All selected squads are shown on the SELECTION PANEL in the middle of the Taskbar.,ทีมที่เลือกทั้งหมดจะแสดงบนแผงการเลือกตรงกลางแถบงาน,บทเรียน/เทรนนิ่ง,401041
+401042,You can access the squad's abilities from the COMMAND PANEL on the right.,คุณสามารถเข้าถึงความสามารถของหน่วยได้จากแผงคำสั่งทางด้านขวา,บทเรียน/เทรนนิ่ง,401042
+401043,The MINI-MAP is shown on the left side of the taskbar.  It displays an overview of the entire battlefield.,MINI-MAP จะแสดงทางด้านซ้ายของทาสก์บาร์ จะแสดงภาพรวมของสนามรบทั้งหมด,บทเรียน/เทรนนิ่ง,401043
+401044,"To get more information about anything on the taskbar, move your mouse over it.  This will display additional information in the Helptext.",หากต้องการข้อมูลเพิ่มเติมเกี่ยวกับสิ่งใดๆ บนทาสก์บาร์ ให้เลื่อนเมาส์ไปเหนือสิ่งนั้น ซึ่งจะแสดงข้อมูลเพิ่มเติมในข้อความช่วยเหลือ,บทเรียน/เทรนนิ่ง,401044
+401050,Here's an Engineer squad. ,นี่คือทีมทหารช่างสนาม,บทเรียน/เทรนนิ่ง,401050
+401060,You can select several squads at the same time by holding the LEFT MOUSE BUTTON and DRAGGING a selection box over both of the squads.,คุณสามารถเลือกหลายทีมในเวลาเดียวกันได้โดยการกดปุ่มเมาส์ซ้ายค้างไว้แล้วลากกล่องเลือกเหนือทั้งสองทีม,บทเรียน/เทรนนิ่ง,401060
+401065,"You can cycle through each squad in your selection by pressing TAB, or go directly to a squad by LEFT-CLICKING on their SQUAD ICON in the taskbar. Try this to cycle to the Riflemen squad.",คุณสามารถหมุนเวียนแต่ละทีมที่คุณเลือกได้โดยการกด TAB หรือไปที่ทีมโดยตรงโดยคลิกซ้ายบนไอคอนทีมในแถบงาน ลองทำสิ่งนี้เพื่อปั่นจักรยานไปยังทีมไรเฟิลแมน,บทเรียน/เทรนนิ่ง,401065
+401066,Good. You can now give orders to this individual squad and use their special abilities in the COMMAND PANEL. ,ดี. ตอนนี้คุณสามารถออกคำสั่งให้กับแต่ละทีมและใช้ความสามารถพิเศษของพวกเขาได้ในแผงคำสั่ง,บทเรียน/เทรนนิ่ง,401066
+401067,Left-Click on the GROUP SELECT ICON to return to the group selection.,คลิกซ้ายที่ไอคอนเลือกกลุ่มเพื่อกลับไปยังการเลือกกลุ่ม,บทเรียน/เทรนนิ่ง,401067
+401070,Excellent. You can see both squads in the selection panel of the taskbar.,ยอดเยี่ยม. คุณสามารถดูทั้งสองทีมได้ในแผงการเลือกของทาสก์บาร์,บทเรียน/เทรนนิ่ง,401070
+401074,Our Engineers are being deployed elsewhere.,ทหารช่างสนามของเรากำลังถูกส่งไปที่อื่น,บทเรียน/เทรนนิ่ง,401074
+401075,We will now cover unit movement. All basic orders in Company of Heroes are issued using the RIGHT MOUSE Button.,ตอนนี้เราจะพูดถึงการเคลื่อนไหวของหน่วย คำสั่งพื้นฐานทั้งหมดใน Company of Heroes จะออกโดยใช้ปุ่มเมาส์ขวา,บทเรียน/เทรนนิ่ง,401075
+401076,"To issue a move order to your Riflemen squad, RIGHT-CLICK on the indicated location.",หากต้องการออกคำสั่งย้ายไปยังหน่วยทหารปืนไรเฟิลของคุณ ให้คลิกขวาที่ตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,401076
+401080,"Good. In order to move units outside the immediate viewable area, you will need to PAN the CAMERA.",ดี. ในการเคลื่อนย้ายยูนิตออกนอกพื้นที่ที่มองเห็นได้ คุณจะต้องแพนกล้อง,บทเรียน/เทรนนิ่ง,401080
+401090,Moving your MOUSE CURSOR to the edge of the screen PANS the camera in that direction. Try this now and PAN THE CAMERA to the left.,การเลื่อนเคอร์เซอร์ของเมาส์ไปที่ขอบของหน้าจอ เลื่อนกล้องไปในทิศทางนั้น ลองตอนนี้แล้วแพนกล้องไปทางซ้าย,บทเรียน/เทรนนิ่ง,401090
+401100,Good. Now follow the OBJECTIVE ARROW and PAN the camera until you see the road intersection.,ดี. ตอนนี้ตามลูกศรวัตถุประสงค์และแพนกล้องจนกว่าคุณจะเห็นทางแยกถนน,บทเรียน/เทรนนิ่ง,401100
+401120,Excellent. ,ยอดเยี่ยม.,บทเรียน/เทรนนิ่ง,401120|405500
+401130,Now order the squad to move here by RIGHT-CLICKING on the indicated location.,ตอนนี้สั่งให้ทีมย้ายมาที่นี่โดยคลิกขวาที่ตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,401130
+401131,"You've de-selected your Riflemen. Select them again, and then order them to move to this LOCATION by RIGHT-CLICKING on the ground at the intersection.",คุณได้ยกเลิกการเลือกพลปืนไรเฟิลของคุณแล้ว เลือกอีกครั้ง จากนั้นสั่งให้ย้ายไปยังตำแหน่งนี้โดยคลิกขวาบนพื้นตรงทางแยก,บทเรียน/เทรนนิ่ง,401131
+401140,"Good. Now you get the basic idea. LEFT-CLICK to select units, RIGHT-CLICK to issue basic orders.",ดี. ตอนนี้คุณได้รับแนวคิดพื้นฐานแล้ว คลิกซ้ายเพื่อเลือกหน่วย คลิกขวาเพื่อออกคำสั่งพื้นฐาน,บทเรียน/เทรนนิ่ง,401140
+401150,In Company of Heroes you can ROTATE THE CAMERA to see more of the battlefield.,ใน Company of Heroes คุณสามารถหมุนกล้องเพื่อดูสนามรบได้มากขึ้น,บทเรียน/เทรนนิ่ง,401150
+401160,"To do this, HOLD DOWN the ALT key on your keyboard, and MOVE THE MOUSE to rotate and tilt your camera view. Try this now.",เมื่อต้องการทำเช่นนี้ ให้กดปุ่ม ALT บนแป้นพิมพ์ค้างไว้ แล้วเลื่อนเมาส์เพื่อหมุนและเอียงมุมมองของกล้อง ลองตอนนี้,บทเรียน/เทรนนิ่ง,401160
+401170,"That's it. To return the camera to its DEFAULT POSITION, press the BACKSPACE KEY twice. ",แค่นั้นแหละ. หากต้องการคืนกล้องกลับไปยังตำแหน่งเริ่มต้น ให้กดปุ่ม BACKSPACE สองครั้ง,บทเรียน/เทรนนิ่ง,401170
+401180,Excellent. You can also ZOOM IN and ZOOM OUT with the MOUSEWHEEL. Try this now.,ยอดเยี่ยม. คุณยังสามารถซูมเข้าและซูมออกได้ด้วยล้อเมาส์ ลองตอนนี้,บทเรียน/เทรนนิ่ง,401180
+401190,"Fantastic. Again, pressing BACKSPACE will return your camera to its DEFAULT position. ",มหัศจรรย์. อีกครั้ง การกด BACKSPACE จะทำให้กล้องของคุณกลับสู่ตำแหน่งเริ่มต้น,บทเรียน/เทรนนิ่ง,401190
+401191,Company of Heroes is best played from the default camera position. Let's move on out.,Company of Heroes เล่นได้ดีที่สุดจากตำแหน่งกล้องเริ่มต้น ออกไปกันดีกว่า,บทเรียน/เทรนนิ่ง,401191
+401200,"Issue a MOVE ORDER to the indicated position up the road. To do this, RIGHT-CLICK on the indicated position. ",ออกคำสั่งย้ายไปยังตำแหน่งที่ระบุไว้บนถนน เมื่อต้องการทำเช่นนี้ ให้คลิกขวาที่ตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,401200
+401210,"Notice that as your squad moves, they reveal more of the surrounding landscape. ",โปรดสังเกตว่าในขณะที่ทีมของคุณเคลื่อนที่ พวกเขาจะเผยให้เห็นภูมิทัศน์โดยรอบมากขึ้น,บทเรียน/เทรนนิ่ง,401210
+401220,This is the FOG OF WAR. Your units can only see what is immediately around them.  ,นี่คือหมอกสงคราม หน่วยของคุณสามารถดูได้เฉพาะสิ่งที่อยู่รอบตัวพวกเขาเท่านั้น,บทเรียน/เทรนนิ่ง,401220
+401230,Well done. Your squad is in position.,ทำได้ดี. ทีมของคุณอยู่ในตำแหน่ง,บทเรียน/เทรนนิ่ง,401230
+401240,An EVENT CUE has appeared on the left of the screen to let you know that enemies have been spotted.,คิวกิจกรรมปรากฏขึ้นทางด้านซ้ายของหน้าจอเพื่อแจ้งให้คุณทราบว่าศัตรูถูกพบเห็นแล้ว,บทเรียน/เทรนนิ่ง,401240
+401241,Click on the Event Cue or press the SPACEBAR to focus the camera on the location of the event. ,คลิกที่คิวเหตุการณ์หรือกด SPACEBAR เพื่อโฟกัสกล้องไปที่ตำแหน่งของเหตุการณ์,บทเรียน/เทรนนิ่ง,401241
+401242,An Axis patrol is moving in and trying to capture our strategic point.,หน่วยลาดตระเวนฝ่ายอักษะกำลังเคลื่อนเข้ามาและพยายามยึดจุดยุทธศาสตร์ของเรา,บทเรียน/เทรนนิ่ง,401242
+401250,RIGHT-CLICK on the enemy troops to attack them. ,คลิกขวาที่กองทหารศัตรูเพื่อโจมตีพวกเขา,บทเรียน/เทรนนิ่ง,401250
+401251,Notice your mouse changes to an ATTACK CURSOR as you mouse over the enemy squads.,สังเกตว่าเมาส์ของคุณเปลี่ยนเป็น ATTACK CURSOR เมื่อคุณเลื่อนเมาส์ไปเหนือทีมศัตรู,บทเรียน/เทรนนิ่ง,401251
+401290,Good job. Now let's get that strategic point back.,งานดี. ตอนนี้เรามาดูจุดยุทธศาสตร์นั้นกลับมากันดีกว่า,บทเรียน/เทรนนิ่ง,401290
+401300,RIGHT-CLICK on the STRATEGIC POINT to order your squad to CAPTURE it.,คลิกขวาที่จุดยุทธศาสตร์เพื่อสั่งให้ทีมของคุณจับมัน,บทเรียน/เทรนนิ่ง,401300
+401301,Notice your mouse changes to a CAPTURE CURSOR when you mouse over a STRATEGIC POINT.,สังเกตว่าเมาส์ของคุณเปลี่ยนเป็น CAPTURE CURSOR เมื่อคุณเลื่อนเมาส์ไปเหนือจุดยุทธศาสตร์,บทเรียน/เทรนนิ่ง,401301
+401310,"Excellent, this concludes Basic Training. You've earned your stripes. ",เยี่ยมมาก นี่เป็นการสรุปการฝึกขั้นพื้นฐาน คุณได้รับลายของคุณ,บทเรียน/เทรนนิ่ง,401310
+401315,"You have learned how to select units, move the camera, and how to use the right mouse button to issue basic commands.",คุณได้เรียนรู้วิธีการเลือกหน่วย ขยับกล้อง และวิธีการใช้ปุ่มเมาส์ขวาเพื่อออกคำสั่งพื้นฐาน,บทเรียน/เทรนนิ่ง,401315
+401320,Click CONTINUE to return to base.,คลิกดำเนินการต่อเพื่อกลับไปยังฐาน,บทเรียน/เทรนนิ่ง,401320
+402000,Welcome to INFANTRY COMBAT TRAINING.,ยินดีต้อนรับสู่การฝึกอบรมการต่อสู้ของทหารราบ,บทเรียน/เทรนนิ่ง,402000
+402050,"We'll be commanding an Airborne Infantry Squad and learning how to use cover, flank the enemy, and use abilities.",เราจะเป็นผู้บังคับบัญชาหมู่ทหารราบทางอากาศและเรียนรู้วิธีใช้ที่กำบัง ขนาบข้างศัตรู และใช้ความสามารถต่างๆ,บทเรียน/เทรนนิ่ง,402050
+402051,"So far we've issued commands with the right-mouse button. However, using Abilities from the taskbar is done with the LEFT mouse button.",จนถึงตอนนี้เราได้ออกคำสั่งด้วยปุ่มเมาส์ขวาแล้ว อย่างไรก็ตาม การใช้ความสามารถจากทาสก์บาร์ทำได้โดยใช้ปุ่มเมาส์ซ้าย,บทเรียน/เทรนนิ่ง,402051
+402052,To use Abilities from the TASKBAR you LEFT-CLICK the button to select the Ability and then LEFT-CLICK in the world to execute the command. RIGHT-CLICKING will cancel the command.,หากต้องการใช้ความสามารถจาก TASKBAR คุณคลิกปุ่มซ้ายเพื่อเลือกความสามารถจากนั้นคลิกซ้ายในโลกเพื่อดำเนินการคำสั่ง การคลิกขวาจะยกเลิกคำสั่ง,บทเรียน/เทรนนิ่ง,402052
+402055,"LEFT-CLICK on the FLASHING BUTTON, then LEFT-CLICK on the indicated position to deploy your Paratroopers.",คลิกซ้ายที่ปุ่มกะพริบ จากนั้นคลิกซ้ายบนตำแหน่งที่ระบุเพื่อเคลื่อนพลพลร่มของคุณ,บทเรียน/เทรนนิ่ง,402055
+402056,"LEFT-CLICK on the FLASHING ICON, then RIGHT-CLICK on the indicated position to set the target location.",คลิกซ้ายบนไอคอนกะพริบ จากนั้นคลิกขวาบนตำแหน่งที่ระบุเพื่อกำหนดตำแหน่งเป้าหมาย,บทเรียน/เทรนนิ่ง,402056
+402059,"In Company of Heroes, using abilities is always done with the LEFT MOUSE button.",ใน Company of Heroes การใช้ความสามารถทำได้เสมอด้วยปุ่มเมาส์ซ้าย,บทเรียน/เทรนนิ่ง,402059
+402060,Your squad is parachuting in now.,ทีมของคุณกำลังกระโดดร่มเข้ามาแล้ว,บทเรียน/เทรนนิ่ง,402060
+402065,"Remember, all abilities are confirmed using the LEFT-MOUSE Button.",โปรดจำไว้ว่าความสามารถทั้งหมดจะได้รับการยืนยันโดยใช้ปุ่มเมาส์ซ้าย,บทเรียน/เทรนนิ่ง,402065
+402070,These guys are Airborne Infantry - elite paratroopers that can be airdropped anywhere on the battlefield. ,คนเหล่านี้คือ Airborne Infantry - พลร่มชั้นยอดที่สามารถส่งทางอากาศได้ทุกที่ในสนามรบ,บทเรียน/เทรนนิ่ง,402070
+402080,The RED SHIELD displayed next to the squad's icon indicates the squad is EXPOSED. ,โล่สีแดงที่แสดงถัดจากไอคอนหน่วยแสดงว่าทีมนั้นถูกเปิดเผย,บทเรียน/เทรนนิ่ง,402080
+402081,Exposed squads are especially vulnerable to enemy fire. Let's order the Paratroopers into better cover.,หน่วยที่ถูกเปิดเผยมีความเสี่ยงเป็นพิเศษต่อการยิงของศัตรู มาสั่งพลร่มให้คุ้มกันกันดีกว่า,บทเรียน/เทรนนิ่ง,402081
+402090,Right-Click near the indicated objects to move your paratroopers into COVER.,ที่กำบังบางส่วน,บทเรียน/เทรนนิ่ง,402090
+402091,The yellow dots on the ground show areas of LIGHT COVER.,จุดสีเหลืองบนพื้นแสดงพื้นที่ของ LIGHT COVER,บทเรียน/เทรนนิ่ง,402091
+402093,Light Cover offers limited protection from enemy fire.,Light Cover ให้การป้องกันที่จำกัดจากการยิงของศัตรู,บทเรียน/เทรนนิ่ง,402093
+402100,Good. The YELLOW SHIELD ICON over your squad shows they are in LIGHT COVER. ,ที่กำบังอย่างดี,บทเรียน/เทรนนิ่ง,402100
+402109,Let's move again.,ย้ายกันอีกครั้ง,บทเรียน/เทรนนิ่ง,402109
+402110,RIGHT-CLICK near the stone wall to move the Paratroopers into HEAVY COVER.,คลิกขวาใกล้กำแพงหินเพื่อสั่งให้พลร่มเข้าที่กำบังอย่างดี,บทเรียน/เทรนนิ่ง,402110
+402120,The green dots represent areas of HEAVY COVER.,จุดสีเขียวแสดงถึงพื้นที่ของ HEAVY COVER,บทเรียน/เทรนนิ่ง,402120
+402130,"Good. As you can see, the SHIELD is now GREEN. Your squad is now in HEAVY COVER.",ดี. อย่างที่คุณเห็น SHIELD ตอนนี้เป็นสีเขียว ทีมของคุณอยู่ใน HEAVY COVER แล้ว,บทเรียน/เทรนนิ่ง,402130
+402132,Time to move into Enemy Territory. Let's use the ATTACK-MOVE ability.,ถึงเวลาย้ายเข้าสู่ดินแดนศัตรู มาใช้ความสามารถ ATTACK-MOVE กันดีกว่า,บทเรียน/เทรนนิ่ง,402132
+402140,"LEFT-CLICK on the ATTACK-MOVE button in the taskbar, then pan the camera to the target location and LEFT-CLICK.",คลิกซ้ายที่ปุ่ม ATTACK-MOVE ในทาสก์บาร์ จากนั้นแพนกล้องไปยังตำแหน่งเป้าหมาย แล้วคลิกซ้าย,บทเรียน/เทรนนิ่ง,402140
+402141,Squads using ATTACK-MOVE will automatically attack the enemy and then continue to their destination.,หน่วยที่ใช้ ATTACK-MOVE จะโจมตีศัตรูโดยอัตโนมัติแล้วเดินทางต่อไปยังจุดหมายปลายทาง,บทเรียน/เทรนนิ่ง,402141
+402142,Enemy sighted!,ศัตรูมองเห็นแล้ว!,บทเรียน/เทรนนิ่ง,402142
+402143,"Remember, targeted abilities like ATTACK-MOVE are confirmed with a LEFT-CLICK.",โปรดจำไว้ว่าความสามารถที่เป็นเป้าหมายเช่น ATTACK-MOVE ได้รับการยืนยันด้วยการคลิกซ้าย,บทเรียน/เทรนนิ่ง,402143
+402145,"You gave the order successfully, but to the wrong location. Try that again.",คุณส่งคำสั่งสำเร็จ แต่ไปผิดสถานที่ ลองอีกครั้ง,บทเรียน/เทรนนิ่ง,402145
+402149,Good.  Enemy patrol destroyed.,ดี. หน่วยลาดตระเวนของศัตรูถูกทำลาย,บทเรียน/เทรนนิ่ง,402149
+402150,MORTARS! Incoming!,ครก! กำลังมา!,บทเรียน/เทรนนิ่ง,402150
+402160,A kraut mortar team has been spotted near the chapel!,ตรวจพบหมู่ปืนครกของพวกเยอรมันใกล้กับโบสถ์แล้ว!,บทเรียน/เทรนนิ่ง,402160
+402170,Attack the Mortar Squad by RIGHT-CLICKING on them.,โจมตีหมู่ครกโดยคลิกขวาบนพวกมัน,บทเรียน/เทรนนิ่ง,402170
+402180,"As you've seen, your squads will automatically use cover when attacking.",อย่างที่คุณเห็น ทีมของคุณจะใช้ที่กำบังโดยอัตโนมัติเมื่อทำการโจมตี,บทเรียน/เทรนนิ่ง,402180
+402190,Good work.,ทำงานได้ดี.,บทเรียน/เทรนนิ่ง,402190
+402195,Notice your Squad was promoted to VETERAN status. There are three ranks of VETERANCY in Company of Heroes. ,สังเกตว่าทีมของคุณได้รับการเลื่อนขั้นเป็นสถานะ VETERAN VETERANCY มีสามระดับใน Company of Heroes,บทเรียน/เทรนนิ่ง,402195
+402196,"All units gain veterancy the longer they are in combat, making them more effective on the battlefield.",ทุกหน่วยจะได้รับประสบการณ์ทหารผ่านศึกยิ่งอยู่ในการต่อสู้นานขึ้น ส่งผลให้มีประสิทธิภาพมากขึ้นในสนามรบ,บทเรียน/เทรนนิ่ง,402196
+402200,Recon shows the enemy has set up a Heavy Machine Gun team to cover the road. We need to take it out.,Recon โชว์ศัตรูได้ตั้งทีมปืนกลหนักมาปิดถนน เราต้องเอามันออกไป,บทเรียน/เทรนนิ่ง,402200
+402210,Attack the Heavy Machine Gun team by RIGHT-CLICKING on it.,โจมตีทีมปืนกลหนักโดยคลิกขวาบนมัน,บทเรียน/เทรนนิ่ง,402210
+402220,Your Squad is taking enfilade fire from that MG.,หน่วยของคุณกำลังรับการยิงจาก MG นั้น,บทเรียน/เทรนนิ่ง,402220
+402230,This is the MG's arc of fire. We need to stay out of this area.,นี่คือกรวยยิงของปืนกล MG เราต้องอยู่ห่างจากบริเวณนี้,บทเรียน/เทรนนิ่ง,402230
+402240,Order your squad to move to the indicated position to FLANK the Machine Gun. ,สั่งให้ทีมของคุณย้ายไปยังตำแหน่งที่ระบุเพื่อโจมตีปืนกล,บทเรียน/เทรนนิ่ง,402240
+402245,Excellent! Let's throw a grenade to destroy the Machine Gun team.,ยอดเยี่ยม! มาขว้างระเบิดทำลายทีมปืนกลกันเถอะ,บทเรียน/เทรนนิ่ง,402245
+402250,LEFT-CLICK on the flashing GRENADE ICON in the taskbar and then LEFT-CLICK on the Machine Gun team to set the target location.,คลิกซ้ายที่ไอคอนระเบิดที่กะพริบในทาสก์บาร์ จากนั้นคลิกซ้ายที่ทีมปืนกลเพื่อกำหนดตำแหน่งเป้าหมาย,บทเรียน/เทรนนิ่ง,402250
+402260,Using abilities like Grenades cost resources.,การใช้ความสามารถเช่น Grenades ต้องใช้ทรัพยากร,บทเรียน/เทรนนิ่ง,402260
+402270,"The Machine Gun team is out of action, now let's take over that MG42. ",ทีมปืนกลใช้งานไม่ได้แล้ว ตอนนี้เรามาเข้าควบคุม MG42 กันดีกว่า,บทเรียน/เทรนนิ่ง,402270
+402271,Time for a little payback.,ถึงเวลาตอบแทนสักหน่อย,บทเรียน/เทรนนิ่ง,402271
+402280,Capture the Heavy Machine Gun by RIGHT-CLICKING on it.,จับปืนกลหนักโดยคลิกขวาบนมัน,บทเรียน/เทรนนิ่ง,402280
+402290,"Excellent. You now control two squads. A Heavy Machine Gun team, and a Paratrooper Squad.",ยอดเยี่ยม. ตอนนี้คุณควบคุมสองทีมแล้ว ทีมปืนกลหนัก และหมู่ทหารพลร่ม,บทเรียน/เทรนนิ่ง,402290
+402300,Now let's re-deploy the Heavy Machine Gun to cover the road using the SET FACING command.,ตอนนี้เรามาส่งกำลังรบปืนกลหนักอีกครั้งเพื่อปิดถนนโดยใช้คำสั่ง SET FACING,บทเรียน/เทรนนิ่ง,402300
+402310,HOLD DOWN the RIGHT-MOUSE BUTTON over the MG TEAM and drag the mouse in the direction of the ARROW. RELEASE the button to order the Heavy Machine Gun team to face in that direction.,กดปุ่มเมาส์ขวาค้างไว้เหนือทีม MG แล้วลากเมาส์ไปในทิศทางของลูกศร ปล่อยปุ่มเพื่อสั่งให้ทีมปืนกลหนักหันหน้าไปในทิศทางนั้น,บทเรียน/เทรนนิ่ง,402310
+402315,You can issue a SET FACING command to all squads and vehicles in Company of Heroes.,คุณสามารถออกคำสั่ง SET FACING ให้กับทีมและยานพาหนะทั้งหมดใน Company of Heroes,บทเรียน/เทรนนิ่ง,402315
+402320,Incoming enemy patrol!,หน่วยลาดตระเวนศัตรูเข้ามา!,บทเรียน/เทรนนิ่ง,402320
+402321,Notice that your squads automatically attack nearby enemies.,โปรดสังเกตว่าทีมของคุณโจมตีศัตรูใกล้เคียงโดยอัตโนมัติ,บทเรียน/เทรนนิ่ง,402321
+402330,Enemy patrol destroyed!,หน่วยลาดตระเวนของศัตรูถูกทำลาย!,บทเรียน/เทรนนิ่ง,402330
+402340,More paratroopers are inbound to our position.,มีพลร่มเข้ามาที่ตำแหน่งของเรามากขึ้น,บทเรียน/เทรนนิ่ง,402340
+402350,"Before our final objective, we need to purchase a WEAPON UPGRADE for the new Paratrooper squad.",ก่อนเป้าหมายสุดท้ายของเรา เราต้องซื้อการอัพเกรดอาวุธสำหรับหมู่ทหารพลร่มใหม่,บทเรียน/เทรนนิ่ง,402350
+402355,Select the new Paratrooper squad.,เลือกหมู่ทหารพลร่มใหม่,บทเรียน/เทรนนิ่ง,402355
+402360,RIGHT-CLICK on the nearby Strategic Point to capture it.,คลิกขวาที่จุดยุทธศาสตร์ที่อยู่ใกล้ๆ เพื่อยึดครอง,บทเรียน/เทรนนิ่ง,402360
+402370,"Good, this sector is now under our control. Time to upgrade your squad.",ดี ภาคนี้อยู่ภายใต้การควบคุมของเราแล้ว ถึงเวลาอัพเกรดทีมของคุณ,บทเรียน/เทรนนิ่ง,402370
+402380,UPGRADE your Paratroopers by LEFT-CLICKING on the flashing RECOILLESS RIFLE icon.,อัปเกรดพลร่มของคุณโดยคลิกซ้ายบนไอคอน RIFLE RECOILLESS ที่กะพริบ,บทเรียน/เทรนนิ่ง,402380
+402390,Recoilless Rifles are heavy anti-tank weapons that are effective against vehicles and structures.,ปืนไรเฟิลไร้แรงสะท้อนเป็นอาวุธต่อต้านรถถังหนักที่มีประสิทธิภาพต่อยานพาหนะและโครงสร้าง,บทเรียน/เทรนนิ่ง,402390
+402400,"Excellent, notice the upgrade icon above the health bar on the squad indicator.",เยี่ยมมาก สังเกตไอคอนอัปเกรดเหนือแถบสุขภาพบนตัวบ่งชี้หน่วย,บทเรียน/เทรนนิ่ง,402400
+402401,Time to attack the enemy and clear out the area.,ถึงเวลาโจมตีศัตรูและเคลียร์พื้นที่,บทเรียน/เทรนนิ่ง,402401
+402410,"Order your squads to destroy the enemy Machine Gun Team defending this farm, using what you've learned so far.",สั่งให้ทีมของคุณทำลายทีมปืนกลของศัตรูที่ปกป้องฟาร์มแห่งนี้ โดยใช้สิ่งที่คุณได้เรียนรู้มาจนถึงตอนนี้,บทเรียน/เทรนนิ่ง,402410
+402420,"Remember, use COVER and GRENADES. Good Luck!",จำไว้ว่าให้ใช้ COVER และ GRENADES ขอให้โชคดี!,บทเรียน/เทรนนิ่ง,402420
+402430,Excellent Job. Enemy position neutralized.,เยี่ยมมาก ตำแหน่งของศัตรูถูกกำจัดแล้ว,บทเรียน/เทรนนิ่ง,402430
+402500,"During Infantry Training you learned how to use cover, flank enemy positions, upgrade your squads, and use targeted abilities like Grenades. ",ในระหว่างการฝึกทหารราบ คุณได้เรียนรู้วิธีการใช้ที่กำบัง ขนาบข้างตำแหน่งศัตรู อัพเกรดหน่วยของคุณ และใช้ความสามารถแบบกำหนดเป้าหมาย เช่น ระเบิดมือ,บทเรียน/เทรนนิ่ง,402500
+402510,Infantry Training complete. Dismissed.,การฝึกทหารราบเสร็จสมบูรณ์ เลิกแถวได้!,บทเรียน/เทรนนิ่ง,402510
+404000,Welcome to Armor Training.,ยินดีต้อนรับสู่การฝึกรบยานเกราะ,บทเรียน/เทรนนิ่ง,404000
+404010,We've just got word that a convoy from Baker Company has come under attack north of our current position.  ,เราเพิ่งได้ข่าวว่าขบวนรถจากกองร้อย Bakerถูกโจมตีทางตอนเหนือของตำแหน่งปัจจุบันของเรา,บทเรียน/เทรนนิ่ง,404010
+404050,Order your Sherman Tank to move to the ambush site.,สั่งให้รถถัง Sherman ของคุณย้ายไปที่จุดซุ่มโจมตี,บทเรียน/เทรนนิ่ง,404050
+404080,There's the enemy!,มีศัตรู!,บทเรียน/เทรนนิ่ง,404080
+404090,Order your Sherman to attack the Panzer by RIGHT-CLICKING on it.,สั่งให้เชอร์แมนของคุณโจมตี Panzer โดยคลิกขวาบนมัน,บทเรียน/เทรนนิ่ง,404090
+404100,"That was a direct hit, but it did little damage because of the Panzer's heavy armor.",นั่นเป็นการโจมตีโดยตรง แต่ก็สร้างความเสียหายได้เพียงเล็กน้อยเนื่องจากเกราะหนักของ Panzer,บทเรียน/เทรนนิ่ง,404100
+404110,"You need to FLANK the enemy tank and attack its REAR ARMOR, which is weaker. Issue a move order to a position behind the Panzer tank.",คุณต้องโจมตีรถถังศัตรูและโจมตีเกราะด้านหลังซึ่งอ่อนแอกว่า ออกคำสั่งย้ายไปยังตำแหน่งด้านหลังรถถัง Panzer,บทเรียน/เทรนนิ่ง,404110
+404111,"Good, you've scored a hit to its rear armor.",ดี คุณได้โจมตีเกราะหลังของมันแล้ว,บทเรียน/เทรนนิ่ง,404111
+404120,Another tank incoming! Look out!,รถถังเข้ามาอีก! ระวัง,บทเรียน/เทรนนิ่ง,404120
+404130,You've been hit!,คุณโดนแล้ว!,บทเรียน/เทรนนิ่ง,404130
+404140,Good shooting. Now let's look at the damage.,ยิงเก่ง. ทีนี้มาดูความเสียหายกันดีกว่า,บทเรียน/เทรนนิ่ง,404140
+404150,That shot from the Panzer scored a CRITICAL HIT and has immobilized your tank. ,การยิงจากยานเกราะนั้นทำคะแนนได้มากและทำให้รถถังของคุณเคลื่อนที่ไม่ได้,บทเรียน/เทรนนิ่ง,404150
+404160,Notice the UNIT INFORMATION DISPLAY on the taskbar shows the Sherman tank has suffered from a critical hit to its engine.,สังเกตการแสดงข้อมูลยูนิตบนทาสก์บาร์ แสดงให้เห็นว่ารถถัง Sherman ได้รับผลกระทบจากการถูกโจมตีอย่างรุนแรงที่เครื่องยนต์,บทเรียน/เทรนนิ่ง,404160
+404180,Your tanks can be repaired in the field with the help of Engineer squads.,รถถังของคุณสามารถซ่อมแซมได้ในสนาม็อด้วยความช่วยเหลือจากทีมทหารช่างสนาม,บทเรียน/เทรนนิ่ง,404180
+404185,Repairing a vehicle will remove any critical hits it has received.,การซ่อมแซมยานพาหนะจะลบการโจมตีคริติคอลที่ได้รับ,บทเรียน/เทรนนิ่ง,404185
+404190,Order your Engineers to repair the Sherman by RIGHT-CLICKING on it.,สั่งให้ทหารช่างสนามของคุณซ่อมแซม Sherman โดยคลิกขวาที่มัน,บทเรียน/เทรนนิ่ง,404190
+404200,"Good. In Company of Heroes, repairing vehicles or structures costs resources.",ดี. ใน Company of Heroes การซ่อมยานพาหนะหรือโครงสร้างต้องใช้ทรัพยากร,บทเรียน/เทรนนิ่ง,404200
+404210,Excellent. The repairs are complete.,ยอดเยี่ยม. การซ่อมแซมเสร็จสิ้นแล้ว,บทเรียน/เทรนนิ่ง,404210
+404220,Recon indicates the Germans have set up a base north of our position. ,หน่วยลาดตระเวนระบุว่าเยอรมันได้ตั้งฐานทัพทางตอนเหนือของตำแหน่งของเราแล้ว,บทเรียน/เทรนนิ่ง,404220
+404230,There are enemy patrols in this area.  ,มีการลาดตระเวนของศัตรูในบริเวณนี้,บทเรียน/เทรนนิ่ง,404230
+404240,"To increase the Sherman's effectiveness against infantry, upgrade it with a .50 Cal Machine Gun.",เพื่อเพิ่มประสิทธิภาพของ Sherman ต่อทหารราบ ให้อัพเกรดด้วยปืนกล .50 Cal,บทเรียน/เทรนนิ่ง,404240
+404260,Click on the flashing button to purchase this upgrade.,คลิกที่ปุ่มกระพริบเพื่อซื้อการอัพเกรดนี้,บทเรียน/เทรนนิ่ง,404260
+404270,Excellent. Notice the gunner on the turret manning the MG.,ยอดเยี่ยม. สังเกตพลปืนบนป้อมปืนที่ควบคุม MG,บทเรียน/เทรนนิ่ง,404270
+404290,Let's move up and take it out.,ขยับขึ้นไปเอามันออกไปกันเถอะ,บทเรียน/เทรนนิ่ง,404290
+404300,Look out! Panzerschrecks!,ระวัง เครื่องยิงจรวด Panzerschreck!,บทเรียน/เทรนนิ่ง,404300
+404310,They're targeting the Sherman's rear armor! ,พวกเขากำลังเล็งไปที่เกราะหลังของ Sherman!,บทเรียน/เทรนนิ่ง,404310
+404315,HOLD DOWN the RIGHT-MOUSE BUTTON on the Sherman and drag the mouse in the direction of the enemy.,กดปุ่มเมาส์ขวาบน Sherman ค้างไว้แล้วลากเมาส์ไปในทิศทางของศัตรู,บทเรียน/เทรนนิ่ง,404315
+404320,"Excellent, now the Sherman's strongest armor is facing the enemy.",ยอดเยี่ยม ตอนนี้เกราะด้านหน้าที่หนาที่สุดของรถถังเชอร์แมนหันเข้าหาศัตรูแล้ว,บทเรียน/เทรนนิ่ง,404320
+404330,Enemy Panzerschrecks destroyed. We need to continue moving towards the Axis base.,ศัตรู Panzerschrecks ถูกทำลาย เราต้องเดินหน้าต่อไปยังฐานอักษะ,บทเรียน/เทรนนิ่ง,404330
+404350,Those tank traps are blocking our path. We'll call in a Sherman CROCODILE to help.,กับดักรถถังเหล่านั้นกำลังขวางทางของเรา เราจะเรียกคร็อกโคไดล์เชอร์แมนมาช่วย,บทเรียน/เทรนนิ่ง,404350
+404360,Crocodiles are armed with Flamethrowers and can be upgraded with a bulldozer that can crush tank traps and thick hedgerows.,คร็อกโคไดล์ติดอาวุธด้วยเครื่องพ่นไฟและสามารถอัพเกรดได้ด้วยรถปราบดินที่สามารถทำลายกับดักของรถถังและพุ่มไม้หนาทึบได้,บทเรียน/เทรนนิ่ง,404360
+404370,Upgrade your Crocodile by Left-Clicking on the flashing button in the taskbar.,อัปเกรด Crocodile ของคุณโดยคลิกซ้ายที่ปุ่มกะพริบในทาสก์บาร์,บทเรียน/เทรนนิ่ง,404370
+404380,Excellent. You can now activate the bulldozer by Left-Clicking on the flashing button to lower the dozer blade.,ยอดเยี่ยม. ตอนนี้คุณสามารถเปิดใช้งานรถดันดินได้โดยการคลิกซ้ายที่ปุ่มกะพริบเพื่อลดใบมีดของรถดันดินลง,บทเรียน/เทรนนิ่ง,404380
+404390,Now clear the tank traps by moving the tank through them.,ตอนนี้ล้างกับดักรถถังโดยเคลื่อนรถถังผ่านพวกมัน,บทเรียน/เทรนนิ่ง,404390
+404400,Excellent. Your tank moves slower while the bulldozer is lowered. You can raise it Left-Clicking on Bulldozer button in the Command Panel.,ยอดเยี่ยม. รถถังของคุณเคลื่อนที่ช้าลงในขณะที่รถปราบดินถูกลดระดับลง คุณสามารถยกมันขึ้นได้โดยคลิกซ้ายที่ปุ่ม Bulldozer ในแผงคำสั่ง,บทเรียน/เทรนนิ่ง,404400
+404405,Good.  Tank traps cleared.  Now use both your tanks to destroy the German base.,ดี. กับดักรถถังถูกเคลียร์แล้ว ตอนนี้ใช้รถถังทั้งสองของคุณเพื่อทำลายฐานทัพเยอรมัน,บทเรียน/เทรนนิ่ง,404405
+404406,Panzer incoming!,แพนเซอร์มาแล้ว!,บทเรียน/เทรนนิ่ง,404406
+404407,Panzer sighted!,แพนเซอร์มองเห็นแล้ว!,บทเรียน/เทรนนิ่ง,404407
+404410,Now let's take out that German base! Use both your Sherman and the Crocodile.,ตอนนี้เรามาดูฐานทัพเยอรมันนั่นกันดีกว่า! ใช้ทั้งเชอร์แมนและคร็อกโคไดล์ของคุณ,บทเรียน/เทรนนิ่ง,404410
+404420,Flamethrowers are effective at burning infantry squads out of buildings.,เครื่องพ่นไฟมีประสิทธิภาพในการเผาหมู่ทหารราบออกจากอาคาร,บทเรียน/เทรนนิ่ง,404420
+404430,Well done. German base destroyed.,ทำได้ดี. ฐานทัพเยอรมันถูกทำลาย,บทเรียน/เทรนนิ่ง,404430
+404440,"This completes Armor Training. During this exercise we covered tank combat, armor facing, and using tanks to crush objects. Excellent work, dismissed!",สิ้นสุดการฝึกรบยานเกราะ ในบทเรียนนี้เราได้เรียนรู้การรบด้วยรถถัง การหันมุมเกราะ และการใช้รถถังบดขยี้สิ่งกีดขวาง ทำได้ดีมาก เลิกแถวได้!,บทเรียน/เทรนนิ่ง,404440
+405000,Welcome to Base Operations Training.,ยินดีต้อนรับสู่การฝึกอบรมปฏิบัติการฐาน,บทเรียน/เทรนนิ่ง,405000
+405005,"During this exercise we will cover base construction, how to capture territory, and how to build defenses.",ในระหว่างการฝึกซ้อมนี้ เราจะครอบคลุมถึงการสร้างฐาน วิธีการยึดอาณาเขต และวิธีการสร้างแนวป้องกัน,บทเรียน/เทรนนิ่ง,405005
+405010,Our Headquarters is located in this Farmhouse. ,กองบัญชาการของเราตั้งอยู่ในบ้านไร่แห่งนี้,บทเรียน/เทรนนิ่ง,405010
+405015,The HQ is your most crucial structure. With it you call in reinforcements and off-map support.,กองบัญชาการคือโครงสร้างที่สำคัญที่สุดของคุณ ด้วยสิ่งนี้ คุณสามารถเรียกกำลังเสริมและการสนับสนุนนอกแผนที่ได้,บทเรียน/เทรนนิ่ง,405015
+405030,"First, let's deploy an Engineer Squad. To do this requires Resources.  ",ก่อนอื่น เรามาจัดวางทีมทหารช่างสนามกันก่อน การทำเช่นนี้ต้องใช้ทรัพยากร,บทเรียน/เทรนนิ่ง,405030
+405031,"As you can see on your Taskbar, you have no Resources.",อย่างที่คุณเห็นบนทาสก์บาร์ของคุณ คุณไม่มีทรัพยากร,บทเรียน/เทรนนิ่ง,405031
+405032,"For training purposes we’ll give you enough resources to get started, but normally you earn resources by capturing territory sectors.  We'll explore this later.",เพื่อวัตถุประสงค์ในการฝึกอบรม เราจะให้ทรัพยากรแก่คุณเพียงพอในการเริ่มต้น แต่โดยปกติแล้วคุณจะได้รับทรัพยากรจากการยึดครองภาคส่วนอาณาเขต เราจะสำรวจเรื่องนี้ในภายหลัง,บทเรียน/เทรนนิ่ง,405032
+405033,"To deploy an Engineer Squad, select the HQ now.",หากต้องการส่งทีมทหารช่างสนาม ให้เลือกกองบัญชาการทันที,บทเรียน/เทรนนิ่ง,405033
+405040,LEFT-CLICK on the flashing button in the Command Panel to deploy a squad of Engineers. Notice the helptext shows you how much MANPOWER the Engineer squad costs.,คลิกซ้ายที่ปุ่มกะพริบในแผงคำสั่งเพื่อส่งทีมทหารช่างสนาม โปรดสังเกตข้อความช่วยเหลือจะแสดงให้คุณเห็นว่า MANPOWER ของทีมทหารช่างสนามมีค่าใช้จ่ายเท่าไร,บทเรียน/เทรนนิ่ง,405040
+405050,"Engineers are your basic construction squad, they can build defenses and base structures.",ทหารช่างสนามคือทีมก่อสร้างขั้นพื้นฐานของคุณ พวกเขาสามารถสร้างการป้องกันและโครงสร้างพื้นฐานได้,บทเรียน/เทรนนิ่ง,405050
+405055,You just cancelled the deployment order. Left-Click on the flashing button in the Command Panel again to deploy an Engineer Squad.,คุณเพิ่งยกเลิกคำสั่งการส่งกำลังรบงาน คลิกซ้ายที่ปุ่มกะพริบในแผงคำสั่งอีกครั้งเพื่อส่งทีมทหารช่างสนาม,บทเรียน/เทรนนิ่ง,405055
+405060,Your Engineers are ready for duty. Let's begin construction of a BARRACKS.,ทหารช่างสนามของคุณพร้อมสำหรับการปฏิบัติหน้าที่ มาเริ่มสร้าง Barracks กันดีกว่า,บทเรียน/เทรนนิ่ง,405060
+405065,"First, select your Engineers.",ขั้นแรก เลือกทหารช่างสนามของคุณ,บทเรียน/เทรนนิ่ง,405065
+405070,LEFT-CLICK the flashing button to access your Base Building options.,คลิกปุ่มกระพริบทางซ้ายเพื่อเข้าถึงตัวเลือกการสร้างฐานของคุณ,บทเรียน/เทรนนิ่ง,405070
+405100,"To build a Barracks, LEFT-CLICK the flashing button and then LEFT-CLICK at the indicated location to order your Engineers to begin construction.",ในการสร้างค่ายทหาร ให้คลิกปุ่มกระพริบทางซ้าย จากนั้นคลิกซ้ายที่ตำแหน่งที่ระบุเพื่อสั่งให้ทหารช่างสนามของคุณเริ่มการก่อสร้าง,บทเรียน/เทรนนิ่ง,405100
+405110,"Base structures can only be built near the HQ and on open ground. If the BUILD PREVIEW turns red, you cannot build at that location.",โครงสร้างพื้นฐานสามารถสร้างได้เฉพาะใกล้กับกองบัญชาการและบนพื้นเปิดเท่านั้น หาก BUILD PREVIEW เปลี่ยนเป็นสีแดง คุณจะไม่สามารถสร้างที่ตำแหน่งนั้นได้,บทเรียน/เทรนนิ่ง,405110
+405120,Good. The Barracks allows you to deploy basic infantry troops to the battlefield and upgrade your squads. Time to call in a Riflemen squad.,ดี. ค่ายทหารช่วยให้คุณสามารถจัดกำลังทหารราบขั้นพื้นฐานในสนามรบและอัพเกรดหน่วยของคุณ ถึงเวลาเรียกทีมไรเฟิลแมนแล้ว,บทเรียน/เทรนนิ่ง,405120
+405150,Now LEFT-CLICK on the Riflemen button.,ตอนนี้คลิกซ้ายที่ปุ่มไรเฟิลแมน,บทเรียน/เทรนนิ่ง,405150
+405160,The Riflemen squad is now displayed in the Build Queue.,ตอนนี้ทีม Riflemen จะแสดงอยู่ใน Build Queue,บทเรียน/เทรนนิ่ง,405160
+405190,You can cancel any item in the queue by Left-Clicking on it.,คุณสามารถยกเลิกรายการใดๆ ในคิวได้ด้วยการคลิกซ้ายที่รายการนั้น,บทเรียน/เทรนนิ่ง,405190
+405191,You just cancelled your Riflemen squad. Deploy a Riflemen squad from your Barracks.,คุณเพิ่งยกเลิกทีมไรเฟิลแมนของคุณ จัดกำลังพลปืนไรเฟิลจากค่ายทหารของคุณ,บทเรียน/เทรนนิ่ง,405191
+405200,"Rally points can be set by using the RALLY POINT ICON, and then newly deployed squads will automatically move to that location.",คะแนนการชุมนุมสามารถกำหนดได้โดยใช้ไอคอนจุดชุมนุม จากนั้นทีมที่ประจำการใหม่จะย้ายไปยังตำแหน่งนั้นโดยอัตโนมัติ,บทเรียน/เทรนนิ่ง,405200
+405209,You've spent all of your Resources.  We'll now show you how to earn more.,คุณได้ใช้ทรัพยากรทั้งหมดของคุณแล้ว ตอนนี้เราจะแสดงให้คุณเห็นวิธีการสร้างรายได้มากขึ้น,บทเรียน/เทรนนิ่ง,405209
+405221,"There are three types of resources in Company of Heroes: MANPOWER, MUNITIONS, and FUEL.","มีทรัพยากรสามประเภทใน Company of Heroes: MANPOWER, MUNIONS และ FUEL",บทเรียน/เทรนนิ่ง,405221
+405230,MANPOWER is your primary resource.  You spend Manpower to deploy Squads and Vehicles. ,MANPOWER เป็นทรัพยากรหลักของคุณ คุณใช้กำลังพลเพื่อส่งกำลังรบทีมและยานพาหนะ,บทเรียน/เทรนนิ่ง,405230
+405231,"A CONSTANT STREAM of Manpower is generated from your Headquarters, and from the total number of territory sectors you control.",กำลังพลอย่างต่อเนื่องถูกสร้างขึ้นจากกองบัญชาการของคุณและจากจำนวนภาคส่วนอาณาเขตทั้งหมดที่คุณควบคุม,บทเรียน/เทรนนิ่ง,405231
+405232,The first number in the highlighted area shows the total amount of Manpower you currently have.,ตัวเลขแรกในพื้นที่ที่ไฮไลต์จะแสดงจำนวนกำลังพลทั้งหมดที่คุณมีอยู่ในปัจจุบัน,บทเรียน/เทรนนิ่ง,405232
+405233,The second number shows how much Manpower you are earning per minute.,ตัวเลขตัวที่สองแสดงจำนวนกำลังพลที่คุณได้รับต่อนาที,บทเรียน/เทรนนิ่ง,405233
+405240,MUNITIONS is the second Resource.  You spend Munitions to upgrade your squads and use special abilities like throwing grenades.,อาวุธยุทโธปกรณ์เป็นทรัพยากรที่สอง คุณใช้อาวุธยุทโธปกรณ์เพื่ออัพเกรดทีมของคุณ และใช้ความสามารถพิเศษ เช่น การขว้างระเบิด,บทเรียน/เทรนนิ่ง,405240
+405241,A constant stream of Munitions is generated by capturing Munitions sectors such as this one.,อาวุธยุทโธปกรณ์มากมายเกิดขึ้นจากการยึดครองส่วนอาวุธยุทโธปกรณ์เช่นนี้,บทเรียน/เทรนนิ่ง,405241
+405250,"FUEL is the final Resource and is spent to deploy heavy vehicles, base structures and to purchase global upgrades.",เชื้อเพลิงเป็นทรัพยากรสุดท้ายและใช้เพื่อส่งกำลังรบยานพาหนะหนัก โครงสร้างฐาน และเพื่อซื้อการอัพเกรดทั่วโลก,บทเรียน/เทรนนิ่ง,405250
+405251,A constant stream of Fuel is generated by capturing Fuel Sectors like this one.,กระแสเชื้อเพลิงที่สม่ำเสมอถูกสร้างขึ้นโดยการยึดส่วนเชื้อเพลิงเช่นนี้,บทเรียน/เทรนนิ่ง,405251
+405270,The MINI-MAP shows the location of all Resource points.  ,MINI-MAP แสดงตำแหน่งของจุดทรัพยากรทั้งหมด,บทเรียน/เทรนนิ่ง,405270
+405271,"To get a more detailed view of the battlefield, click on the flashing button to bring up the TACTICAL MAP.",หากต้องการดูสนามรบที่มีรายละเอียดมากขึ้น ให้คลิกที่ปุ่มกระพริบเพื่อเรียกแผนที่ยุทธวิธีขึ้นมา,บทเรียน/เทรนนิ่ง,405271
+405280,This is the Tactical Map.  ,นี่คือแผนที่ยุทธวิธี,บทเรียน/เทรนนิ่ง,405280
+405290,The battlefield is divided up into a number of TERRITORY SECTORS. ,สนามรบแบ่งออกเป็นหลายภาคส่วน,บทเรียน/เทรนนิ่ง,405290
+405292,"The more sectors you control, the more Manpower you will receive.",ยิ่งคุณควบคุมภาคส่วนได้มากเท่าไร คุณก็จะได้รับกำลังพลมากขึ้นเท่านั้น,บทเรียน/เทรนนิ่ง,405292
+405296,Each sector has an ICON which represents the location of the strategic point and the type of Resource it provides.,แต่ละภาคส่วนมี ICON ซึ่งแสดงถึงตำแหน่งของจุดยุทธศาสตร์และประเภทของทรัพยากรที่มีให้,บทเรียน/เทรนนิ่ง,405296
+405300,To return to the game view click on the EXIT button and we'll capture a sector.,หากต้องการกลับไปที่มุมมองเกม ให้คลิกที่ปุ่ม EXIT แล้วเราจะจับส่วนต่างๆ,บทเรียน/เทรนนิ่ง,405300
+405340,RIGHT-CLICK on the Munitions Point to capture it. ,คลิกขวาที่ Munitions Point เพื่อยึดมัน,บทเรียน/เทรนนิ่ง,405340
+405350,"Good, you've captured the point and now you control the territory sector. ",ดี คุณได้ยึดจุดนั้นแล้ว และตอนนี้คุณควบคุมส่วนอาณาเขตแล้ว,บทเรียน/เทรนนิ่ง,405350
+405351,"As you can see on the mini-map, the sector is now blue indicating it is allied territory. ",ดังที่คุณเห็นในแผนที่ย่อ ตอนนี้เซกเตอร์จะเป็นสีน้ำเงินซึ่งบ่งบอกว่าเป็นอาณาเขตของพันธมิตร,บทเรียน/เทรนนิ่ง,405351
+405352,"However, the sector is also flashing. This means it is OUT OF SUPPLY and you are not receiving resources from it.",อย่างไรก็ตาม ภาคธุรกิจก็กำลังกะพริบเช่นกัน ซึ่งหมายความว่าสินค้าหมดและคุณไม่ได้รับทรัพยากรจากอุปกรณ์ดังกล่าว,บทเรียน/เทรนนิ่ง,405352
+405360,Bring up the TACTICAL MAP to get a better understanding of supply lines.,เปิดแผนที่ยุทธวิธีเพื่อทำความเข้าใจเกี่ยวกับสายการผลิตให้ดียิ่งขึ้น,บทเรียน/เทรนนิ่ง,405360
+405410,DOUBLE-CLICK on the STRATEGIC POINT symbol to zoom in on that location.,คลิกสองครั้งที่สัญลักษณ์จุดยุทธศาสตร์เพื่อซูมเข้าที่ตำแหน่งนั้น,บทเรียน/เทรนนิ่ง,405410
+405420,Sometimes the enemy will be defending Strategic Points. Eliminate the enemy then capture the Strategic Point. ,บางครั้งศัตรูจะปกป้องจุดยุทธศาสตร์ กำจัดศัตรูแล้วยึดจุดยุทธศาสตร์,บทเรียน/เทรนนิ่ง,405420
+405421,Excellent. Strategic Points are vital in establishing your frontlines and territory. Now let's return to the Munition Sector.,ยอดเยี่ยม. จุดยุทธศาสตร์มีความสำคัญในการสร้างแนวหน้าและอาณาเขตของคุณ ตอนนี้เรากลับไปที่ส่วนอาวุธยุทโธปกรณ์,บทเรียน/เทรนนิ่ง,405421
+405425,Capture the Strategic Point.,ยึดจุดยุทธศาสตร์,บทเรียน/เทรนนิ่ง,405425
+405430,The Munitions Sector is now in supply and generating a constant stream of Resources.,ขณะนี้แผนกอาวุธยุทโธปกรณ์กำลังจัดหาและสร้างทรัพยากรอย่างต่อเนื่อง,บทเรียน/เทรนนิ่ง,405430
+405440,Now we need to SECURE the Munitions Sector to increase your Munitions intake and make it harder for the enemy to capture.,ตอนนี้เราจำเป็นต้องรักษาความปลอดภัยในส่วนยุทโธปกรณ์เพื่อเพิ่มปริมาณยุทโธปกรณ์ของคุณ และทำให้ศัตรูจับได้ยากขึ้น,บทเรียน/เทรนนิ่ง,405440
+405450,The Resources a sector generates is indicated on its icon. Notice this matches your current Munitions Rate on the taskbar.,ทรัพยากรที่ภาคส่วนสร้างขึ้นจะแสดงอยู่บนไอคอน โปรดสังเกตว่าสิ่งนี้ตรงกับอัตรายุทโธปกรณ์ปัจจุบันของคุณบนทาสก์บาร์,บทเรียน/เทรนนิ่ง,405450
+405470,Now click on the flashing FIELD DEFENSES button on the command panel. ,ตอนนี้คลิกที่ปุ่ม FIELD DEFENSES ที่กะพริบบนแผงคำสั่ง,บทเรียน/เทรนนิ่ง,405470
+405480,Left-Click on the OBSERVATION POST button and then Left-Click on the Munitions Point.,คลิกซ้ายที่ปุ่ม OBSERVATION POST จากนั้นคลิกซ้ายที่ Munitions Point,บทเรียน/เทรนนิ่ง,405480
+405490,"Now that the Observation Post is complete, the sector is SECURE. Notice that your Munitions Rate has increased.",ตอนนี้ที่จุดสังเกตเสร็จสิ้นแล้ว ภาคส่วนก็ปลอดภัย โปรดสังเกตว่าอัตรากระสุนของคุณเพิ่มขึ้น,บทเรียน/เทรนนิ่ง,405490
+405491,"More importantly, the enemy will need to destroy your Observation Post before they can capture your Sector.",ที่สำคัญกว่านั้น ศัตรูจะต้องทำลายจุดสังเกตการณ์ของคุณก่อนจึงจะสามารถยึดเซกเตอร์ของคุณได้,บทเรียน/เทรนนิ่ง,405491
+405510,This area is crawling with German patrols. Time to defend our frontlines.,บริเวณนี้คลานไปด้วยหน่วยลาดตระเวนเยอรมัน ถึงเวลาปกป้องแนวหน้าของเรา,บทเรียน/เทรนนิ่ง,405510
+405550,Click on the flashing FIELD EMPLACEMENTS button to access your defensive build options.,คลิกที่ปุ่ม FIELD EMPLACEMENTS ที่กะพริบเพื่อเข้าถึงตัวเลือกการสร้างการป้องกันของคุณ,บทเรียน/เทรนนิ่ง,405550
+405560,Left-Click on the MG EMPLACEMENT button and then position it by Left-Clicking on the indicated location.,คลิกซ้ายที่ปุ่ม MG EMPLACEMENT จากนั้นวางตำแหน่งโดยคลิกซ้ายบนตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,405560
+405570,"Finally, set the facing of the MG EMPLACEMENT to cover the northern approach. LEFT-CLICK once more to start construction.",สุดท้ายจัดส่วนหน้าของ MG EMPLACEMENT ให้ครอบคลุมแนวทางทิศเหนือ คลิกซ้ายอีกครั้งเพื่อเริ่มการก่อสร้าง,บทเรียน/เทรนนิ่ง,405570|407155
+405585,Good. However your MG Emplacement is facing the wrong way. Let's try once more. The MG Emplacement should face in the direction of the indicated arrow.,ดี. อย่างไรก็ตาม MG Emplacement ของคุณกำลังหันหน้าไปทางที่ผิด เรามาลองอีกครั้งหนึ่ง MG Emplacement ควรหันไปในทิศทางของลูกศรที่ระบุ,บทเรียน/เทรนนิ่ง,405585
+405590,Enemy Incoming! The MG Emplacement will automatically engage.,ศัตรูเข้ามา! MG Emplacement จะมีส่วนร่วมโดยอัตโนมัติ,บทเรียน/เทรนนิ่ง,405590
+405600,Fantastic. The MG Emplacement is suppressing the enemy troops. ,มหัศจรรย์. MG Emplacement กำลังยิงกดดันตรึงพื้นที่กองกำลังศัตรู,บทเรียน/เทรนนิ่ง,405600
+405605,They're retreating! ,พวกเขากำลังถอย!,บทเรียน/เทรนนิ่ง,405605
+405606,"However, the Germans know we're here now and they'll be back with more troops.",อย่างไรก็ตาม ชาวเยอรมันรู้ว่าเรามาถึงแล้ว และพวกเขาจะกลับมาพร้อมกับกองกำลังเพิ่มเติม,บทเรียน/เทรนนิ่ง,405606
+405610,We need to fortify our position.  In Company of Heroes you can garrison local buildings which provide excellent cover for squads during combat.,เราจำเป็นต้องเสริมตำแหน่งของเรา ใน Company of Heroes คุณสามารถเข้าประจำการในอาคารในพื้นที่ซึ่งให้การคุ้มกันที่ดีเยี่ยมสำหรับหน่วยในระหว่างการต่อสู้,บทเรียน/เทรนนิ่ง,405610
+405620,Order the Engineers to GARRISON the nearby building by RIGHT-CLICKING on it.,สั่งให้ทหารช่างสนามเข้ายึดประจำการใน อาคารใกล้เคียงโดยคลิกขวาที่มัน,บทเรียน/เทรนนิ่ง,405620
+405630,Good. Buildings can also be upgraded into a FORWARD BARRACKS allowing you to deploy troops closer to the front.,ดี. อาคารยังสามารถอัปเกรดเป็นค่ายทหารด้านหน้าได้ ซึ่งจะทำให้คุณสามารถวางกำลังทหารได้ใกล้กับแนวหน้ามากขึ้น,บทเรียน/เทรนนิ่ง,405630
+405640,Left-Click on the flashing button to upgrade it.,คลิกซ้ายที่ปุ่มกระพริบเพื่ออัปเกรด,บทเรียน/เทรนนิ่ง,405640
+405650,Only buildings in supplied sectors can be upgraded into a forward barracks.,เฉพาะสิ่งปลูกสร้างในภาคส่วนที่กำหนดเท่านั้นที่สามารถอัพเกรดเป็นค่ายทหารด้านหน้าได้,บทเรียน/เทรนนิ่ง,405650
+405660,Now you can deploy infantry squads from this building in exactly the same way you do from a barracks.,ตอนนี้คุณสามารถจัดกำลังทหารราบจากอาคารนี้ในลักษณะเดียวกับที่คุณทำจากค่ายทหาร,บทเรียน/เทรนนิ่ง,405660
+405661,Now deploy a Riflemen squad from your Forward Barracks.,ตอนนี้จัดกำลังพลปืนไรเฟิลจากค่ายทหารข้างหน้าของคุณ,บทเรียน/เทรนนิ่ง,405661
+405670,In Company of Heroes there is a maximum number of squads and vehicles you can have deployed on the battlefield at any given time. This is called the POPULATION CAP.,ใน Company of Heroes มีจำนวนทีมและยานพาหนะสูงสุดที่คุณสามารถนำไปใช้ในสนามรบได้ตลอดเวลา สิ่งนี้เรียกว่าขีดจำกัดประชากร,บทเรียน/เทรนนิ่ง,405670
+405680,Your current and maximum Population are shown in the highlighted area on the taskbar.,จำนวนประชากรปัจจุบันและสูงสุดของคุณจะแสดงในพื้นที่ที่ไฮไลต์บนแถบงาน,บทเรียน/เทรนนิ่ง,405680
+405681,"If we gather all of your units in front of the building, you can see that you have 15 soldiers. This correlates to the first number shown in the indicated area.",ถ้าเรารวบรวมหน่วยของคุณทั้งหมดไว้ที่หน้าอาคาร คุณจะเห็นว่าคุณมีทหาร 15 คน ซึ่งสัมพันธ์กับหมายเลขแรกที่แสดงในพื้นที่ที่ระบุ,บทเรียน/เทรนนิ่ง,405681
+405682,The second number tells you that you can currently deploy up to 18 soldiers on the battlefield. ,ตัวเลขตัวที่สองบอกคุณว่าขณะนี้คุณสามารถจัดกำลังทหารได้ถึง 18 นายในสนามรบ,บทเรียน/เทรนนิ่ง,405682
+405690,"That means that you cannot deploy another Riflemen squad until you increase the Population Cap. To do that, you need to expand your territory.",นั่นหมายความว่าคุณไม่สามารถจัดกำลังพลปืนไรเฟิลอีกทีมได้จนกว่าคุณจะเพิ่มจำนวนประชากรสูงสุด เพื่อทำเช่นนั้น คุณจะต้องขยายอาณาเขตของคุณ,บทเรียน/เทรนนิ่ง,405690
+405710,Use the Riflemen squad to capture the indicated Strategic Point.,ใช้ทีมไรเฟิลแมนเพื่อยึดจุดยุทธศาสตร์ที่ระบุ,บทเรียน/เทรนนิ่ง,405710
+405720,Excellent. You can see on your Taskbar that your Population Cap has increased. It increases for each sector you take control of.,ยอดเยี่ยม. คุณจะเห็นบนทาสก์บาร์ว่าจำนวนประชากรของคุณเพิ่มขึ้น มันเพิ่มขึ้นสำหรับแต่ละภาคส่วนที่คุณควบคุม,บทเรียน/เทรนนิ่ง,405720
+405740,Under attack!,โดนโจมตี!,บทเรียน/เทรนนิ่ง,405740
+405746,The flashing yellow indicators above your squad shows that they are being SUPPRESSED.,สัญญาณไฟสีเหลืองกะพริบเหนือทีมของคุณแสดงว่าพวกเขากำลังถูกยิงกดดันตรึงพื้นที่,บทเรียน/เทรนนิ่ง,405746
+405747,While suppressed your squads will dive to the ground and crawl to avoid being hit.,ในขณะที่ถูกยิงกดดันตรึงพื้นที่ ทีมของคุณจะดำดิ่งลงสู่พื้นและคลานเพื่อหลีกเลี่ยงการถูกโจมตี,บทเรียน/เทรนนิ่ง,405747
+405751,The flashing red indicator shows your squad is now PINNED!,สัญญาณไฟสีแดงกะพริบแสดงว่าทีมของคุณถูกตรึงกำลังแล้ว!,บทเรียน/เทรนนิ่ง,405751
+405752,Pinned troops are ineffective and will take heavy casualties unless you retreat!,กองทหารที่ถูกตรึงกำลังไว้จะไม่มีประสิทธิภาพและจะมีผู้เสียชีวิตจำนวนมาก เว้นแต่คุณจะล่าถอย!,บทเรียน/เทรนนิ่ง,405752
+405755,Left-Click the flashing RETREAT button on the Taskbar.,คลิกซ้ายที่ปุ่ม RETREAT ที่กะพริบบนทาสก์บาร์,บทเรียน/เทรนนิ่ง,405755
+405756,Retreat will break any suppression or pinning effects on your squads and give them a defensive bonus. ,การล่าถอยจะทำลายเอฟเฟกต์การระงับหรือการตรึงใด ๆ ที่มีต่อทีมของคุณและให้โบนัสการป้องกันแก่พวกเขา,บทเรียน/เทรนนิ่ง,405756
+405770,"However, retreating troops are not under your command. They will automatically run back to the Headquarters.",อย่างไรก็ตาม กองทหารที่ล่าถอยไม่อยู่ภายใต้การบังคับบัญชาของคุณ พวกเขาจะวิ่งกลับไปที่กองบัญชาการโดยอัตโนมัติ,บทเรียน/เทรนนิ่ง,405770
+405780,"Your squad is safe now, but they took some casualties.  You can REINFORCE squad members one member at a time.",ตอนนี้ทีมของคุณปลอดภัยแล้ว แต่พวกเขาก็ได้รับบาดเจ็บบ้าง คุณสามารถเสริมกำลังสมาชิกทีมได้ครั้งละหนึ่งคน,บทเรียน/เทรนนิ่ง,405780
+405785,Click the flashing button to reinforce your Squad back up to full strength.,คลิกปุ่มกระพริบเพื่อเสริมกำลังทีมของคุณให้เต็มกำลัง,บทเรียน/เทรนนิ่ง,405785
+405790,"Squads can only Reinforce if they are near a base structure, A Forward Barracks or a Halftrack.",หน่วยสามารถเสริมกำลังได้ก็ต่อเมื่ออยู่ใกล้โครงสร้างฐาน ค่ายทหารข้างหน้า หรือฮาล์ฟแทร็ก,บทเรียน/เทรนนิ่ง,405790
+405800,"Notice you have earned EXPERIENCE. You gain Experience by capturing territory, building structures and fighting the enemy.",แจ้งให้ทราบว่าคุณได้รับประสบการณ์ คุณได้รับประสบการณ์จากการยึดดินแดน สร้างสิ่งก่อสร้าง และต่อสู้กับศัตรู,บทเรียน/เทรนนิ่ง,405800
+405801,"Once you've gained enough experience, you're rewarded with a COMMAND POINT.",เมื่อคุณได้รับประสบการณ์เพียงพอ คุณจะได้รับรางวัลเป็น COMMAND POINT,บทเรียน/เทรนนิ่ง,405801
+405802,You can use Command Points to unlock special abilities. ,คุณสามารถใช้ Command Points เพื่อปลดล็อกความสามารถพิเศษได้,บทเรียน/เทรนนิ่ง,405802
+405810,"To do this, Left-Click on the flashing COMPANY COMMANDER button.",เมื่อต้องการทำเช่นนี้ คลิกซ้ายที่ปุ่ม COMPANY COMMANDER ที่กะพริบ,บทเรียน/เทรนนิ่ง,405810
+405820,"There are three Companies you can choose - Infantry, Airborne, and Armor. Each has its own special abilities and unique units.",มีสามกองร้อย (สายบัญชาการ) ให้คุณเลือกใช้ — ทหารราบ พลร่ม และยานเกราะ แต่ละสายจะมีความสามารถพิเศษและหน่วยรบเฉพาะตัว,บทเรียน/เทรนนิ่ง,405820
+405830,"For training, we'll choose the INFANTRY Company. However, during the game you'll be able to pick the Company that best fits your play style.",สำหรับการฝึกอบรม เราจะเลือกกองร้อยทหารราบ อย่างไรก็ตาม ในระหว่างเกม คุณจะสามารถเลือกกองร้อยที่เหมาะกับสไตล์การเล่นของคุณได้มากที่สุด,บทเรียน/เทรนนิ่ง,405830
+405840,"Click on the INFANTRY COMPANY Icon to select it, then click the ACCEPT button to confirm.",คลิกที่ไอคอน INFANTRY COMPANY เพื่อเลือก จากนั้นคลิกปุ่ม ACCEPT เพื่อยืนยัน,บทเรียน/เทรนนิ่ง,405840
+405850,Here are the special abilities available to you as an Infantry Company Commander.,นี่คือความสามารถพิเศษที่มีให้คุณในฐานะผู้บัญชาการกองร้อยทหารราบ,บทเรียน/เทรนนิ่ง,405850
+405855,The DEFENSIVE OPERATIONS ability allows your Riflemen to build defenses.,ความสามารถในการปฏิบัติการป้องกันช่วยให้ทหารปืนไรเฟิลของคุณสร้างการป้องกันได้,บทเรียน/เทรนนิ่ง,405855
+405860,Click on the DEFENSIVE OPERATIONS button then click the ACCEPT button to confirm your choice and exit the Company Commander Screen.,คลิกที่ปุ่มปฏิบัติการป้องกัน จากนั้นคลิกปุ่มยอมรับเพื่อยืนยันการเลือกของคุณและออกจากหน้าจอผู้บัญชาการกองร้อย,บทเรียน/เทรนนิ่ง,405860
+405870,The Germans will be counter-attacking. We need to defend this area with Sandbags.,ชาวเยอรมันจะตอบโต้การโจมตี เราจำเป็นต้องปกป้องพื้นที่นี้ด้วยกระสอบทราย,บทเรียน/เทรนนิ่ง,405870
+405880,"Left-Click on the BUILD FIELD DEFENSES menu, and select the SANDBAGS option.",คลิกซ้ายที่เมนู BUILD FIELD DEFENSES และเลือกตัวเลือก SANDBAGS,บทเรียน/เทรนนิ่ง,405880
+405890,Left-Click at the indicated location to start the wall.,คลิกซ้ายที่ตำแหน่งที่ระบุเพื่อเริ่มกำแพง,บทเรียน/เทรนนิ่ง,405890
+405900,"Now drag the mouse to the final location, and LEFT-CLICK to order your Riflemen to build the sandbags.",ตอนนี้ลากเมาส์ไปยังตำแหน่งสุดท้าย แล้วคลิกซ้ายเพื่อสั่งให้ทหารปืนไรเฟิลของคุณสร้างกระสอบทราย,บทเรียน/เทรนนิ่ง,405900
+405910,Good. Your Riflemen are now building the wall section by section. Sandbags provide heavy cover.,ดีมาก ตอนนี้ทหารปืนเล็กของคุณกำลังสร้างแนวกระสอบทรายทีละช่วง กระสอบทรายมอบที่กำบังระดับสูง,บทเรียน/เทรนนิ่ง,405910
+405920,You can move infantry behind this wall to give them cover against incoming fire.,คุณสามารถสั่งให้ทหารราบเคลื่อนที่ไปอยู่หลังแนวกำแพงนี้ เพื่อใช้เป็นที่กำบังจากการระดมยิงของข้าศึกได้,บทเรียน/เทรนนิ่ง,405920
+405930,Enemy incoming! They're on their way!,ศัตรูเข้ามา! พวกเขากำลังไป!,บทเรียน/เทรนนิ่ง,405930
+405940,"Get set up, men. This should be a big fight!",เตรียมตัวให้พร้อมนะพวกทหาร นี่ควรจะเป็นการต่อสู้ครั้งใหญ่!,บทเรียน/เทรนนิ่ง,405940
+405950,You've earned more Command Points. Left-Click on the Company Commander button to purchase another ability.,คุณได้รับคะแนนคำสั่งมากขึ้น คลิกซ้ายที่ปุ่มผู้บัญชาการกองร้อยเพื่อซื้อความสามารถอื่น,บทเรียน/เทรนนิ่ง,405950
+405960,"Left-Click on the flashing button to unlock a devastating artillery strike. Then, Left-Click Accept.",คลิกซ้ายที่ปุ่มกะพริบเพื่อปลดล็อกการโจมตีด้วยปืนใหญ่ทำลายล้าง จากนั้นคลิกซ้ายยอมรับ,บทเรียน/เทรนนิ่ง,405960
+405965,The Germans are attacking in force. We will be overrun!,ชาวเยอรมันกำลังโจมตีอย่างมีกำลัง เราจะโดนบุกรุก!,บทเรียน/เทรนนิ่ง,405965
+405970,Use the ARTILLERY STRIKE ability to defeat the German attack!,ใช้ความสามารถ ARTILLERY STRIKE เพื่อเอาชนะการโจมตีของเยอรมัน!,บทเรียน/เทรนนิ่ง,405970
+405980,"Okay, take cover!",เอาล่ะ หาที่กำบังเร็ว!,บทเรียน/เทรนนิ่ง,405980
+405990,"Stand down, sector is clear. Well done!",พักรบได้ พื้นที่ปลอดภัยแล้ว ทำได้ดี!,บทเรียน/เทรนนิ่ง,405990
+405995,"During training we covered how to establish your base, call in additional troops, capture territory, defend your front-lines and use Company Commander abilities to defeat the enemy.",ในระหว่างการฝึก เราได้กล่าวถึงวิธีการสร้างฐานของคุณ เรียกกองกำลังเพิ่มเติม ยึดอาณาเขต ป้องกันแนวหน้าของคุณ และใช้ความสามารถของผู้บัญชาการกองร้อยเพื่อเอาชนะศัตรู,บทเรียน/เทรนนิ่ง,405995
+406000,This completes Base Operations.,การดำเนินการฐานจะเสร็จสมบูรณ์,บทเรียน/เทรนนิ่ง,406000
+406001,Try this now and move your Mouse Cursor over the OBJECTIVE ICON.,ลองใช้ตอนนี้แล้วเลื่อนเคอร์เซอร์เมาส์ไปที่ไอคอนวัตถุประสงค์,บทเรียน/เทรนนิ่ง,406001
+406002,LEFT-CLICK on the Riflemen squad to select it.,คลิกซ้ายที่ทีมไรเฟิลแมนเพื่อเลือก,บทเรียน/เทรนนิ่ง,406002
+406003,The Munitions sector you've just captured is here.,ส่วนอาวุธยุทโธปกรณ์ที่คุณเพิ่งยึดได้อยู่ที่นี่,บทเรียน/เทรนนิ่ง,406003
+406004,LEFT-CLICK on the flashing GRENADE ICON in the taskbar and then RIGHT-CLICK on the Machine Gun team to set the target location.,คลิกซ้ายที่ไอคอนระเบิดที่กะพริบในแถบงาน จากนั้นคลิกขวาบนทีมปืนกลเพื่อกำหนดตำแหน่งเป้าหมาย,บทเรียน/เทรนนิ่ง,406004
+406005,Out of Supply territories do not generate any Resources.,อาณาเขตที่อยู่นอกอุปทานไม่ได้สร้างทรัพยากรใดๆ,บทเรียน/เทรนนิ่ง,406005
+406006,You can build more squads from your Forward Barracks.,คุณสามารถสร้างทีมเพิ่มเติมจากค่ายทหารข้างหน้าของคุณได้,บทเรียน/เทรนนิ่ง,406006
+406007,"To bring the Munitions Sector into supply, you need to capture this connecting sector.",เพื่อนำส่วนอาวุธยุทโธปกรณ์มาสู่การจัดหา คุณต้องยึดส่วนที่เชื่อมต่อกันนี้,บทเรียน/เทรนนิ่ง,406007
+406009,Recon indicates the Germans are mobilizing north of our position. ,หน่วยสอดแนมระบุว่าเยอรมันกำลังระดมกำลังทางเหนือของตำแหน่งของเรา,บทเรียน/เทรนนิ่ง,406009
+406010,Order your Sherman to proceed to the indicated location.,สั่งให้เชอร์แมนของคุณไปยังตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,406010
+406011,Tank traps are blocking the road. Your Sherman cannot move through the Tank Traps.,กับดักรถถังกำลังปิดกั้นถนน เชอร์แมนของคุณไม่สามารถเคลื่อนที่ผ่านกับดักรถถังได้,บทเรียน/เทรนนิ่ง,406011
+406012,Axis infantry spotted!,พบเห็นทหารราบฝ่ายอักษะ!,บทเรียน/เทรนนิ่ง,406012
+406103,"LEFT-CLICK on the ATTACK-MOVE button in the taskbar, then pan the camera to the target location and RIGHT-CLICK",คลิกซ้ายที่ปุ่ม ATTACK-MOVE ในทาสก์บาร์ จากนั้นแพนกล้องไปยังตำแหน่งเป้าหมาย และคลิกขวา,บทเรียน/เทรนนิ่ง,406103
+406104,"As you can see it's not connected to your HQ sector, here.  This means it is OUT OF SUPPLY.",อย่างที่คุณเห็นว่าจุดนี้ไม่ได้เชื่อมต่อกับเซกเตอร์ บก. ของคุณตรงนี้ ซึ่งหมายความว่าจุดนี้อยู่นอกเขตส่งกำลังบำรุง,บทเรียน/เทรนนิ่ง,406104
+406106,"Before our final objective, we need to capture the nearby Strategic Point to extend our frontlines.",ก่อนเป้าหมายสุดท้ายของเรา เราต้องยึดจุดยุทธศาสตร์ใกล้เคียงเพื่อขยายแนวหน้า,บทเรียน/เทรนนิ่ง,406106
+406107,"Again, notice that you spent Manpower to deploy the Riflemen Squad.",โปรดสังเกตว่าคุณใช้กำลังพลเพื่อจัดกำลังหน่วยทหารปืนไรเฟิล,บทเรียน/เทรนนิ่ง,406107
+406108,"Remember, there are three types of resources in Company of Heroes: Manpower, Munitions, and Fuel.",โปรดจำไว้ว่า มีทรัพยากรสามประเภทใน Company of Heroes: กำลังพล อาวุธยุทโธปกรณ์ และเชื้อเพลิง,บทเรียน/เทรนนิ่ง,406108
+406109,Let's start with Manpower. ,มาเริ่มกันที่แมนพาวเวอร์,บทเรียน/เทรนนิ่ง,406109
+407000,Welcome to Company of Heroes: Opposing Fronts.,ยินดีต้อนรับสู่ Company of Heroes: Opposing Fronts,บทเรียน/เทรนนิ่ง,407000
+407001,"COMPANY OF HEROES: OPPOSING FRONTS is a Real-Time Strategy Game that focuses on frontline combat, capturing key strategic points, and leading your company to victory.",COMPANY OF HEROES: OPPOSING FRONTS เป็นเกมวางแผนแบบเรียลไทม์ที่เน้นการต่อสู้แนวหน้า ยึดจุดยุทธศาสตร์สำคัญ และนำกองร้อยของคุณไปสู่ชัยชนะ,บทเรียน/เทรนนิ่ง,407001
+407002,"COMPANY OF HEROES: OPPOSING FRONTS is the definitive strategy experience. To lead your company to victory, you must capture key strategic points and master battlefield tactics.",กองร้อยฮีโร่: ฝ่ายตรงข้ามเป็นประสบการณ์กลยุทธ์ขั้นสุดท้าย เพื่อนำกองร้อยของคุณไปสู่ชัยชนะ คุณต้องยึดจุดยุทธศาสตร์สำคัญและฝึกฝนยุทธวิธีในสนามรบให้เชี่ยวชาญ,บทเรียน/เทรนนิ่ง,407002
+407003,You can play as either the dogged British Army or the battle-hardened Panzer Elite.,คุณสามารถเล่นเป็นกองทัพอังกฤษผู้แข็งแกร่งหรือยานเกราะชั้นยอดที่แข็งแกร่งในการต่อสู้,บทเรียน/เทรนนิ่ง,407003
+407018,Select your Infantry Section.,เลือกหมู่ทหารราบของคุณ,บทเรียน/เทรนนิ่ง,407018
+407019,Select your Lieutenant.,เลือกผู้หมวดของคุณ,บทเรียน/เทรนนิ่ง,407019
+407020,Select your Sapper squad.,เลือกทีม แซปเปอร์ ของคุณ,บทเรียน/เทรนนิ่ง,407020
+407021,Select your Machine Gun Nest.,เลือกรังปืนกลของคุณ,บทเรียน/เทรนนิ่ง,407021
+407022,Select your Glider.,เลือกเครื่องร่อนของคุณ,บทเรียน/เทรนนิ่ง,407022
+407023,Select your Commando squad.,เลือกหน่วยคอมมานโดของคุณ,บทเรียน/เทรนนิ่ง,407023
+407024,Select your Command Truck.,เลือกรถบังคับการของคุณ,บทเรียน/เทรนนิ่ง,407024
+407025,Select your mobile Command Truck.,เลือกรถบังคับการเคลื่อนที่ของคุณ,บทเรียน/เทรนนิ่ง,407025
+407028,You have de-selected your squad. LEFT-CLICK on your Infantry squad to select it.,คุณได้ยกเลิกการเลือกทีมของคุณ คลิกซ้ายที่หมู่ทหารราบของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407028
+407029,You have de-selected your squad. LEFT-CLICK on your Lieutenant to select it.,คุณได้ยกเลิกการเลือกทีมของคุณ คลิกซ้ายที่ผู้หมวดของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407029
+407030,You have de-selected your squad. LEFT-CLICK on your Sapper squad to select it.,คุณได้ยกเลิกการเลือกทีมของคุณ คลิกซ้ายที่ทีม แซปเปอร์ ของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407030
+407031,You have de-selected your emplacement. LEFT-CLICK on your Machine Gun Nest to select it.,คุณได้ยกเลิกการเลือกตำแหน่งของคุณแล้ว คลิกซ้ายบน Machine Gun Nest ของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407031
+407032,You have de-selected your unit. LEFT-CLICK on your Glider to select it.,คุณได้ยกเลิกการเลือกหน่วยของคุณ คลิกซ้ายบนเครื่องร่อนของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407032
+407033,You have de-selected your squad. LEFT-CLICK on your Commando squad to select it.,คุณได้ยกเลิกการเลือกทีมของคุณ คลิกซ้ายที่หน่วยคอมมานโดของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407033
+407034,You have de-selected your Command Truck. LEFT-CLICK on the Command Truck to select it.,คุณได้ยกเลิกการเลือก รถบังคับการ ของคุณแล้ว คลิกซ้ายบน รถบังคับการ เพื่อเลือก,บทเรียน/เทรนนิ่ง,407034
+407035,You have de-selected your trench. LEFT-CLICK on your Slit Trench to select it.,คุณได้ยกเลิกการเลือกร่องลึกของคุณ คลิกซ้ายบน Slit Trench ของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407035
+407036,You have de-selected the building. LEFT-CLICK on the building to select it.,คุณได้ยกเลิกการเลือกอาคารแล้ว คลิกซ้ายบนสิ่งปลูกสร้างเพื่อเลือก,บทเรียน/เทรนนิ่ง,407036
+407050,"Welcome Sir, to 3rd Battalion, Boudica's Boys, 2nd British Army.",ยินดีต้อนรับท่านสู่กองพันที่ 3 บูดิกา Boys กองทัพอังกฤษที่ 2,บทเรียน/เทรนนิ่ง,407050
+407051,"During this training exercise, you'll familiarize yourself with the British Army of Opposing Fronts and its command structure.",ในระหว่างการฝึกซ้อม คุณจะทำความคุ้นเคยกับกองทัพอังกฤษที่ต่อต้านแนวรบและโครงสร้างการบังคับบัญชา,บทเรียน/เทรนนิ่ง,407051
+407052,This is an INFANTRY SECTION - the basic infantry squad of the British Army.,นี่คือหมู่ทหารราบ - หน่วยพื้นฐานของกองทัพอังกฤษ,บทเรียน/เทรนนิ่ง,407052
+407053,LEFT-CLICK on your Infantry Section to select it.,คลิกซ้ายที่หมู่ทหารราบของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407053
+407054,"Now, RIGHT-CLICK on the indicated position to order your squad to move there.",ตอนนี้ให้คลิกขวาที่ตำแหน่งที่ระบุเพื่อสั่งให้ทีมของคุณย้ายไปที่นั่น,บทเรียน/เทรนนิ่ง,407054
+407056,"Notice how your squad moves. While moving in friendly territory, all British squads move using their Assault Stance.",สังเกตว่าทีมของคุณเคลื่อนไหวอย่างไร ในขณะที่เคลื่อนที่ไปในดินแดนที่เป็นมิตร ทีมอังกฤษทั้งหมดเคลื่อนที่โดยใช้ท่าทางจู่โจม,บทเรียน/เทรนนิ่ง,407056
+407057,The Infantry Section is now entering neutral territory. Notice the change in stance.,ขณะนี้หมู่ทหารราบกำลังเข้าสู่ดินแดนที่เป็นกลาง สังเกตการเปลี่ยนแปลงท่าทาง,บทเรียน/เทรนนิ่ง,407057
+407059,Let's help them out by deploying a LIEUTENANT.,มาช่วยพวกเขาด้วยการจัดกำลังผู้หมวด,บทเรียน/เทรนนิ่ง,407059
+407060,LEFT-CLICK on your Command Truck to Select it.,คลิกซ้ายบนรถบังคับการของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407060
+407061,Lieutenants are the basic officers of the British. They are critical to the success of your army.,ผู้หมวดเป็นนายทหารพื้นฐานของอังกฤษ สิ่งเหล่านี้มีความสำคัญต่อความสำเร็จของกองทัพของคุณ,บทเรียน/เทรนนิ่ง,407061
+407062,You have cancelled the deployment order. Left-Click on the flashing button on the Command Panel again to deploy your Lieutenant.,คุณได้ยกเลิกคำสั่งการส่งกำลังรบแล้ว คลิกซ้ายที่ปุ่มกะพริบบนแผงคำสั่งอีกครั้งเพื่อส่งผู้หมวดของคุณ,บทเรียน/เทรนนิ่ง,407062
+407063,"Excellent, your Lieutenant is ready.",เยี่ยมมาก ผู้หมวดของคุณพร้อมแล้ว,บทเรียน/เทรนนิ่ง,407063
+407064,"Move your Lieutenant to the Infantry Section. Remember, RIGHT-CLICK near the indicated Infantry Section to move the Lieutenant there.",ย้ายผู้หมวดของคุณไปที่หมู่ทหารราบ โปรดจำไว้ว่า คลิกขวาใกล้หมู่ทหารราบที่ระบุเพื่อย้ายผู้หมวดไปที่นั่น,บทเรียน/เทรนนิ่ง,407064
+407065,"Whenever a Lieutenant is near infantry, his presence provides discipline to all nearby soldiers.",เมื่อใดก็ตามที่ผู้หมวดอยู่ใกล้ทหารราบ การปรากฏตัวของเขาจะสร้างวินัยให้กับทหารที่อยู่ใกล้เคียงทุกคน,บทเรียน/เทรนนิ่ง,407065
+407066,Good. The STAR over your Infantry shows that a Lieutenant is nearby. ,ดี. ดาวเหนือทหารราบของคุณแสดงว่ามีผู้หมวดอยู่ใกล้ๆ,บทเรียน/เทรนนิ่ง,407066
+407067,"This grants them combat and veterancy bonuses, so it's best to keep the Lieutenants close.",สิ่งนี้จะมอบโบนัสการรบและทหารผ่านศึกให้พวกเขา ดังนั้นวิธีที่ดีที่สุดคือให้ผู้หมวดอยู่ใกล้ๆ,บทเรียน/เทรนนิ่ง,407067
+407068,"Since the Lieutenant is so critical to the success of your infantry, it is important for him to MAINTAIN COMMAND RANGE.",เนื่องจากผู้หมวดมีความสำคัญอย่างยิ่งต่อความสำเร็จของทหารราบของคุณ จึงเป็นสิ่งสำคัญสำหรับเขาในการรักษาระยะการบังคับบัญชา,บทเรียน/เทรนนิ่ง,407068
+407069,Left-Click on the flashing button to order your Lieutenant to follow an Infantry Section.,คลิกซ้ายที่ปุ่มกะพริบเพื่อสั่งให้ผู้หมวดของคุณติดตามหมู่ทหารราบ,บทเรียน/เทรนนิ่ง,407069
+407070,Good. Notice the symbol above the Lieutenant indicating that he is now following the Infantry section.,ดี. สังเกตสัญลักษณ์เหนือผู้หมวด แสดงว่าขณะนี้เขากำลังติดตามหมู่ทหารราบ,บทเรียน/เทรนนิ่ง,407070
+407071,"You have moved your Lieutenant. Be careful, this has stopped him from following your Infantry Section.",คุณได้ย้ายผู้หมวดของคุณแล้ว ระวัง สิ่งนี้ทำให้เขาไม่สามารถติดตามกองทหารราบของคุณได้,บทเรียน/เทรนนิ่ง,407071
+407072,"Now, let's order the Infantry Section to capture that Munitions point.",ตอนนี้ ให้สั่งให้หมู่ทหารราบยึดจุดอาวุธยุทโธปกรณ์นั้น,บทเรียน/เทรนนิ่ง,407072
+407073,Notice that your Infantry are moving much more quickly with the Lieutenant nearby.,โปรดสังเกตว่าทหารราบของคุณเคลื่อนที่เร็วขึ้นมากโดยมีผู้หมวดอยู่ใกล้ๆ,บทเรียน/เทรนนิ่ง,407073
+407074,Watch out! Incoming enemies!,ระวัง! ศัตรูที่เข้ามา!,บทเรียน/เทรนนิ่ง,407074
+407075,"Your infantry might have had a tough fight, good thing the Lieutenant was there to keep them in line.",ทหารราบของคุณอาจต่อสู้อย่างดุเดือด โชคดีที่ผู้หมวดอยู่ที่นั่นเพื่อรักษาพวกเขาให้เข้าแถว,บทเรียน/เทรนนิ่ง,407075
+407076,Excellent work. Enemy patrol defeated!,การทำงานที่ยอดเยี่ยม หน่วยลาดตระเวนของศัตรูพ่ายแพ้!,บทเรียน/เทรนนิ่ง,407076
+407077,Proceed with capturing the sector.,ดำเนินการต่อด้วยการยึดภาค,บทเรียน/เทรนนิ่ง,407077
+407078,Good. This sector is now under your control.,ดี. ภาคนี้อยู่ภายใต้การควบคุมของคุณแล้ว,บทเรียน/เทรนนิ่ง,407078
+407079,"We will cover Infantry deployment, Lieutenants, Mobile Command Trucks and defensive emplacements.",เราจะพูดถึงการวางกำลังทหารราบ ผู้หมวด รถบังคับการเคลื่อนที่ และตำแหน่งการป้องกัน,บทเรียน/เทรนนิ่ง,407079
+407080,3rd Battalion has just moved into the area. We need to move out and capture additional territory.,กองพันที่ 3 เพิ่งย้ายเข้ามาในพื้นที่ เราจำเป็นต้องย้ายออกและยึดดินแดนเพิ่มเติม,บทเรียน/เทรนนิ่ง,407080
+407082,"When moving in neutral or enemy territory, all squads adopt a PATROLLING STANCE. They move more cautiously, sacrificing speed for protection.",เมื่อเคลื่อนที่ในดินแดนที่เป็นกลางหรือศัตรู ทุกหน่วยจะใช้ท่าทางลาดตระเวน พวกเขาเคลื่อนไหวอย่างระมัดระวังมากขึ้น โดยเสียสละความเร็วในการป้องกัน,บทเรียน/เทรนนิ่ง,407082
+407083,"This is your HEADQUARTERS COMMAND TRUCK. In Opposing Fronts, the British use Command Trucks as their main bases and to call in reinforcements.",นี่คือรถบรรทุกควบคุมกองบัญชาการของคุณ ในแนวรบฝ่ายตรงข้าม อังกฤษใช้รถบังคับการเป็นฐานหลักและเรียกกำลังเสริม,บทเรียน/เทรนนิ่ง,407083
+407084,LEFT-CLICK on the flashing button on the Command Panel to deploy a Lieutenant.,คลิกซ้ายที่ปุ่มกะพริบบนแผงคำสั่งเพื่อส่งผู้หมวด,บทเรียน/เทรนนิ่ง,407084
+407085,"Now, LEFT-CLICK on the indicated Infantry Section.",ตอนนี้ให้คลิกซ้ายที่ส่วนทหารราบที่ระบุ,บทเรียน/เทรนนิ่ง,407085
+407086,You have failed to target the Infantry Section.,คุณล้มเหลวในการกำหนดเป้าหมายหมู่ทหารราบ,บทเรียน/เทรนนิ่ง,407086
+407087,"Select the Lieutenant, LEFT-CLICK on the MAINTAIN COMMAND RANGE ICON and LEFT-CLICK on the Infantry section.",เลือกผู้หมวด คลิกซ้ายบนไอคอนรักษาช่วงคำสั่ง และคลิกซ้ายในส่วนทหารราบ,บทเรียน/เทรนนิ่ง,407087
+407088,RIGHT-CLICK on the enemy squad to attack.,คลิกขวาที่ทีมศัตรูเพื่อโจมตี,บทเรียน/เทรนนิ่ง,407088
+407100,"Even though we have captured the Munitions Point, it is not secure. Unsecured points provide less resources. ",แม้ว่าเราจะยึดจุดยุทโธปกรณ์ได้แล้ว แต่ก็ไม่ปลอดภัย จุดที่ไม่ปลอดภัยจะให้ทรัพยากรน้อยลง,บทเรียน/เทรนนิ่ง,407100
+407101,The British secure territory sectors differently than other armies. They use their Mobile Command Trucks.,ภาคอาณาเขตที่ปลอดภัยของอังกฤษแตกต่างจากกองทัพอื่นๆ พวกเขาใช้รถสั่งการเคลื่อนที่,บทเรียน/เทรนนิ่ง,407101
+407102,Command Trucks are the backbone of the British army because they can be deployed anywhere on the battlefield. They allow the British to call in reinforcements where they are needed.,รถบังคับการ เป็นกระดูกสันหลังของกองทัพอังกฤษเพราะสามารถนำไปใช้ได้ทุกที่ในสนามรบ พวกเขาอนุญาตให้อังกฤษเรียกกำลังเสริมเมื่อจำเป็น,บทเรียน/เทรนนิ่ง,407102
+407103,Deploy this Command Truck to the Munitions sector that you just captured.,วางกำลังรถบังคับการนี้ไปยังส่วนยุทโธปกรณ์ที่คุณเพิ่งยึดได้,บทเรียน/เทรนนิ่ง,407103
+407104,Left-Click on the flashing button to MOBILIZE your Command Truck.,คลิกซ้ายที่ปุ่มกะพริบเพื่อระดมรถบังคับการของคุณ,บทเรียน/เทรนนิ่ง,407104
+407105,There are many reasons to move your Command Truck.,มีเหตุผลหลายประการในการเคลื่อนย้าย รถบังคับการ ของคุณ,บทเรียน/เทรนนิ่ง,407105
+407106,"It grants resource bonuses to sectors it occupies, it can deploy units closer to the front line or relocate if the enemy is attacking.",โดยจะให้โบนัสทรัพยากรแก่พื้นที่ที่ยึดครอง สามารถวางกำลังหน่วยใกล้กับแนวหน้าหรือย้ายตำแหน่งหากศัตรูกำลังโจมตี,บทเรียน/เทรนนิ่ง,407106
+407107,Order your Command Truck to the munitions sector by RIGHT-CLICKING near the indicated position.,สั่งซื้อรถบังคับการของคุณไปยังส่วนอาวุธยุทโธปกรณ์โดยคลิกขวาใกล้กับตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,407107
+407110,You have stopped your Command Truck from packing up.,คุณได้หยุด รถบังคับการ ของคุณจากการบรรจุ,บทเรียน/เทรนนิ่ง,407110
+407111,Your Command Truck has stopped moving to the new sector.,รถบังคับการ ของคุณหยุดเคลื่อนที่ไปยังส่วนใหม่แล้ว,บทเรียน/เทรนนิ่ง,407111
+407112,Look at the mini-map. All your territory is flashing.,ดูแผนที่ย่อครับ ดินแดนทั้งหมดของคุณกระพริบ,บทเรียน/เทรนนิ่ง,407112
+407113,"Whenever your HEADQUARTERS COMMAND TRUCK is mobile, your controlled territory will not be in supply.",เมื่อใดก็ตามที่รถบรรทุกควบคุมกองบัญชาการของคุณเคลื่อนที่ อาณาเขตที่คุณควบคุมจะไม่ถูกจัดเตรียมไว้,บทเรียน/เทรนนิ่ง,407113
+407114,"Excellent, the Command Truck has moved into the munitions sector.",เยี่ยมมาก รถบังคับการ ได้ย้ายเข้าสู่ภาคส่วนอาวุธยุทโธปกรณ์แล้ว,บทเรียน/เทรนนิ่ง,407114
+407115,You have ordered the Command Truck to set up in the wrong sector.,คุณได้สั่งให้ รถบังคับการ ติดตั้งผิดเซกเตอร์,บทเรียน/เทรนนิ่ง,407115
+407116,"The Command Truck is quite vulnerable while moving, so guard it carefullly.",รถบังคับการ ค่อนข้างเสี่ยงในขณะเคลื่อนที่ ดังนั้นควรระวังให้ดี,บทเรียน/เทรนนิ่ง,407116
+407117,"Now that the HQ is within the munitions sector, we'll need to deploy it to secure the territory.",ตอนนี้กองบัญชาการอยู่ในแผนกอาวุธยุทโธปกรณ์แล้ว เราจะต้องจัดกำลังเพื่อรักษาความปลอดภัยอาณาเขต,บทเรียน/เทรนนิ่ง,407117
+407118,Left-Click on the flashing button to SET UP your Command Truck.,คลิกซ้ายที่ปุ่มกะพริบเพื่อตั้งค่า รถบังคับการ ของคุณ,บทเรียน/เทรนนิ่ง,407118
+407119,LEFT-CLICK on the indicated position within the sector to order your Command Truck to begin setting up there.,คลิกซ้ายบนตำแหน่งที่ระบุภายในเซกเตอร์เพื่อสั่งให้ รถบังคับการ ของคุณเริ่มตั้งค่าที่นั่น,บทเรียน/เทรนนิ่ง,407119
+407120,You have set up your Command Truck in the wrong territory. Pack it up and try setting it up within the munitions sector.,คุณได้ตั้งค่า รถบังคับการ ของคุณในเขตที่ไม่ถูกต้อง บรรจุมันและลองตั้งค่าในส่วนอาวุธยุทโธปกรณ์,บทเรียน/เทรนนิ่ง,407120
+407121,You have stopped setting up your Command Truck.,คุณได้หยุดการตั้งค่า รถบังคับการ ของคุณแล้ว,บทเรียน/เทรนนิ่ง,407121
+407122,"Excellent, you have successfully deployed your Command Truck.",เยี่ยมมาก คุณส่งกำลังรบ รถบังคับการ ของคุณสำเร็จแล้ว,บทเรียน/เทรนนิ่ง,407122
+407123,Notice that the territory has stopped flashing. Your territory is now back in supply. ,สังเกตว่าอาณาเขตหยุดกระพริบแล้ว ดินแดนของคุณกลับมามีอุปทานแล้ว,บทเรียน/เทรนนิ่ง,407123
+407124,Your munitions resource rate has improved dramatically as well.,อัตราทรัพยากรอาวุธยุทโธปกรณ์ของคุณได้รับการปรับปรุงอย่างมากเช่นกัน,บทเรียน/เทรนนิ่ง,407124
+407125,"With the Command Truck closer to enemy territory, let's build a Machine Gun Nest to help protect it.",เมื่อ รถบังคับการ เข้าใกล้อาณาเขตของศัตรูแล้ว มาสร้างรังปืนกลเพื่อช่วยปกป้องมันกันเถอะ,บทเรียน/เทรนนิ่ง,407125
+407126,Let's secure that Munitions Point now.,ตอนนี้มารักษาความปลอดภัยของ Munitions Point กันเถอะ,บทเรียน/เทรนนิ่ง,407126
+407127,"More importantly, once deployed Command Trucks also secure Territory Sectors.",ที่สำคัญกว่านั้น เมื่อใช้งาน รถบังคับการ แล้วจะรักษาความปลอดภัยของอาณาเขตด้วย,บทเรียน/เทรนนิ่ง,407127
+407128,Good. Command Truck is mobile.,ดี. รถบังคับการ เป็นมือถือ,บทเรียน/เทรนนิ่ง,407128
+407129,Sectors that are not in supply do not generate resources.,ภาคส่วนที่ไม่ได้อยู่ในอุปทานไม่ได้สร้างทรัพยากร,บทเรียน/เทรนนิ่ง,407129
+407150,"To Build a Machine Gun Emplacement, select your Infantry Section now.",หากต้องการสร้างที่วางปืนกล ให้เลือกหมู่ทหารราบของคุณทันที,บทเรียน/เทรนนิ่ง,407150
+407151,Click on the flashing button to access your DEFENSIVE STRUCTURE construction options.,คลิกที่ปุ่มกระพริบเพื่อเข้าถึงตัวเลือกการก่อสร้างโครงสร้างการป้องกันของคุณ,บทเรียน/เทรนนิ่ง,407151
+407152,Left-Click on the MACHINE GUN EMPLACEMENT button.,คลิกซ้ายที่ปุ่มตำแหน่งปืนกล,บทเรียน/เทรนนิ่ง,407152
+407153,Position the emplacement by Left-Clicking on the indicated location.,วางตำแหน่งโดยคลิกซ้ายบนตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,407153
+407156,Good. However your MG Emplacement is facing the wrong way. Let's try once more. The emplacement should face in the direction of the indicated arrow.,ดี. อย่างไรก็ตาม MG Emplacement ของคุณกำลังหันหน้าไปทางที่ผิด เรามาลองอีกครั้งหนึ่ง ตำแหน่งควรหันไปในทิศทางของลูกศรที่ระบุ,บทเรียน/เทรนนิ่ง,407156
+407157,British Infantry can also build structures like Mortar Pits or Casualty Clearing Stations.,ทหารราบอังกฤษยังสามารถสร้างสิ่งปลูกสร้างอย่างเช่น หลุมปืนครก หรือสถานีส่งกลับสายแพทย์ ได้อีกด้วย,บทเรียน/เทรนนิ่ง,407157
+407159,"British Infantry are quite particular about their tea, the best teas come from India and are steeped loose leaf. Good tea will keep their morale high.",ทหารราบอังกฤษค่อนข้างเฉพาะเจาะจงเกี่ยวกับชาของพวกเขา ชาที่ดีที่สุดมาจากอินเดียและมีใบหลวมที่ชุ่มฉ่ำ ชาที่ดีจะทำให้ขวัญกำลังใจของพวกเขาสูง,บทเรียน/เทรนนิ่ง,407159
+407160,"To provide additional protection for our troops, let's build a SLIT TRENCH.",เพื่อให้การป้องกันเพิ่มเติมแก่กองทหารของเรา มาสร้างร่องลึก SLIT กันดีกว่า,บทเรียน/เทรนนิ่ง,407160
+407161,Set the facing of the Slit Trench as indicated by the arrow.,กำหนดด้านหันหน้าไปทางสนามเพลาะตามลูกศรชี้,บทเรียน/เทรนนิ่ง,407161
+407162,Left-Click on the flashing SLIT TRENCH button.,คลิกซ้ายที่ปุ่ม SLIT TRENCH ที่กระพริบ,บทเรียน/เทรนนิ่ง,407162
+407163,Left-Click on the indicated location to place the Slit Trench there.,คลิกซ้ายบนตำแหน่งที่ระบุเพื่อวาง Slit Trench ไว้ตรงนั้น,บทเรียน/เทรนนิ่ง,407163
+407165,Set the facing of the Slit Trench.,ตั้งหันหน้าไปทางสนามเพลาะ,บทเรียน/เทรนนิ่ง,407165
+407166,Good. However your Slit Trench is facing the wrong way. It should face the direction of the arrow. Let's try once more.,ดี. อย่างไรก็ตาม Slit Trench ของคุณกำลังหันหน้าไปทางที่ผิด ควรหันหน้าไปทางลูกศร เรามาลองอีกครั้งหนึ่ง,บทเรียน/เทรนนิ่ง,407166
+407167,"Unique to the British, Slit Trenches are defensive structures that infantry can garrison for additional protection from enemy fire.",Slit Trenches มีเอกลักษณ์เฉพาะในอังกฤษ เป็นสิ่งก่อสร้างป้องกันที่ทหารราบสามารถเข้าประจำการในอาคารได้ เพื่อป้องกันเพิ่มเติมจากการยิงของศัตรู,บทเรียน/เทรนนิ่ง,407167
+407168,"Good. Notice that it is unoccupied after construction is complete. An unoccupied Slit Trench can be garrisoned by anyone, even the enemy.",ดี. สังเกตว่าหลังสร้างเสร็จแล้วมันจะว่างเปล่า สนามเพลาะที่ว่างสามารถให้ใครก็ได้เข้าประจำการได้ แม้แต่ศัตรู,บทเรียน/เทรนนิ่ง,407168
+407170,The enemy has discovered our location! Stand To!,ศัตรูค้นพบตำแหน่งของเราแล้ว! เตรียมพร้อมรบ!,บทเรียน/เทรนนิ่ง,407170
+407171,An MG Emplacement is an excellent defense against attacking infantry.,MG Emplacement เป็นการป้องกันที่ดีเยี่ยมต่อการโจมตีทหารราบ,บทเรียน/เทรนนิ่ง,407171
+407172,Good. Enemy infantry neutralized.,ดี. ทหารราบของศัตรูถูกกำจัดแล้ว,บทเรียน/เทรนนิ่ง,407172
+407173,Get down! Incoming Mortar!,ลง! ครกเข้ามา!,บทเรียน/เทรนนิ่ง,407173
+407174,That Mortar is wreaking havoc on our infantry!,ครกนั้นกำลังสร้างความหายนะให้ทหารราบเรา!,บทเรียน/เทรนนิ่ง,407174
+407175,Order your infantry to garrison that Slit Trench.,สั่งทหารราบของคุณไปรักษาการณ์ที่ Slit Trench,บทเรียน/เทรนนิ่ง,407175
+407177,Good job. Trenches provide extra protection against artillery.,งานดี. สนามเพลาะให้การป้องกันพิเศษจากปืนใหญ่,บทเรียน/เทรนนิ่ง,407177
+407178,Right-Click the Slit Trench to order your infantry to get into it.,คลิกขวาที่ Slit Trench เพื่อสั่งให้ทหารราบของคุณเข้าไป,บทเรียน/เทรนนิ่ง,407178
+407179,Our ground forces are unable to attack that mortar. We'll need to use a Company Commander ability from the ROYAL COMMANDOS to attack it.,กองกำลังภาคพื้นดินของเราไม่สามารถโจมตีครกนั้นได้ เราจำเป็นต้องใช้ความสามารถของผู้บัญชาการกองร้อยจาก ROYAL COMMANDOS เพื่อโจมตีมัน,บทเรียน/เทรนนิ่ง,407179
+407180,You have been granted access to GLIDER-BORNE COMMANDOS.,คุณได้รับสิทธิ์ในการเข้าถึงหน่วยคอมมานโดที่เกิดจาก GLIDER,บทเรียน/เทรนนิ่ง,407180
+407181,"To request a Glider, Left-Click on the GLIDER button.",หากต้องการขอ Glider ให้คลิกซ้ายที่ปุ่ม GLIDER,บทเรียน/เทรนนิ่ง,407181
+407182,Now Left-Click on the indicated position to identify the starting location for your Glider.,ตอนนี้คลิกซ้ายบนตำแหน่งที่ระบุเพื่อระบุตำแหน่งเริ่มต้นสำหรับเครื่องร่อนของคุณ,บทเรียน/เทรนนิ่ง,407182
+407183,Left-Click again to target the desired direction you would like the Glider to land.,คลิกซ้ายอีกครั้งเพื่อกำหนดเป้าหมายไปยังทิศทางที่คุณต้องการให้เครื่องร่อนลง,บทเรียน/เทรนนิ่ง,407183
+407184,You have cancelled the request.,คุณได้ยกเลิกคำขอแล้ว,บทเรียน/เทรนนิ่ง,407184
+407185,Incoming Glider! I hope they were wearing their seatbelts.,เครื่องร่อนที่กำลังเข้ามา! ฉันหวังว่าพวกเขาจะคาดเข็มขัดนิรภัย,บทเรียน/เทรนนิ่ง,407185
+407186,Commandos reporting for duty.,หน่วยคอมมานโดเข้ารายงานตัว,บทเรียน/เทรนนิ่ง,407186
+407187,Order your Commandos to take out that mortar! Remember your tactical training.,สั่งให้หน่วยคอมมานโดของคุณเข้าทำลายปืนครกนั่นซะ! นำการฝึกทางยุทธวิธีมาปรับใช้ด้วย,บทเรียน/เทรนนิ่ง,407187
+407188,Gliders are excellent for attacking positions behind the enemy's front line.,เครื่องร่อนเป็นเลิศในการโจมตีตำแหน่งหลังแนวหน้าของศัตรู,บทเรียน/เทรนนิ่ง,407188
+407189,Good job. Mortar annihilated!  ,งานดี. ครกทำลายล้าง!,บทเรียน/เทรนนิ่ง,407189
+407190,"Now you know about some of the unique aspects of the British. You learned about the Lieutenants and Infantry, Command Trucks, and how to build emplacements.",ตอนนี้คุณรู้เกี่ยวกับแง่มุมที่เป็นเอกลักษณ์ของอังกฤษแล้ว คุณได้เรียนรู้เกี่ยวกับร้อยโทและทหารราบ รถบังคับการ และวิธีการสร้างที่ตั้ง,บทเรียน/เทรนนิ่ง,407190
+407191,"This concludes this training exercise, sir. 3rd Battalion awaits.",จบการฝึกซ้อมครั้งนี้ครับท่าน กองพันที่ 3 รออยู่,บทเรียน/เทรนนิ่ง,407191
+407192,Your Lieutenant is not in the Slit Trench. Select the Lieutenant and Right-Click the trench to order him to get in.,ผู้หมวดของคุณไม่ได้อยู่ในสนามเพลาะ เลือกผู้หมวดและคลิกขวาที่สนามเพลาะเพื่อสั่งให้เขาเข้าไป,บทเรียน/เทรนนิ่ง,407192
+407193,Your squads won't survive in the open against that Mortar. Order them back into the trench.,ทีมของคุณจะไม่รอดจากการเผชิญหน้ากับครกนั้น สั่งให้พวกมันกลับเข้าไปในร่องลึก,บทเรียน/เทรนนิ่ง,407193
+407194,Notice how effective the Mortar is at killing Infantry in the open. Good thing your soldiers are garrisoned in that Slit Trench.,สังเกตว่าครกมีประสิทธิภาพเพียงใดในการสังหารทหารราบในที่โล่ง ยังดีที่ทหารของคุณเข้าประจำการในอาคารอยู่ใน Slit Trench,บทเรียน/เทรนนิ่ง,407194
+407195,Let's take out that Mortar.,เรามาเอาครกนั้นออกไปกันเถอะ,บทเรียน/เทรนนิ่ง,407195
+407196,Look out! More infantry inbound!,ระวัง ทหารราบเข้ามามากขึ้น!,บทเรียน/เทรนนิ่ง,407196
+407198,"Besides the Royal Commandos, the Commonwealth can call in Company Commander support from the Royal Engineers and the Royal Canadian Artillery.",นอกจากหน่วยคอมมานโดแล้ว เครือจักรภพยังสามารถเรียกการสนับสนุนจากกองร้อยจากทหารช่างสนามหลวงและกองปืนใหญ่ของแคนาดาได้,บทเรียน/เทรนนิ่ง,407198
+407503,Select your Panzer Grenadier squad.,เลือกทีม Panzer เกรนาเดียร์ ของคุณ,บทเรียน/เทรนนิ่ง,407503
+407504,Select your Halftrack,เลือกฮาล์ฟแทร็กของคุณ,บทเรียน/เทรนนิ่ง,407504
+407505,Select your Mortar Halftrack.,เลือกรถสายพานกึ่งล้อยางปืนครกของคุณ,บทเรียน/เทรนนิ่ง,407505
+407506,Select your Munitions Halftrack.,เลือกอาวุธยุทโธปกรณ์ของคุณ,บทเรียน/เทรนนิ่ง,407506
+407507,Select your Scout Car.,เลือกรถลาดตระเวน (รถลาดตระเวน) ของคุณ,บทเรียน/เทรนนิ่ง,407507
+407508,Select your Support Panzer.,เลือกยานเกราะสนับสนุนของคุณ,บทเรียน/เทรนนิ่ง,407508
+407509,You have de-selected your squad. LEFT-CLICK on your Panzer Grenadier squad to select it.,คุณได้ยกเลิกการเลือกทีมของคุณ คลิกซ้ายที่หน่วย Panzer เกรนาเดียร์ ของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407509
+407510,You have de-selected your vehicle. LEFT-CLICK on your Halftrack to select it.,คุณได้ยกเลิกการเลือกรถของคุณ คลิกซ้ายบน รถสายพานกึ่งล้อยาง ของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407510
+407511,You have de-selected your vehicle. LEFT-CLICK on your Mortar Halftrack to select it.,คุณได้ยกเลิกการเลือกรถของคุณ คลิกซ้ายบน Mortar รถสายพานกึ่งล้อยาง ของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407511
+407512,You have de-selected your vehicle. LEFT-CLICK on your Munitions Halftrack to select it.,คุณได้ยกเลิกการเลือกรถของคุณ คลิกซ้ายที่ Munitions รถสายพานกึ่งล้อยาง ของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407512
+407513,You have de-selected your vehicle. LEFT-CLICK on your Scout Car to select it.,คุณได้ยกเลิกการเลือกยานพาหนะ คลิกซ้ายที่รถลาดตระเวนของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407513
+407514,You have de-selected your tank. LEFT-CLICK on your Support Panzer to select it.,คุณได้ยกเลิกการเลือกรถถังของคุณ คลิกซ้ายบน Support Panzer ของคุณเพื่อเลือก,บทเรียน/เทรนนิ่ง,407514
+407550,"Welcome to training, Kampfgruppe Lehr is standing by.",ยินดีต้อนรับสู่การฝึกซ้อม คัมฟ์กรุปเป้ Lehr อยู่ข้างๆ,บทเรียน/เทรนนิ่ง,407550
+407551,"During this exercise, you will learn about the unique aspects of the Panzer Elite and their arsenal of vehicles.",ในระหว่างการฝึกซ้อมนี้ คุณจะได้เรียนรู้เกี่ยวกับลักษณะเฉพาะของยานเกราะชั้นยอดและคลังแสงของยานพาหนะ,บทเรียน/เทรนนิ่ง,407551
+407552,"You'll learn how to attack from halftracks, to capture and secure territory with vehicles, to resupply with the Munitions Halftrack, and to lock-down vehicles.","คุณจะได้เรียนรู้วิธีการโจมตีจาก รถสายพานกึ่งล้อยาง, การยึดครองและรักษาดินแดนด้วยยานพาหนะ, การเสบียงด้วย Munitions รถสายพานกึ่งล้อยาง และการล็อคยานพาหนะ",บทเรียน/เทรนนิ่ง,407552
+407553,Let's start by upgrading a squad of Panzer Grenadiers with Panzerschrecks.,เริ่มต้นด้วยการอัพเกรดทีม แพนเซอร์เกรนาเดียร์ ด้วย Panzerschrecks,บทเรียน/เทรนนิ่ง,407553
+407554,Kampfgruppe Lehr has heard reports of enemy infantry in the area.  We need to scout their position.,คัมฟ์กรุปเป้ Lehr เคยได้ยินรายงานเกี่ยวกับทหารราบของศัตรูในพื้นที่ เราจำเป็นต้องสอดแนมตำแหน่งของพวกเขา,บทเรียน/เทรนนิ่ง,407554
+407556,LEFT-CLICK on the flashing button on the Command Panel to upgrade the squad with a Panzerschreck.,คลิกซ้ายที่ปุ่มกะพริบบนแผงคำสั่งเพื่ออัพเกรดหน่วยด้วย Panzerschreck,บทเรียน/เทรนนิ่ง,407556
+407557,"Panzer Grenadiers are the backbone of any Panzer Elite army, they are versatile and able to respond to any enemy threats.",แพนเซอร์เกรนาเดียร์ เป็นกระดูกสันหลังของกองทัพยานเกราะชั้นยอดพวกมันมีความสามารถรอบด้านและสามารถตอบสนองต่อภัยคุกคามของศัตรูได้,บทเรียน/เทรนนิ่ง,407557
+407558,"Good job, you successfully upgraded your Panzer Grenadier squad.",เยี่ยมมาก คุณอัปเกรดทีม Panzer เกรนาเดียร์ ของคุณสำเร็จแล้ว,บทเรียน/เทรนนิ่ง,407558
+407559,"Garrison that Halftrack, we need to move out.",เข้าประจำการในรถสายพานกึ่งล้อยาง เราต้องเคลื่อนพล,บทเรียน/เทรนนิ่ง,407559
+407560,RIGHT-CLICK the Halftrack to order your Panzer Grenadiers to get inside.,คลิกขวาที่ รถสายพานกึ่งล้อยาง เพื่อสั่งให้ แพนเซอร์เกรนาเดียร์ ของคุณเข้าไปข้างใน,บทเรียน/เทรนนิ่ง,407560
+407561,Panzer Elite infantry garrisoned in open-topped vehicles can shoot out the back with any equipped weapons.,ทหารราบยานเกราะชั้นยอดที่ประจำการอยู่ในยานพาหนะเปิดประทุนสามารถยิงไปทางด้านหลังด้วยอาวุธที่ติดตั้งไว้,บทเรียน/เทรนนิ่ง,407561
+407562,Halftrack and Panzer Grenadiers are ready for action.,รถสายพานกึ่งล้อยาง และ แพนเซอร์เกรนาเดียร์ พร้อมออกปฏิบัติการแล้ว,บทเรียน/เทรนนิ่ง,407562
+407563,Your Panzer Grenadiers have vacated the halftrack. Order them back into the halftrack.,แพนเซอร์เกรนาเดียร์ ของคุณได้ออกจากครึ่งทางแล้ว สั่งให้พวกมันกลับเข้าสู่ครึ่งทาง,บทเรียน/เทรนนิ่ง,407563
+407564,"The Panzer Grenadiers are not only transported with the vehicle, but they add additional firepower to the halftrack's own machine gun.",แพนเซอร์เกรนาเดียร์ ไม่เพียงแต่ขนส่งมาพร้อมกับยานพาหนะเท่านั้น แต่ยังเพิ่มอำนาจการยิงเพิ่มเติมให้กับปืนกลของ halftrack อีกด้วย,บทเรียน/เทรนนิ่ง,407564
+407565,Notice that one of the squad members is carrying a Panzerschreck.,โปรดสังเกตว่าหนึ่งในสมาชิกหน่วยกำลังถือ Panzerschreck,บทเรียน/เทรนนิ่ง,407565
+407566,Enemy infantry spotted. Move out and attack them.,พบทหารราบศัตรู เคลื่อนตัวออกไปโจมตีพวกเขา,บทเรียน/เทรนนิ่ง,407566
+407567,Order your halftrack to attack the indicated squad by RIGHT-CLICKING on it.,สั่งให้ฮาล์ฟแทร็กของคุณโจมตีทีมที่ระบุโดยคลิกขวาที่มัน,บทเรียน/เทรนนิ่ง,407567
+407568,Panzerschreck opening fire!,ยานเกราะเปิดฉาก!,บทเรียน/เทรนนิ่ง,407568
+407569,Enemy infantry defeated!  ,ทหารราบศัตรูพ่ายแพ้!,บทเรียน/เทรนนิ่ง,407569
+407570,Look out! Counter-attack!,ระวัง ตอบโต้!,บทเรียน/เทรนนิ่ง,407570
+407571,"We're taking too much damage, we need more firepower! Get a grenade on that infantry.",เราได้รับความเสียหายมากเกินไป เราต้องการอำนาจการยิงมากกว่านี้! รับระเบิดใส่ทหารราบนั้น,บทเรียน/เทรนนิ่ง,407571
+407572,Additional reinforcements available. Select the new Panzer Grenadier squad.,กำลังเสริมเพิ่มเติมที่มีอยู่ เลือกทีม Panzer เกรนาเดียร์ ใหม่,บทเรียน/เทรนนิ่ง,407572
+407573,LEFT-CLICK the flashing button to UNLOAD your squad from the Halftrack.,คลิกปุ่มกระพริบทางซ้ายเพื่อยกเลิกการโหลดทีมของคุณจาก รถสายพานกึ่งล้อยาง,บทเรียน/เทรนนิ่ง,407573
+407574,LEFT-CLICK on the the flashing GRENADE ICON in the Command Panel.,คลิกซ้ายที่ไอคอนระเบิดที่กะพริบในแผงคำสั่ง,บทเรียน/เทรนนิ่ง,407574
+407575,"Target the infantry, and LEFT-CLICK on them to throw the grenade.",กำหนดเป้าหมายทหารราบ และคลิกซ้ายที่ทหารราบเพื่อขว้างระเบิดมือ,บทเรียน/เทรนนิ่ง,407575
+407576,Excellent!,ยอดเยี่ยม!,บทเรียน/เทรนนิ่ง,407576
+407577,"Panzer Grenadiers use INCENDIARY GRENADES. These grenades don't do much initial damage, but entrenched squads will burn if they stay put.",แพนเซอร์เกรนาเดียร์ ใช้ระเบิดเพลิง ระเบิดเหล่านี้สร้างความเสียหายได้ไม่มากในช่วงแรก แต่หน่วยที่ยึดที่มั่นจะไหม้หากพวกมันยังคงอยู่,บทเรียน/เทรนนิ่ง,407577
+407579,You missed! Try again!,คุณพลาด! ลองอีกครั้ง!,บทเรียน/เทรนนิ่ง,407579
+407580,Enemy infantry neutralized!,ทหารราบศัตรูถูกกำจัดแล้ว!,บทเรียน/เทรนนิ่ง,407580
+407581,"First, LEFT-CLICK on the Panzer Grenadier squad to select them.",ขั้นแรก คลิกซ้ายที่ทีม Panzer เกรนาเดียร์ เพื่อเลือก,บทเรียน/เทรนนิ่ง,407581
+407582,Good. Notice that your Panzer Grenadiers have taken up positions in the back.,ดี. โปรดสังเกตว่า แพนเซอร์เกรนาเดียร์ ของคุณเข้ารับตำแหน่งที่ด้านหลัง,บทเรียน/เทรนนิ่ง,407582
+407583,"The Panzerschreck is an excellent Anti Tank weapon, but slow to fire.",Panzerschreck เป็นอาวุธต่อต้านรถถังที่ยอดเยี่ยม แต่ยิงช้า,บทเรียน/เทรนนิ่ง,407583
+407584,They also provide basic logistical support through building base structures and repairing damaged vehicles.,พวกเขายังให้การสนับสนุนด้านลอจิสติกส์ขั้นพื้นฐานผ่านการสร้างโครงสร้างพื้นฐานและการซ่อมแซมยานพาหนะที่เสียหาย,บทเรียน/เทรนนิ่ง,407584
+407585,Good. Your Panzer Grenadiers have left the halftrack.,ดี. แพนเซอร์เกรนาเดียร์ ของคุณออกจากครึ่งทางแล้ว,บทเรียน/เทรนนิ่ง,407585
+407600,Recon reports an enemy infantry squad occupying a nearby Slit Trench.,หน่วยลาดตระเวนรายงานหมู่ทหารราบของศัตรูที่ยึดครองสนามเพลาะที่อยู่ใกล้เคียง,บทเรียน/เทรนนิ่ง,407600
+407601,Recon reports an enemy infantry squad occupying a nearby Building.,หน่วยลาดตระเวนรายงานหมู่ทหารราบของศัตรูที่ยึดครองอาคารใกล้เคียง,บทเรียน/เทรนนิ่ง,407601
+407602,Recon reports an entrenched infantry squad up ahead.,รีคอนรายงานหมู่ทหารราบที่ยึดที่มั่นอยู่ข้างหน้า,บทเรียน/เทรนนิ่ง,407602
+407603,Let's take them out.,มาพาพวกเขาออกไปกันเถอะ,บทเรียน/เทรนนิ่ง,407603
+407604,This is a MORTAR HALFTRACK. This mobile artillery vehicle is quite effective at dealing with entrenched infantry.,นี่คือครกฮาล์ฟแทร็ก ยานเกราะปืนใหญ่เคลื่อนที่นี้ค่อนข้างมีประสิทธิภาพในการรับมือกับทหารราบที่ยึดที่มั่น,บทเรียน/เทรนนิ่ง,407604
+407605,Order the Mortar Halftrack to fire an incendiary barrage at the enemy infantry squad.,สั่งให้รถสายพานกึ่งล้อยางปืนครก ยิงกระสุนเพลิงถล่มหมู่ทหารราบศัตรู,บทเรียน/เทรนนิ่ง,407605
+407606,Left-Click on the flashing INCENDIARY MORTAR button.,คลิกซ้ายที่ปุ่ม INNCENDIARY MORTAR ที่กะพริบ,บทเรียน/เทรนนิ่ง,407606
+407607,"Good, now Left-Click on the enemy squad to target it.",ดี ตอนนี้คลิกซ้ายที่ทีมศัตรูเพื่อกำหนดเป้าหมาย,บทเรียน/เทรนนิ่ง,407607
+407608,Excellent! Bombardment underway.,ยอดเยี่ยม! กำลังระดมโจมตี.,บทเรียน/เทรนนิ่ง,407608
+407609,"Good. However, you missed the enemy. Try it again, but target the infantry squad this time.",ดี. อย่างไรก็ตาม คุณพลาดศัตรู ลองอีกครั้ง แต่คราวนี้กำหนดเป้าหมายไปที่หมู่ทหารราบ,บทเรียน/เทรนนิ่ง,407609
+407610,You'll notice your barrage was only marginally effective. Several more barrages are needed to fully defeat the enemy squad.,คุณจะสังเกตเห็นว่าการโจมตีของคุณมีประสิทธิภาพเพียงเล็กน้อยเท่านั้น จำเป็นต้องมีการโจมตีอีกหลายครั้งเพื่อเอาชนะทีมศัตรูได้อย่างเต็มที่,บทเรียน/เทรนนิ่ง,407610
+407611,"Look at the Incendiary Barrage button, the ability has a long recharge time, preventing you from issuing additional barrages.",ดูที่ปุ่ม Incendiary ยิงปูพรม ความสามารถนี้ใช้เวลาชาร์จนาน ทำให้คุณไม่สามารถสร้างกระสุนเพิ่มเติมได้,บทเรียน/เทรนนิ่ง,407611
+407612,"Let's call in resupply support, the MUNITIONS HALFTRACK.",มาเรียกฝ่ายสนับสนุนกำลังเสริม MUNITIONS HALFTRACK กันเถอะ,บทเรียน/เทรนนิ่ง,407612
+407613,This vehicle resupplies nearby units by greatly reducing the recharge time of their abilities.,พาหนะนี้จะเติมเสบียงให้กับยูนิตใกล้เคียงโดยลดเวลาการชาร์จความสามารถลงอย่างมาก,บทเรียน/เทรนนิ่ง,407613
+407614,Order the Munitions Halftrack to move closer to your Mortar Halftrack.,สั่งให้ Munitions รถสายพานกึ่งล้อยาง เคลื่อนเข้าใกล้ Mortar รถสายพานกึ่งล้อยาง ของคุณมากขึ้น,บทเรียน/เทรนนิ่ง,407614
+407615,The Munitions Halftrack is not close enough to the Mortar Halftrack. Move it closer.,Munitions รถสายพานกึ่งล้อยาง ไม่ได้อยู่ใกล้เพียงพอกับ Mortar รถสายพานกึ่งล้อยาง ขยับมันมาใกล้ๆ.,บทเรียน/เทรนนิ่ง,407615
+407616,Good. The Munitions Halftrack is within resupply range. This is indicated by the symbol above the Mortar Halftrack.,ดีมาก รถสายพานกึ่งล้อยางส่งกำลังกระสุน อยู่ในระยะการเติมเสบียงแล้ว ซึ่งสังเกตได้จากสัญลักษณ์เหนือรถสายพานกึ่งล้อยางปืนครก,บทเรียน/เทรนนิ่ง,407616
+407617,Notice the Incendiary Mortar ability recharges faster if the Munitions Halftrack is nearby.,สังเกตว่าความสามารถยิงปืนครกกระสุนเพลิง จะคูลดาวน์เร็วขึ้นเมื่อมีรถส่งกำลังกระสุนอยู่ใกล้ๆ,บทเรียน/เทรนนิ่ง,407617
+407618,Notice the Incendiary Mortar ability. It is fully charged and ready to fire.,สังเกตความสามารถยิงปืนครกกระสุนเพลิง ขณะนี้พร้อมใช้งานแล้ว,บทเรียน/เทรนนิ่ง,407618
+407619,Order the halftrack to barrage the infantry with incendiary rounds again.,สั่งให้รถสายพานกึ่งล้อยางระดมยิงใส่ทหารราบด้วยกระสุนเพลิงอีกครั้ง,บทเรียน/เทรนนิ่ง,407619
+407620,Notice that the ability recharges almost instantly now.,โปรดสังเกตว่าความสามารถนี้ชาร์จเกือบจะทันทีแล้ว,บทเรียน/เทรนนิ่ง,407620
+407621,Continue to barrage the enemy squad until they are defeated.,ระดมยิงใส่หมู่รบข้าศึกต่อไปจนกว่าพวกมันจะถูกทำลาย,บทเรียน/เทรนนิ่ง,407621
+407622,"Excellent job, infantry neutralized!",ทำได้ดีมาก ทหารราบถูกกำจัดแล้ว!,บทเรียน/เทรนนิ่ง,407622
+407623,"Since your Mortar Halftrack is mobile, you will want the Munitions Halftrack to MAINTAIN SUPPORT RANGE.",เนื่องจากรถสายพานกึ่งล้อยางปืนครกของคุณเคลื่อนที่ได้ คุณจึงควรรักษาระยะสนับสนุนของรถส่งกำลังกระสุนไว้,บทเรียน/เทรนนิ่ง,407623
+407624,Order the Munitions Halftrack to follow the Mortar Halftrack.,สั่งให้รถส่งกำลังกระสุนเคลื่อนที่ติดตามรถสายพานกึ่งล้อยางปืนครก,บทเรียน/เทรนนิ่ง,407624
+407625,Left-Click on the flashing button then LEFT-CLICK on the Mortar Halftrack to follow it.,คลิกซ้ายที่ปุ่มกะพริบ จากนั้นคลิกซ้ายที่รถสายพานกึ่งล้อยางปืนครกเพื่อติดตาม,บทเรียน/เทรนนิ่ง,407625
+407626,You did not target the Mortar Halftrack! Re-select the Munitions Halftrack and try again.,คุณไม่ได้เล็งเป้าไปที่รถสายพานกึ่งล้อยางปืนครก! เลือกรถส่งกำลังกระสุนใหม่อีกครั้งแล้วลองดู,บทเรียน/เทรนนิ่ง,407626
+407627,Good. An ICON has appeared above the Munitions Halftrack to indicate that it is following the Mortar Halftrack.,ดีมาก ไอคอนปรากฏขึ้นเหนือรถส่งกำลังกระสุน แสดงว่ากำลังติดตามรถสายพานกึ่งล้อยางปืนครกแล้ว,บทเรียน/เทรนนิ่ง,407627
+407628,Enemy Patrol spotted!,หน่วยลาดตระเวนศัตรูพบเห็นแล้ว!,บทเรียน/เทรนนิ่ง,407628
+407629,Use your INCENDIARY BARRAGE to take them out.,ใช้การระดมยิงกระสุนเพลิงเพื่อกวาดล้างพวกมันออกไป,บทเรียน/เทรนนิ่ง,407629
+407630,"Because your Munitions Halftrack is linked to the Mortar Halftrack, it follows it closely to continue resupplying.",เนื่องจากรถส่งกำลังกระสุนของคุณเชื่อมโยงกับรถสายพานกึ่งล้อยางปืนครกแล้ว มันจึงติดตามอย่างใกล้ชิดเพื่อเติมกระสุนอย่างต่อเนื่อง,บทเรียน/เทรนนิ่ง,407630
+407631,"Excellent, enemy partrol is down.",เยี่ยมมาก เสียงลาดตระเวนของศัตรูลดลงแล้ว,บทเรียน/เทรนนิ่ง,407631
+407632,At some point you may want to break the link between your Mortar and Munitions Halftracks.,หากคุณต้องการยกเลิกการติดตามระหว่างรถสายพานปืนครกกับรถส่งกำลังกระสุน,บทเรียน/เทรนนิ่ง,407632
+407633,This is done by simply ordering your Munitions Halftrack to move without selecting the Mortar Halftrack.,ทำได้ง่ายๆ โดยสั่งให้รถส่งกำลังกระสุนเคลื่อนที่โดยไม่ต้องคลิกเลือกที่รถสายพานปืนครก,บทเรียน/เทรนนิ่ง,407633
+407634,"Good job, your Munitions Halftrack has stopped following the other Halftrack.",เยี่ยมมาก Munitions รถสายพานกึ่งล้อยาง ของคุณหยุดติดตาม รถสายพานกึ่งล้อยาง อีกอันแล้ว,บทเรียน/เทรนนิ่ง,407634
+407635,Good. The Munitions Halftrack is within resupply range.,ดี. Munitions รถสายพานกึ่งล้อยาง อยู่ในระยะการเติมเสบียง,บทเรียน/เทรนนิ่ง,407635
+407650,"For our next objective, let's capture and secure a territory.",สำหรับวัตถุประสงค์ต่อไปของเรา มายึดครองและรักษาดินแดนกันเถอะ,บทเรียน/เทรนนิ่ง,407650
+407651,"This is the SCOUT CAR, a Panzer Elite vehicle that can CAPTURE Strategic Points.",นี่คือ SCOUT CAR ซึ่งเป็นยานพาหนะยานเกราะชั้นยอดที่สามารถยึดคะแนนเชิงกลยุทธ์ได้,บทเรียน/เทรนนิ่ง,407651
+407653,Order the Scout Car to CAPTURE the indicated STRATEGIC POINT by RIGHT-CLICKING it.,สั่งให้รถลาดตระเวนเข้ายึดจุดยุทธศาสตร์ที่ระบุด้วยการคลิกขวา,บทเรียน/เทรนนิ่ง,407653
+407654,You have stopped capturing the Strategic Point.,คุณหยุดยึดจุดยุทธศาสตร์แล้ว,บทเรียน/เทรนนิ่ง,407654
+407655,"The Scout Car is an excellent recon vehicle. Armed with an MG42 light machine gun, it is excellent for defeating lightly equipped infantry squads.",รถลาดตระเวน เป็นรถรีคอนที่ยอดเยี่ยม ติดอาวุธด้วยปืนกลเบา MG42 มันยอดเยี่ยมในการเอาชนะหมู่ทหารราบที่มีอาวุธเบา,บทเรียน/เทรนนิ่ง,407655
+407656,"Good job, the sector is now in our control. Now time to secure it.",ทำได้ดีมาก ตอนนี้ภาคส่วนนี้อยู่ในการควบคุมของเราแล้ว ตอนนี้ถึงเวลารักษาความปลอดภัยแล้ว,บทเรียน/เทรนนิ่ง,407656
+407658,"To secure this sector, you'll need to upgrade your Scout Car first.",เพื่อรักษาความปลอดภัยให้กับภาคส่วนนี้ คุณจะต้องอัปเกรด รถลาดตระเวน ของคุณก่อน,บทเรียน/เทรนนิ่ง,407658
+407659,LEFT-CLICK on the flashing button to equip this vehicle with LOGISTIK SUPPORT.,คลิกซ้ายบนปุ่มกะพริบเพื่อติดตั้ง LOGISTIK SUPPORT ให้กับรถคันนี้,บทเรียน/เทรนนิ่ง,407659
+407660,"With this Logistik Support upgrade, the Scout Car is able to secure territory.",ด้วยการอัปเกรด Logistik Support นี้ รถลาดตระเวน จึงสามารถรักษาอาณาเขตได้,บทเรียน/เทรนนิ่ง,407660
+407661,Good. The radio antenna now attached to the roof of your Scout Car indicates that it has been upgraded to a LOGISTIK CAR. ,ดี. เสาอากาศวิทยุที่ติดอยู่กับหลังคารถ รถลาดตระเวน ของคุณบ่งบอกว่าได้รับการอัปเกรดเป็น LOGISTIK CAR แล้ว,บทเรียน/เทรนนิ่ง,407661
+407662,Your Scout Car has is not in the captured territory. Order the Scout Car to move to the indicated position.,รถลาดตระเวนของคุณไม่ได้อยู่ในอาณาเขตที่ยึดไว้ สั่งให้รถลาดตระเวนเคลื่อนที่ไปยังตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,407662
+407663,LEFT-CLICK on the flashing button to SECURE this SECTOR.,คลิกซ้ายที่ปุ่มกระพริบเพื่อรักษาภาคส่วนนี้,บทเรียน/เทรนนิ่ง,407663
+407664,"Good job, the territory is now secure.",ทำได้ดีมาก ดินแดนตอนนี้ปลอดภัยแล้ว,บทเรียน/เทรนนิ่ง,407664
+407665,Notice that a Scout Car securing territory is immobile.,โปรดสังเกตว่าการรักษาความปลอดภัยอาณาเขตของ รถลาดตระเวน นั้นไม่สามารถเคลื่อนที่ได้,บทเรียน/เทรนนิ่ง,407665
+407666,"To mobilize the Scout Car, Left-Click on the Secure Sector button again. However, the territory will no longer be secured.",หากต้องการระดมรถ รถลาดตระเวน ให้คลิกซ้ายที่ปุ่ม Secure Sector อีกครั้ง อย่างไรก็ตาม ดินแดนดังกล่าวจะไม่ได้รับการรักษาความปลอดภัยอีกต่อไป,บทเรียน/เทรนนิ่ง,407666
+407667,Now that the territory is captured and secure. We need to bring in some heavier weapons to protect the Scout Car.,เมื่อยึดและควบคุมอาณาเขตได้ปลอดภัยแล้ว เราจำเป็นต้องนำอาวุธที่หนักกว่านี้เข้ามาคุ้มกันรถลาดตระเวน,บทเรียน/เทรนนิ่ง,407667
+407668,"This is a Panzer IV F Infantry Support Tank, affectionately referred to as the ""Stubby"", for its short cannon. ","นี่คือรถถังสนับสนุนทหารราบ Panzer IV F หรือที่เรียกกันติดปากว่า ""Stubby"" เนื่องจากปืนใหญ่ขนาดสั้น",บทเรียน/เทรนนิ่ง,407668
+407669,Order the Panzer to move to the indicated position within the captured territory.,สั่งให้ยานเกราะเคลื่อนไปยังตำแหน่งที่ระบุภายในอาณาเขตที่ถูกยึด,บทเรียน/เทรนนิ่ง,407669
+407670,Achtung! Incoming enemy.,อัคตุง! ศัตรูที่เข้ามา,บทเรียน/เทรนนิ่ง,407670
+407671,Notice the Panzer's slow rate of fire.,สังเกตอัตราการยิงที่ช้าของแพนเซอร์,บทเรียน/เทรนนิ่ง,407671
+407672,You can increase its rate of fire by using its RAPID FIRE ability.,คุณสามารถเพิ่มอัตราการยิงได้โดยใช้ความสามารถ RAPID FIRE,บทเรียน/เทรนนิ่ง,407672
+407673,LEFT-CLICK on the flashing RAPID FIRE button to lock the Panzer down.,คลิกซ้ายที่ปุ่ม RAPID FIRE ที่กะพริบเพื่อล็อค Panzer,บทเรียน/เทรนนิ่ง,407673
+407674,"Good job, the Panzer is able to fire more quickly, however, it is now locked down and cannot move.",เยี่ยมมาก Panzer สามารถยิงได้เร็วกว่า แต่ตอนนี้มันถูกล็อคไว้และไม่สามารถเคลื่อนที่ได้,บทเรียน/เทรนนิ่ง,407674
+407675,Another squad is attacking our position.,อีกหน่วยกำลังโจมตีตำแหน่งของเรา,บทเรียน/เทรนนิ่ง,407675
+407677,"Many vehicles in the Panzer Elite have the ability to Lock Down. However, the benefits differ from vehicle to vehicle.",ยานพาหนะหลายคันในยานเกราะชั้นยอดมีความสามารถในการล็อคดาวน์ อย่างไรก็ตาม สิทธิประโยชน์จะแตกต่างกันไปในแต่ละรถ,บทเรียน/เทรนนิ่ง,407677
+407678,"As a Panzer Elite commander, knowing when to sacrfice mobilty for firepower is crucial for victory.",ในฐานะผู้บัญชาการยานเกราะชั้นยอดการรู้ว่าเมื่อใดควรสละความคล่องตัวเพื่ออำนาจการยิงเป็นสิ่งสำคัญสำหรับชัยชนะ,บทเรียน/เทรนนิ่ง,407678
+407679,To re-mobilize the Panzer. Left-Click on the Rapid Fire button again.,เพื่อระดมพลยานเกราะอีกครั้ง คลิกซ้ายที่ปุ่ม ยิงเร็ว อีกครั้ง,บทเรียน/เทรนนิ่ง,407679
+407680,"Good job, you can now move your Panzer.",เยี่ยมมาก ตอนนี้คุณสามารถเคลื่อนรถแพนเซอร์ของคุณได้แล้ว,บทเรียน/เทรนนิ่ง,407680
+407681,Notice your Panzer was promoted to VETERAN status.,สังเกตว่า Panzer ของคุณได้รับการเลื่อนสถานะเป็น VETERAN,บทเรียน/เทรนนิ่ง,407681
+407682,"When Panzer Elite squads and vehicles gain Veterancy, this unlocks two special skills allowing you to customize the combat effectiveness of the unit.",เมื่อทีมและยานพาหนะยานเกราะชั้นยอดได้รับ Veterancy สิ่งนี้จะปลดล็อคทักษะพิเศษสองทักษะที่ให้คุณปรับแต่งประสิทธิภาพการต่อสู้ของหน่วยได้,บทเรียน/เทรนนิ่ง,407682
+407683,"In the Command Panel, there are two VETERANCY buttons.",ในแผงคำสั่ง จะมีปุ่ม VETERANCY สองปุ่ม,บทเรียน/เทรนนิ่ง,407683
+407684,"The first ability boosts the unit's OFFENSIVE power, the second, its DEFENSIVE power. ",ความสามารถแรกจะเพิ่มพลังโจมตีของยูนิต ความสามารถที่สองคือพลังป้องกัน,บทเรียน/เทรนนิ่ง,407684
+407685,"With each rank of Veterancy, you can choose which ability to apply to the unit.",ด้วยแต่ละระดับของ Veterancy คุณสามารถเลือกความสามารถที่จะนำไปใช้กับหน่วยได้,บทเรียน/เทรนนิ่ง,407685
+407686,Left-Click on one of the flashing buttons to apply the bonus.,คลิกซ้ายที่ปุ่มกระพริบปุ่มใดปุ่มหนึ่งเพื่อใช้โบนัส,บทเรียน/เทรนนิ่ง,407686
+407687,Good. Your Panzer has been granted an Offensive Veterancy bonus.,ดี. Panzer ของคุณได้รับโบนัส Offensive Veterancy,บทเรียน/เทรนนิ่ง,407687
+407688,Intel reports approaching tanks!,Intel รายงานรถถังใกล้เข้ามาแล้ว!,บทเรียน/เทรนนิ่ง,407688
+407689,The Panzer IV F's gun is no match for the heavy British Armor. Time to call in the Luftwaffe Company Commander.,ปืนของ Panzer IV F นั้นเทียบไม่ได้กับเกราะหนักของอังกฤษ ถึงเวลาเรียกผู้บัญชาการกองร้อยกองทัพบกแล้ว,บทเรียน/เทรนนิ่ง,407689
+407690,You have been granted access to the HENSCHEL STRAFING RUN. It is a very effective Anti Tank air strike.,คุณได้รับสิทธิ์เข้าถึง HENSCHEL STRAFING RUN เป็นการโจมตีทางอากาศต่อต้านรถถังที่มีประสิทธิภาพมาก,บทเรียน/เทรนนิ่ง,407690
+407692,Left-Click on the flashing HENSCHEL STRAFING ability button.,คลิกซ้ายที่ปุ่มความสามารถของ HENSCHEL STRAFING ที่กะพริบ,บทเรียน/เทรนนิ่ง,407692
+407693,"Now, Left-Click to target the indicated position for Air Strikes.",ตอนนี้ คลิกซ้ายเพื่อกำหนดเป้าหมายตำแหน่งที่ระบุสำหรับการโจมตีทางอากาศ,บทเรียน/เทรนนิ่ง,407693
+407694,"Now, Left-Click to target the indicated Tank for Air Strikes.",ตอนนี้ คลิกซ้ายเพื่อกำหนดเป้าหมายรถถังที่ระบุสำหรับการโจมตีทางอากาศ,บทเรียน/เทรนนิ่ง,407694
+407695,"With this ability, Henschel Aircraft will fly-by the target location, targeting all enemies within their flight path.",ด้วยความสามารถนี้ Henschel Aircraft จะบินผ่านสถานที่เป้าหมาย โดยกำหนดเป้าหมายศัตรูทั้งหมดที่อยู่ในเส้นทางการบินของพวกเขา,บทเรียน/เทรนนิ่ง,407695
+407696,The Panzer Elite have two other Company Commanders besides the Luftwaffe. These specialize in Scorched Earth and Tank Destroyer Tactics.,ยานเกราะชั้นยอดมีผู้บัญชาการกองร้อยอีกสองคน นอกเหนือจาก Luftwaffe สิ่งเหล่านี้เชี่ยวชาญในกลยุทธ์ Scorched Earth และ Tank Destroyer,บทเรียน/เทรนนิ่ง,407696
+407697,Tank threat eliminated!,ภัยคุกคามรถถังหมดสิ้นแล้ว!,บทเรียน/เทรนนิ่ง,407697
+407698,"Now you know about some of the unique aspects to the Panzer Elite. You learned about the three types of Halftracks, infantry and vehicle combat, vehicle capturing and securing, and finally, veterancy and lock down.",ตอนนี้คุณก็รู้ถึงคุณลักษณะเฉพาะของยานเกราะชั้นยอดแล้ว คุณได้เรียนรู้เกี่ยวกับ รถสายพานกึ่งล้อยาง สามประเภท การรบของทหารราบและยานพาหนะ การยึดและรักษายานพาหนะ และสุดท้าย การเป็นทหารผ่านศึกและการล็อคตัว,บทเรียน/เทรนนิ่ง,407698
+407699,Excellent work. Panzer Elite training complete. Dismissed.,ยอดเยี่ยมมาก การฝึกยานเกราะชั้นยอดเสร็จสมบูรณ์ เลิกแถวได้!,บทเรียน/เทรนนิ่ง,407699
+407700,Excellent. Panzer is in position.,ยอดเยี่ยม. แพนเซอร์อยู่ในตำแหน่ง,บทเรียน/เทรนนิ่ง,407700
+409008,3rd Battalion ,กองพันที่ 3,บทเรียน/เทรนนิ่ง,409008
+409009,Kampfgruppe Lehr,คัมฟ์กรุปเป้ เลห์,บทเรียน/เทรนนิ่ง,409009|1309230|1309255|1309258|1309261|1309264|1309267|1309270|1309273
+409015,DEBUG OPTIONS,ตัวเลือกการแก้ไขข้อบกพร่อง,บทเรียน/เทรนนิ่ง,409015
+409016,Reset the saved progression?,รีเซ็ตความคืบหน้าที่บันทึกไว้หรือไม่,บทเรียน/เทรนนิ่ง,409016
+409017,Reset Profile,รีเซ็ตโปรไฟล์,บทเรียน/เทรนนิ่ง,409017
+409018,Unlock All,ปลดล็อคทั้งหมด,บทเรียน/เทรนนิ่ง,409018
+409021,"Would you like to go through the basics before starting the rest of the training? This will teach you how to select units and give them orders, as well as how to control your camera.",คุณต้องการเรียนรู้ข้อมูลพื้นฐานก่อนเริ่มการฝึกอบรมที่เหลือหรือไม่? นี่จะสอนวิธีเลือกหน่วยและสั่งหน่วย รวมถึงวิธีควบคุมกล้องด้วย,บทเรียน/เทรนนิ่ง,409021
+409023,Skip,ข้าม,บทเรียน/เทรนนิ่ง,409023
+409030,Exit Current Training Session?,ออกจากเซสชันการฝึกอบรมปัจจุบันหรือไม่,บทเรียน/เทรนนิ่ง,409030
+409031,Moving to the new training session will mean that you have to quit the current training mid-session.,การย้ายไปยังเซสชันการฝึกอบรมใหม่หมายความว่าคุณต้องออกจากเซสชันการฝึกอบรมปัจจุบันในระหว่างเซสชัน,บทเรียน/เทรนนิ่ง,409031
+409032,Restart Current Training Session?,เริ่มเซสชันการฝึกอบรมปัจจุบันอีกครั้งหรือไม่,บทเรียน/เทรนนิ่ง,409032
+409033,Are you sure you want to restart the current training session?,คุณแน่ใจหรือไม่ว่าต้องการเริ่มเซสชันการฝึกอบรมปัจจุบันอีกครั้ง,บทเรียน/เทรนนิ่ง,409033
+409051,"Basic Training covers unit selection and issuing orders, as well as covering the user interface and camera control.",การฝึกอบรมขั้นพื้นฐานครอบคลุมถึงการเลือกหน่วยและการออกคำสั่ง ตลอดจนครอบคลุมอินเทอร์เฟซผู้ใช้และการควบคุมกล้อง,บทเรียน/เทรนนิ่ง,409051
+409052,"Basic Training covers unit selection and issuing orders, as well as covering the user interface and camera control. You need to restart the tutorial to play this training mission.",การฝึกอบรมขั้นพื้นฐานครอบคลุมถึงการเลือกหน่วยและการออกคำสั่ง ตลอดจนครอบคลุมอินเทอร์เฟซผู้ใช้และการควบคุมกล้อง คุณต้องเริ่มการฝึกสอนใหม่จึงจะเล่นภารกิจการฝึกนี้ได้,บทเรียน/เทรนนิ่ง,409052
+409053,Infantry Combat Training,การฝึกรบทหารราบ,บทเรียน/เทรนนิ่ง,409053|409910
+409054,"Infantry Combat Training covers various infantry tactics, including using cover, assaulting enemy positions, and upgrading weapons.",การฝึกรบทหารราบครอบคลุมยุทธวิธีทหารราบต่างๆ รวมถึงการใช้ที่กำบัง โจมตีตำแหน่งของศัตรู และการอัพเกรดอาวุธ,บทเรียน/เทรนนิ่ง,409054
+409055,"Infantry Combat Training covers various infantry tactics, including using cover, assaulting enemy positions, and upgrading weapons. You need to restart the tutorial to play this training mission.",การฝึกรบทหารราบครอบคลุมยุทธวิธีทหารราบต่างๆ รวมถึงการใช้ที่กำบัง โจมตีตำแหน่งของศัตรู และการอัพเกรดอาวุธ คุณต้องเริ่มการฝึกสอนใหม่จึงจะเล่นภารกิจการฝึกนี้ได้,บทเรียน/เทรนนิ่ง,409055
+409056,Base Operations Training,การฝึกอบรมปฏิบัติการฐาน,บทเรียน/เทรนนิ่ง,409056|409913
+409057,"Base Operations Training covers how to set up a base, recruit units, and earn resources. It also covers setting up defenses, retreating and reinforcing units.",การฝึกอบรมปฏิบัติการฐานครอบคลุมถึงวิธีการตั้งฐาน รับสมัครหน่วย และรับทรัพยากร นอกจากนี้ยังครอบคลุมถึงการตั้งแนวป้องกัน การถอย และการเสริมกำลังอีกด้วย,บทเรียน/เทรนนิ่ง,409057
+409058,"Base Operations Training covers how to set up a base, recruit units, and earn resources. It also covers setting up defenses, retreating and reinforcing units. You need to restart the tutorial to play this training mission.",การฝึกอบรมปฏิบัติการฐานครอบคลุมถึงวิธีการตั้งฐาน รับสมัครหน่วย และรับทรัพยากร นอกจากนี้ยังครอบคลุมถึงการตั้งแนวป้องกัน การถอย และการเสริมกำลังอีกด้วย คุณต้องเริ่มการฝึกสอนใหม่จึงจะเล่นภารกิจการฝึกนี้ได้,บทเรียน/เทรนนิ่ง,409058
+409060,"Armor Training covers tactical tank usage, including rear armor, repairing and upgrading. It also covers using tanks to break through walls and clear heavy obstacles.",การฝึกยานเกราะครอบคลุมการใช้งานรถถังทางยุทธวิธี รวมถึงเรื่องเกราะท้าย การซ่อมบำรุง และการอัปเกรด นอกจากนี้ยังครอบคลุมถึงการใช้รถถังพังกำแพงและกวาดล้างสิ่งกีดขวางขนาดใหญ่อีกด้วย,บทเรียน/เทรนนิ่ง,409060
+409061,"Armor Training covers tactical tank usage, including rear armor, repairing and upgrading. It also covers using tanks to break through walls and clear heavy obstacles. You need to restart the tutorial to play this training mission.",การฝึกยานเกราะครอบคลุมการใช้งานรถถังทางยุทธวิธี รวมถึงเรื่องเกราะท้าย การซ่อมบำรุง และการอัปเกรด นอกจากนี้ยังครอบคลุมถึงการใช้รถถังพังกำแพงและกวาดล้างสิ่งกีดขวางขนาดใหญ่อีกด้วย คุณต้องเริ่มบทฝึกสอนใหม่เพื่อเล่นภารกิจฝึกฝนนี้,บทเรียน/เทรนนิ่ง,409061
+409065,2nd British Army Training,การฝึกกองทัพอังกฤษครั้งที่ 2,บทเรียน/เทรนนิ่ง,409065|409916
+409066,"2nd British Army Training covers commanding infantry with officers, moving Command Trucks, building defenses, and landing gliders.",การฝึกกองทัพที่ 2 แห่งสหราชอาณาจักรครอบคลุมการบัญชาการทหารราบด้วยนายทหาร การเคลื่อนย้ายรถบรรทุกบัญชาการ การสร้างแนวป้องกัน และการส่งเครื่องร่อนลงจอด,บทเรียน/เทรนนิ่ง,409066
+409067,"2nd British Army Training covers commanding infantry with officers, moving Command Trucks, building defenses, and landing gliders. You need to restart the tutorial to play this training mission.",การฝึกกองทัพที่ 2 แห่งสหราชอาณาจักรครอบคลุมการบัญชาการทหารราบด้วยนายทหาร การเคลื่อนย้ายรถบรรทุกบัญชาการ การสร้างแนวป้องกัน และการส่งเครื่องร่อนลงจอด คุณต้องเริ่มบทฝึกสอนใหม่เพื่อเล่นภารกิจฝึกฝนนี้,บทเรียน/เทรนนิ่ง,409067
+409068,"2nd British Army Training covers the unique aspects of the British including Lieutenants, Command Trucks, Slit Trenches and Gliders.","การฝึกกองทัพที่ 2 แห่งสหราชอาณาจักรครอบคลุมจุดเด่นเฉพาะตัวของกองทัพอังกฤษ เช่น นายทหารร้อยโท, รถบรรทุกบัญชาการ, สนามเพลาะร่องลึก และเครื่องร่อน",บทเรียน/เทรนนิ่ง,409068
+409069,"2nd British Army Training covers the unique aspects of the British including Lieutenants, Command Trucks, Slit Trenches and Gliders. You need to restart the tutorial to play this training mission.","การฝึกกองทัพที่ 2 แห่งสหราชอาณาจักรครอบคลุมจุดเด่นเฉพาะตัวของกองทัพอังกฤษ เช่น นายทหารร้อยโท, รถบรรทุกบัญชาการ, สนามเพลาะร่องลึก และเครื่องร่อน คุณต้องเริ่มบทฝึกสอนใหม่เพื่อเล่นภารกิจฝึกฝนนี้",บทเรียน/เทรนนิ่ง,409069
+409070,Panzer Elite Training,การฝึกยานเกราะชั้นสูง,บทเรียน/เทรนนิ่ง,409070|409917|708021
+409071,"Panzer Elite Training covers vehicle tactics, including resupplying, securing territory, locking down, and upgrading veterancy.",การฝึกกองกำลังยานเกราะชั้นยอด ครอบคลุมยุทธวิธีการใช้ยานยนต์ รวมถึงการเติมเสบียง การควบคุมอาณาเขต การล็อกดาวน์ตรึงพื้นที่ และการอัปเกรดระดับความชำนาญการรบ,บทเรียน/เทรนนิ่ง,409071
+409072,"Panzer Elite Training covers vehicle tactics, including resupplying, securing territory, locking down, and upgrading veterancy. You need to restart the tutorial to play this training mission.",การฝึกกองกำลังยานเกราะชั้นยอด ครอบคลุมยุทธวิธีการใช้ยานยนต์ รวมถึงการเติมเสบียง การควบคุมอาณาเขต การล็อกดาวน์ตรึงพื้นที่ และการอัปเกรดระดับความชำนาญการรบ คุณต้องเริ่มบทฝึกสอนใหม่เพื่อเล่นภารกิจฝึกฝนนี้,บทเรียน/เทรนนิ่ง,409072
+409073,"Panzer Elite Training covers the unique aspects of the army including the varioius Halftracks, the Panzer IV Support tank and Veterancy.    ",การฝึกกองกำลังยานเกราะชั้นยอด ครอบคลุมจุดเด่นเฉพาะตัว เช่น รถสายพานกึ่งล้อยาง รูปแบบต่างๆ รถถังสนับสนุนพันเซอร์ 4 และความชำนาญการรบ,บทเรียน/เทรนนิ่ง,409073
+409074,"Panzer Elite Training covers the unique aspects of the army including the varioius Halftracks, the Panzer IV Support tank and Veterancy. You need to restart the tutorial to play this training mission.",การฝึกกองกำลังยานเกราะชั้นยอด ครอบคลุมจุดเด่นเฉพาะตัว เช่น รถสายพานกึ่งล้อยาง รูปแบบต่างๆ รถถังสนับสนุนพันเซอร์ 4 และความชำนาญการรบ คุณต้องเริ่มบทฝึกสอนใหม่เพื่อเล่นภารกิจฝึกฝนนี้,บทเรียน/เทรนนิ่ง,409074
+409100,Select the Riflemen,เลือกนักแม่นปืน,บทเรียน/เทรนนิ่ง,409100
+409101,Select the squad of Riflemen in the courtyard by clicking on them with your left mouse button.,เลือกทีม Riflemen ในลานบ้านโดยคลิกด้วยปุ่มซ้ายของเมาส์,บทเรียน/เทรนนิ่ง,409101
+409102,Select both the Riflemen and the Engineers,เลือกทั้งพลปืนไรเฟิลและทหารช่างสนาม,บทเรียน/เทรนนิ่ง,409102
+409103,Select both the Riflemen and Engineer squads in the courtyard by holding the left mouse button down and dragging a box over both of them.,เลือกทั้งทีม Riflemen และ Engineer ในลานบ้านโดยกดปุ่มซ้ายของเมาส์ค้างไว้แล้วลากกล่องไปเหนือทั้งสองทีม,บทเรียน/เทรนนิ่ง,409103
+409104,Pan the camera,แพนกล้อง,บทเรียน/เทรนนิ่ง,409104
+409105,Move the cursor to the edge of the screen to scroll the camera around.,เลื่อนเคอร์เซอร์ไปที่ขอบหน้าจอเพื่อเลื่อนกล้องไปรอบๆ,บทเรียน/เทรนนิ่ง,409105
+409106,Move your Riflemen to the road junction,ย้ายพลปืนไรเฟิลของคุณไปที่ทางแยกถนน,บทเรียน/เทรนนิ่ง,409106
+409107,Issue a move order to your Riflemen by clicking on the destination with your right mouse button.,ออกคำสั่งย้ายไปยัง Riflemen ของคุณโดยคลิกที่ปลายทางด้วยปุ่มเมาส์ขวา,บทเรียน/เทรนนิ่ง,409107|409119|409121
+409108,Attack the Germans guarding the Strategic Point,โจมตีชาวเยอรมันที่เฝ้าจุดยุทธศาสตร์,บทเรียน/เทรนนิ่ง,409108|800750
+409109,Issue an attack order on the German units by clicking on them with your right mouse button.,ออกคำสั่งโจมตีหน่วยเยอรมันโดยคลิกด้วยปุ่มเมาส์ขวา,บทเรียน/เทรนนิ่ง,409109
+409110,Capture the Strategic Point,ยึดจุดยุทธศาสตร์,บทเรียน/เทรนนิ่ง,409110|409508|409780|1469220|1479203
+409111,Issue an order to capture the Strategic Point by clicking on the point with your right mouse button.,ออกคำสั่งให้ยึดจุดยุทธศาสตร์โดยคลิกที่จุดนั้นด้วยปุ่มเมาส์ขวา,บทเรียน/เทรนนิ่ง,409111
+409112,Rotate the camera,หมุนกล้อง,บทเรียน/เทรนนิ่ง,409112
+409113,Hold down ALT on your keyboard and move the mouse to rotate and title your camera view.,กด ALT บนแป้นพิมพ์ค้างไว้แล้วเลื่อนเมาส์เพื่อหมุนและตั้งชื่อมุมมองกล้องของคุณ,บทเรียน/เทรนนิ่ง,409113
+409114,Return the camera to the normal orientation,กลับกล้องกลับสู่ทิศทางปกติ,บทเรียน/เทรนนิ่ง,409114
+409115,Press BACKSPACE on your keyboard to return the camera to the normal orientation.,กด BACKSPACE บนแป้นพิมพ์เพื่อให้กล้องกลับสู่ทิศทางปกติ,บทเรียน/เทรนนิ่ง,409115
+409116,Zoom the camera,ซูมกล้อง,บทเรียน/เทรนนิ่ง,409116
+409117,Use your mousewheel to zoom your camera view in and out.,ใช้ล้อเมาส์เพื่อซูมมุมมองกล้องเข้าและออก,บทเรียน/เทรนนิ่ง,409117
+409118,Move your Riflemen to the barn,ย้ายพลปืนไรเฟิลของคุณไปที่โรงนา,บทเรียน/เทรนนิ่ง,409118
+409120,Move your Riflemen onto the road,ย้ายพลปืนไรเฟิลของคุณไปบนถนน,บทเรียน/เทรนนิ่ง,409120
+409130,Example Objective,วัตถุประสงค์ตัวอย่าง,บทเรียน/เทรนนิ่ง,409130
+409140,Pan the camera over to the road junction,แพนกล้องไปที่ทางแยกถนน,บทเรียน/เทรนนิ่ง,409140
+409150,Left-click on this squad to select it,คลิกซ้ายที่ทีมนี้เพื่อเลือก,บทเรียน/เทรนนิ่ง,409150
+409151,Drag a box over the Engineers AND the Riflemen together to select them both,ลากกล่องเหนือทหารช่างสนามและทหารปืนไรเฟิลพร้อมกันเพื่อเลือกทั้งคู่,บทเรียน/เทรนนิ่ง,409151
+409152,Follow this Officer with the camera,ติดตามนายทหารสัญญาบัตรคนนี้ด้วยกล้อง,บทเรียน/เทรนนิ่ง,409152
+409153,Right-click here to move your Riflemen to this location,คลิกที่นี่เพื่อย้ายพลปืนไรเฟิลของคุณไปยังตำแหน่งนี้,บทเรียน/เทรนนิ่ง,409153
+409154,Right-click on these Volksgrenadiers to attack them,คลิกขวาที่ Volksgrenadiers เหล่านี้เพื่อโจมตีพวกมัน,บทเรียน/เทรนนิ่ง,409154
+409155,Right-click on this point to capture it,คลิกขวาที่จุดนี้เพื่อจับภาพ,บทเรียน/เทรนนิ่ง,409155
+409156,Left-click on this icon to narrow your selection to just the Riflemen,คลิกซ้ายที่ไอคอนนี้เพื่อจำกัดการเลือกของคุณให้เหลือเพียงทหารปืนไรเฟิล,บทเรียน/เทรนนิ่ง,409156
+409157,Left-click on this shield to revert to the entire selection,คลิกซ้ายบนโล่นี้เพื่อเปลี่ยนกลับเป็นการเลือกทั้งหมด,บทเรียน/เทรนนิ่ง,409157
+409170,Objectives,วัตถุประสงค์,บทเรียน/เทรนนิ่ง,409170
+409171,Selected Units,หน่วยที่เลือก,บทเรียน/เทรนนิ่ง,409171
+409172,Squad Control Menu,เมนูการควบคุมทีม,บทเรียน/เทรนนิ่ง,409172
+409173,Speech Log,บันทึกคำพูด,บทเรียน/เทรนนิ่ง,409173
+409174,Event Cue,คิวเหตุการณ์,บทเรียน/เทรนนิ่ง,409174
+409190,Enemy spotted,ศัตรูถูกพบเห็น,บทเรียน/เทรนนิ่ง,409190
+409200,Move your Riflemen through the Graveyard,ย้ายพลปืนไรเฟิลของคุณผ่านสุสาน,บทเรียน/เทรนนิ่ง,409200
+409202,Attack the Mortar crew,โจมตีพลประจำปืนครก,บทเรียน/เทรนนิ่ง,409202
+409204,Attack the HMG Nest,โจมตีรัง HMG,บทเรียน/เทรนนิ่ง,409204
+409206,Capture the Point,จับจุด,บทเรียน/เทรนนิ่ง,409206
+409208,Pick up the HMG,หยิบ HMG ขึ้นมา,บทเรียน/เทรนนิ่ง,409208
+409210,Rotate the HMG,หมุน HMG,บทเรียน/เทรนนิ่ง,409210
+409212,Attack the Barn,โจมตีโรงนา,บทเรียน/เทรนนิ่ง,409212
+409214,Move to Heavy Cover,เคลื่อนไปยังที่กำบังอย่างดี,บทเรียน/เทรนนิ่ง,409214
+409216,Move to Light Cover,เคลื่อนไปยังที่กำบังบางส่วน,บทเรียน/เทรนนิ่ง,409216
+409218,Bring in a Paratrooper Squad,นำหมู่ทหารพลร่มเข้ามา,บทเรียน/เทรนนิ่ง,409218
+409220,Upgrade your Squad,อัพเกรดทีมของคุณ,บทเรียน/เทรนนิ่ง,409220
+409230,Flank the HMG Nest,ขนาบข้าง HMG Nest,บทเรียน/เทรนนิ่ง,409230
+409232,Flank the HMG Nest and Throw a grenade,ขนาบข้าง HMG Nest แล้วขว้างระเบิดมือ,บทเรียน/เทรนนิ่ง,409232
+409250,Right-click here to move into heavy cover,คลิกขวาที่นี่เพื่อเข้าสู่ปกหนา,บทเรียน/เทรนนิ่ง,409250
+409251,Right-click here to move into light cover,คลิกขวาที่นี่เพื่อเคลื่อนพลเข้าสู่ที่กำบังบางส่วน,บทเรียน/เทรนนิ่ง,409251
+409252,Move here,ย้ายมาที่นี่,บทเรียน/เทรนนิ่ง,409252
+409253,Move to the chapel here,ย้ายไปที่โบสถ์ที่นี่,บทเรียน/เทรนนิ่ง,409253
+409254,Right-click on this Mortar crew to attack,คลิกขวาที่พลประจำปืนครกเพื่อโจมตี,บทเรียน/เทรนนิ่ง,409254
+409255,Right-click on this HMG crew to attack,คลิกขวาที่ลูกเรือ HMG นี้เพื่อโจมตี,บทเรียน/เทรนนิ่ง,409255
+409256,Move here to flank the HMG crew,ย้ายมาที่นี่เพื่อขนาบข้างลูกเรือ HMG,บทเรียน/เทรนนิ่ง,409256
+409257,Throw a grenade at this HMG crew,ขว้างระเบิดใส่ลูกเรือ HMG นี้,บทเรียน/เทรนนิ่ง,409257
+409258,Right-click on the HMG to pick it up,คลิกขวาที่ HMG เพื่อหยิบมันขึ้นมา,บทเรียน/เทรนนิ่ง,409258
+409259,Rotate the HMG to face this direction,หมุน HMG เพื่อหันไปทางนี้,บทเรียน/เทรนนิ่ง,409259
+409260,Pick up this Panzershreck,หยิบ Panzershreck นี้ขึ้นมา,บทเรียน/เทรนนิ่ง,409260
+409261,Attack this Barn,โจมตีโรงนานี้,บทเรียน/เทรนนิ่ง,409261
+409262,Right-click on the point to capture,คลิกขวาที่จุดที่จะจับภาพ,บทเรียน/เทรนนิ่ง,409262
+409263,Paratrooper Squad,หมู่ทหารพลร่ม,บทเรียน/เทรนนิ่ง,409263
+409265,Left-click here to Attack-move,คลิกซ้ายที่นี่เพื่อโจมตีและเคลื่อนที่,บทเรียน/เทรนนิ่ง,409265
+409266,Left-click on these Paratroopers to select,คลิกซ้ายที่พลร่มเหล่านี้เพื่อเลือก,บทเรียน/เทรนนิ่ง,409266
+409267,Left-click on this HMG team to select,คลิกซ้ายที่ทีม HMG นี้เพื่อเลือก,บทเรียน/เทรนนิ่ง,409267
+409270,Call in Airborne Infantry,เรียกทหารราบทางอากาศ,บทเรียน/เทรนนิ่ง,409270
+409272,Recoiless Rifle package,แพ็คเกจปืนไรเฟิลไร้การหดตัว,บทเรียน/เทรนนิ่ง,409272
+409400,Reach the convoy under attack,เข้าถึงขบวนรถที่ถูกโจมตี,บทเรียน/เทรนนิ่ง,409400
+409402,Destroy the Tank,ทำลายรถถัง,บทเรียน/เทรนนิ่ง,409402
+409404,Repair your Sherman,ซ่อมเชอร์แมนของคุณ,บทเรียน/เทรนนิ่ง,409404
+409406,Attack the Axis HQ,โจมตีศูนย์บัญชาการฝ่ายอักษะ,บทเรียน/เทรนนิ่ง,409406
+409408,Upgrade your Sherman with a .50cal turret,อัพเกรด Sherman ของคุณด้วยป้อมปืน .50cal,บทเรียน/เทรนนิ่ง,409408
+409410,Turn your tank to face the Wehrmacht,หมุนรถถังของคุณเพื่อเผชิญหน้ากับ แวร์มัคท์,บทเรียน/เทรนนิ่ง,409410
+409412,Upgrade the Crocodile with a Bulldozer,อัพเกรดคร็อกโคไดล์ด้วยรถปราบดิน,บทเรียน/เทรนนิ่ง,409412
+409414,Crush the Tank Traps,บดขยี้กับดักรถถัง,บทเรียน/เทรนนิ่ง,409414
+409416,Take out the HQ,เอากองบัญชาการออกไป,บทเรียน/เทรนนิ่ง,409416
+409420,Destroy the Tanks,ทำลายรถถัง,บทเรียน/เทรนนิ่ง,409420
+409421,Destroy the Axis HQ,ทำลายศูนย์บัญชาการฝ่ายอักษะ,บทเรียน/เทรนนิ่ง,409421
+409450,Move your Sherman Tank here,ย้ายรถถังเชอร์แมนของคุณมาที่นี่,บทเรียน/เทรนนิ่ง,409450
+409451,Face these Wehrmacht,เผชิญหน้ากับ แวร์มัคท์ เหล่านี้,บทเรียน/เทรนนิ่ง,409451
+409452,RIGHT-CLICK on the tank to repair it,คลิกขวาที่รถถังเพื่อซ่อมแซม,บทเรียน/เทรนนิ่ง,409452
+409453,Sherman .50cal MG Upgrade,อัพเกรด Sherman .50cal MG,บทเรียน/เทรนนิ่ง,409453|409470
+409454,Select this Motor Pool,เลือกมอเตอร์พูลนี้,บทเรียน/เทรนนิ่ง,409454
+409455,Crash through this wall,พังกำแพงนี้ไป,บทเรียน/เทรนนิ่ง,409455
+409456,Attack this tank,โจมตีรถถังนี้,บทเรียน/เทรนนิ่ง,409456
+409457,Attack these Wehrmacht,โจมตี แวร์มัคท์ เหล่านี้,บทเรียน/เทรนนิ่ง,409457
+409458,Attack this tank from the rear,โจมตีรถถังคันนี้จากด้านหลัง,บทเรียน/เทรนนิ่ง,409458
+409459,Select this Sherman Crocodile,เลือกคร็อกโคไดล์เชอร์แมนตัวนี้,บทเรียน/เทรนนิ่ง,409459
+409460,Select this Sherman Tank,เลือกรถถังเชอร์แมนนี้,บทเรียน/เทรนนิ่ง,409460
+409461,Select these Engineers,เลือกทหารช่างสนามเหล่านี้,บทเรียน/เทรนนิ่ง,409461|409551
+409471,Heavy Motorpool Shortcut,ทางลัด Motorpool หนัก,บทเรียน/เทรนนิ่ง,409471
+409473,Lower Bulldozer,รถปราบดินล่าง,บทเรียน/เทรนนิ่ง,409473
+409474,Raise Bulldozer,ยกรถปราบดิน,บทเรียน/เทรนนิ่ง,409474
+409475,Vehicle Damage Display,จอแสดงผลความเสียหายของยานพาหนะ,บทเรียน/เทรนนิ่ง,409475
+409500,Build an Engineer Squad,สร้างทีมทหารช่างสนาม,บทเรียน/เทรนนิ่ง,409500
+409501,Select the HQ and order an Engineer Squad,เลือกกองบัญชาการและสั่งทีมทหารช่างสนาม,บทเรียน/เทรนนิ่ง,409501
+409502,Build a Barracks,สร้างค่ายทหาร,บทเรียน/เทรนนิ่ง,409502
+409503,Use your Engineers to build a Barracks at the indicated location,ใช้ทหารช่างสนามของคุณเพื่อสร้างค่ายทหารตามตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,409503
+409504,Build a Riflemen Squad,สร้างหน่วยทหารปืนไรเฟิล,บทเรียน/เทรนนิ่ง,409504
+409505,Select the Barracks and order a Riflemen Squad,เลือกค่ายทหารและสั่งหน่วยทหารปืนไรเฟิล,บทเรียน/เทรนนิ่ง,409505
+409506,Capture the Munitions Point,ยึดจุดอาวุธยุทโธปกรณ์,บทเรียน/เทรนนิ่ง,409506|409670
+409507,Use your Riflemen to capture the Munitions Point,ใช้ปืนไรเฟิลของคุณเพื่อยึดจุดยุทโธปกรณ์,บทเรียน/เทรนนิ่ง,409507
+409509,"Use your Riflemen to capture the Strategic Point, and bring the Munitions Sector into supply",ใช้ปืนไรเฟิลของคุณเพื่อยึดจุดยุทธศาสตร์และนำส่วนอาวุธยุทโธปกรณ์เข้าสู่การจัดหา,บทเรียน/เทรนนิ่ง,409509
+409510,Secure the Munitions Point,ยึดจุดอาวุธยุทโธปกรณ์,บทเรียน/เทรนนิ่ง,409510
+409511,"Use your Riflemen Squad to build an Observation Post on top of the Munitions Point, and secure the sector",ใช้หน่วยไรเฟิลของคุณเพื่อสร้างจุดสังเกตการณ์บนจุดอาวุธยุทโธปกรณ์ และรักษาความปลอดภัยของพื้นที่,บทเรียน/เทรนนิ่ง,409511
+409512,Build an MG Nest,สร้างรัง MG,บทเรียน/เทรนนิ่ง,409512
+409513,"Use your Engineers to build an MG Emplacement at the indicated location, covering the northern approach",สั่งให้ทหารช่างสร้างป้อมปืนกล ณ ตำแหน่งที่ระบุ เพื่อคุมแนวยิงเส้นทางเข้าสู่ทางเหนือ,บทเรียน/เทรนนิ่ง,409513
+409514,Garrison the house,กองบัญชาการบ้าน,บทเรียน/เทรนนิ่ง,409514
+409515,Send your Engineers into the house for better cover,ส่งทหารช่างของคุณเข้าไปในบ้านเพื่อใช้เป็นที่กำบังที่ดีกว่า,บทเรียน/เทรนนิ่ง,409515
+409516,Upgrade the house to Field Barracks,อัพเกรดบ้านเป็น Field Barracks,บทเรียน/เทรนนิ่ง,409516
+409517,Select the house and upgrade it to a Field Barracks,เลือกบ้านและอัปเกรดเป็นค่ายทหารสนาม,บทเรียน/เทรนนิ่ง,409517
+409518,Build a Riflemen Squad from the house,สร้างหน่วยทหารปืนไรเฟิลจากบ้าน,บทเรียน/เทรนนิ่ง,409518
+409519,Select the house and order another Riflemen Squad,เลือกบ้านและสั่งหน่วยทหารปืนไรเฟิลอีกทีม,บทเรียน/เทรนนิ่ง,409519
+409520,Secure additional sectors,รักษาความปลอดภัยภาคส่วนเพิ่มเติม,บทเรียน/เทรนนิ่ง,409520
+409521,Use your Riflemen to capture the sector covering the adjacent field,สั่งให้ทหารปืนเล็กของคุณเข้ายึดเซกเตอร์ที่ครอบคลุมทุ่งนาข้างเคียง,บทเรียน/เทรนนิ่ง,409521
+409522,Reinforce squad,เติมกำลังพลประจำหมู่,บทเรียน/เทรนนิ่ง,409522
+409523,Use the Reinforce ability to bring your Riflemen squad back to a full compliment of six men,ใช้ความสามารถ Reinforce เพื่อนำทีม Riflemen ของคุณกลับมาพร้อมชมเชยทหารทั้งหกคน,บทเรียน/เทรนนิ่ง,409523
+409524,Select Company Commander abilities,เลือกความสามารถของผู้บัญชาการกองร้อย,บทเรียน/เทรนนิ่ง,409524
+409525,Use your Command Points to purchase the Defensive Operations ability from the Company Commander menu,ใช้จุดบัญชาการของคุณเพื่อซื้อความสามารถในการปฏิบัติการป้องกันจากเมนูผู้บัญชาการกองร้อย,บทเรียน/เทรนนิ่ง,409525
+409526,Build Defenses,สร้างการป้องกัน,บทเรียน/เทรนนิ่ง,409526|9399628
+409527,Use your Riflemen to build a defensive Sandbag wall next to the MG Emplacement,ใช้พลปืนไรเฟิลของคุณเพื่อสร้างกำแพงกระสอบทรายป้องกันถัดจาก MG Emplacement,บทเรียน/เทรนนิ่ง,409527
+409528,Bring in Artillery,นำปืนใหญ่เข้ามา,บทเรียน/เทรนนิ่ง,409528
+409529,Purchase the Off Map Artillery ability and use it against the enemy attacks,ซื้อความสามารถ Off Map Artillery และใช้กับการโจมตีของศัตรู,บทเรียน/เทรนนิ่ง,409529
+409540,Retreat back to barracks,ถอยทัพไปที่ค่ายทหาร,บทเรียน/เทรนนิ่ง,409540
+409541,Select your Riflemen and issue the Retreat order,เลือกพลปืนไรเฟิลของคุณและออกคำสั่งถอย,บทเรียน/เทรนนิ่ง,409541
+409550,Order ENGINEERS from this HQ,สั่งซื้อทหารช่างสนามจากกองบัญชาการนี้,บทเรียน/เทรนนิ่ง,409550
+409552,Build the Barracks here,สร้างค่ายทหารที่นี่,บทเรียน/เทรนนิ่ง,409552
+409553,Order RIFLEMEN from this barracks,สั่งซื้อ RIFLEMEN จากค่ายทหารแห่งนี้,บทเรียน/เทรนนิ่ง,409553
+409554,Capture this Munitions Point,ยึดครองจุดยุทโธปกรณ์นี้,บทเรียน/เทรนนิ่ง,409554
+409555,Capture this Strategic Point,ยึดจุดยุทธศาสตร์นี้,บทเรียน/เทรนนิ่ง,409555|1329200|1339134|1339155|1359122|1400204|1429010|1439093
+409556,Build the Machine Gun Nest here,สร้างรังปืนกลที่นี่,บทเรียน/เทรนนิ่ง,409556
+409557,Build an Observation Post here,สร้างโพสต์สังเกตการณ์ที่นี่,บทเรียน/เทรนนิ่ง,409557
+409558,Start the wall here,เริ่มก่อผนังที่นี่,บทเรียน/เทรนนิ่ง,409558
+409559,End the wall here,ปิดท้ายกำแพงตรงนี้,บทเรียน/เทรนนิ่ง,409559
+409560,Garrison this house,เข้าประจำการในบ้านหลังนี้,บทเรียน/เทรนนิ่ง,409560
+409561,Select this house,เลือกบ้านหลังนี้,บทเรียน/เทรนนิ่ง,409561
+409562,Select these Riflemen,เลือกนักแม่นปืนเหล่านี้,บทเรียน/เทรนนิ่ง,409562
+409563,Start the barbed wire here,เริ่มลวดหนามที่นี่,บทเรียน/เทรนนิ่ง,409563
+409564,End the barbed wire here,จบลวดหนามตรงนี้,บทเรียน/เทรนนิ่ง,409564
+409565,Munitions Sector,ภาคอาวุธยุทโธปกรณ์,บทเรียน/เทรนนิ่ง,409565
+409566,Fuel Sector,ภาคเชื้อเพลิง,บทเรียน/เทรนนิ่ง,409566
+409567,Double-click here,ดับเบิลคลิกที่นี่,บทเรียน/เทรนนิ่ง,409567
+409568,Order RIFLEMEN from this house,สั่งซื้อ RIFLEMEN จากบ้านนี้,บทเรียน/เทรนนิ่ง,409568
+409578,Machine Gun Nest,รังปืนกล,บทเรียน/เทรนนิ่ง,409578
+409579,Company Commander Menu,เมนูผู้บัญชาการกองร้อย,บทเรียน/เทรนนิ่ง,409579
+409580,Set Rally Point,ตั้งจุดชุมนุม,บทเรียน/เทรนนิ่ง,409580
+409581,Population,ประชากร,บทเรียน/เทรนนิ่ง,409581
+409583,Reinforce (Click twice to reinforce two men),เสริมกำลัง (คลิกสองครั้งเพื่อเสริมกำลังชายสองคน),บทเรียน/เทรนนิ่ง,409583
+409584,Off-Map Artillery,ปืนใหญ่นอกแผนที่,บทเรียน/เทรนนิ่ง,409584
+409585,Item currently under production,สินค้าอยู่ระหว่างการผลิต,บทเรียน/เทรนนิ่ง,409585
+409586,Queued production requests,คำขอการผลิตที่เข้าคิว,บทเรียน/เทรนนิ่ง,409586
+409588,Mini-Map,แผนที่ขนาดเล็ก,บทเรียน/เทรนนิ่ง,409588
+409589,Sanbags,กระสอบทราย,บทเรียน/เทรนนิ่ง,409589
+409590,Select the Engineers and RIGHT-CLICK on the Barracks to continue construction,เลือกทหารช่างสนามและคลิกขวาบนค่ายทหารเพื่อดำเนินการก่อสร้างต่อ,บทเรียน/เทรนนิ่ง,409590
+409591,Select the Riflemen and RIGHT-CLICK on the Observation Post to continue construction,เลือกพลปืนไรเฟิลและคลิกขวาบนจุดสังเกตการณ์เพื่อดำเนินการก่อสร้างต่อ,บทเรียน/เทรนนิ่ง,409591
+409592,Select the Engineers and RIGHT-CLICK on the Machine Gun Nest to continue construction,เลือกทหารช่างสนามและคลิกขวาบนรังปืนกลเพื่อดำเนินการก่อสร้างต่อ,บทเรียน/เทรนนิ่ง,409592
+409650,Move Infantry Section,ย้ายหมู่ทหารราบ,บทเรียน/เทรนนิ่ง,409650
+409651,Select the Infantry Section and move it into the adjacent territory.,เลือกหมู่ทหารราบและย้ายไปยังดินแดนที่อยู่ติดกัน,บทเรียน/เทรนนิ่ง,409651
+409655,Deploy Lieutenant,จัดกำลังพล,บทเรียน/เทรนนิ่ง,409655|409716
+409656,Return to the Headquarters and deploy a Lieutenant.,กลับไปที่กองบัญชาการและจัดกำลังผู้หมวด,บทเรียน/เทรนนิ่ง,409656
+409660,Move Lieutenant to Infantry Section,ย้ายผู้หมวดไปที่หมู่ทหารราบ,บทเรียน/เทรนนิ่ง,409660
+409661,Move the Lieutenant to the Tommies so that he can ATTACH to the Infantry Section.,ย้ายผู้หมวดไปที่ Tommies เพื่อที่เขาจะได้ติดกับหมู่ทหารราบ,บทเรียน/เทรนนิ่ง,409661
+409665,Attach the Lieutenant,แนบร้อยโท,บทเรียน/เทรนนิ่ง,409665
+409666,Use the ATTACH ability to make the Lieutenant follow the Infantry Section.,ใช้ความสามารถ ATTACH เพื่อให้ผู้หมวดติดตามหมู่ทหารราบ,บทเรียน/เทรนนิ่ง,409666
+409671,Use the Infantry Section with the ATTACHED Lieutenant to capture the Munitions Point.,ใช้หมู่ทหารราบพร้อมกับร้อยโทที่แนบมาเพื่อยึดจุดยุทโธปกรณ์,บทเรียน/เทรนนิ่ง,409671
+409675,Pack Up the Headquarters,แพ็คกองบัญชาการ,บทเรียน/เทรนนิ่ง,409675
+409676,Use the GET MOBILE ability to get the Headquarters ready to relocate.,ใช้ความสามารถ GET MOBILE เพื่อเตรียมกองบัญชาการให้พร้อมที่จะย้าย,บทเรียน/เทรนนิ่ง,409676
+409680,Deploy the Headquarters,ส่งกำลังรบกองบัญชาการ,บทเรียน/เทรนนิ่ง,409680
+409681,Use the SETUP ability to order the Headquarters to move to the indicated position and secure the Munitions Point.,ใช้ความสามารถในการติดตั้งเพื่อสั่งให้กองบัญชาการย้ายไปยังตำแหน่งที่ระบุและยึดจุดอาวุธยุทโธปกรณ์,บทเรียน/เทรนนิ่ง,409681
+409685,Build a VICKERS MACHINE GUN EMPLACEMENT,สร้างตำแหน่งวางปืนกลวิคเกอร์ส,บทเรียน/เทรนนิ่ง,409685
+409686,Order the Infantry Section to build a VICKERS MACHINE GUN EMPLACEMENT at the indicated position.,สั่งให้กองทหารราบสร้างจุดวางปืนกลวิคเกอร์สที่ตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,409686
+409690,Defend the Base,ปกป้องฐาน,บทเรียน/เทรนนิ่ง,409690
+409691,Eliminate the Germans attacking the base.,กำจัดชาวเยอรมันที่โจมตีฐานทัพ,บทเรียน/เทรนนิ่ง,409691
+409695,Build a SLIT TRENCH,สร้างร่องลึก,บทเรียน/เทรนนิ่ง,409695
+409696,Order the Infantry Section to build a SLIT TRENCH at the indicated position.,สั่งให้กองทหารราบสร้างร่องลึกที่ตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,409696
+409700,Garrison the Slit Trench,เข้าประจำการในสนามเพลาะ,บทเรียน/เทรนนิ่ง,409700
+409701,Order the Infantry Section to get into the newly built SLIT TRENCH.,สั่งให้หมู่ทหารราบเข้าไปในร่องลึก SLIT ที่สร้างขึ้นใหม่,บทเรียน/เทรนนิ่ง,409701
+409705,Deploy Commandos,ส่งกำลังรบหน่วยคอมมานโด,บทเรียน/เทรนนิ่ง,409705
+409706,Use the Glider ability to land a squad of Commandos at the indicated position.,ใช้ความสามารถของเครื่องร่อนเพื่อลงจอดหน่วยคอมมานโดในตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,409706
+409710,Eliminate the Enemy Mortar,กำจัดปืนครกข้าศึก,บทเรียน/เทรนนิ่ง,409710
+409711,Use the Commando squad to eliminate the German Mortar team.,ใช้หมู่ทหารคอมมานโดกำจัดหมู่ปืนครกเยอรมัน,บทเรียน/เทรนนิ่ง,409711
+409715,Right-click to move the Infantry Section here,คลิกขวาเพื่อย้ายหมู่ทหารราบที่นี่,บทเรียน/เทรนนิ่ง,409715
+409717,Right-click to move the Lieutenant here,คลิกขวาเพื่อย้ายผู้หมวดมาที่นี่,บทเรียน/เทรนนิ่ง,409717
+409718,Attach Lieutenant to a Section,แนบผู้หมวดเข้ากับหมู่,บทเรียน/เทรนนิ่ง,409718
+409719,Left-click on the Infantry Section to maintain command range,คลิกซ้ายที่หมู่ทหารราบเพื่อรักษาระยะการบังคับบัญชา,บทเรียน/เทรนนิ่ง,409719
+409720,Right-Click to Capture this Munitions Point,คลิกขวาเพื่อยึดจุดยุทโธปกรณ์นี้,บทเรียน/เทรนนิ่ง,409720
+409721,Pack up Headquarters,แพ็คกองบัญชาการ,บทเรียน/เทรนนิ่ง,409721
+409722,Deploy Headquarters,ส่งกำลังรบกองบัญชาการ,บทเรียน/เทรนนิ่ง,409722
+409723,Deploy Headquarters Here,ส่งกำลังรบกองบัญชาการที่นี่,บทเรียน/เทรนนิ่ง,409723
+409724,Build a Machine Gun Emplacement,สร้างที่วางปืนกล,บทเรียน/เทรนนิ่ง,409724
+409725,Build the MG Emplacement here,สร้าง MG Emplacement ที่นี่,บทเรียน/เทรนนิ่ง,409725
+409726,Face the MG Emplacement in this direction,หันหน้าไปทาง MG Emplacement ในทิศทางนี้,บทเรียน/เทรนนิ่ง,409726
+409727,Build a Slit Trench,สร้างสนามเพลาะ,บทเรียน/เทรนนิ่ง,409727
+409728,Build the Slit Trench here,สร้างสนามเพลาะที่นี่,บทเรียน/เทรนนิ่ง,409728
+409729,Face the Slit Trench in this direction,หันสนามเพลาะไปในทิศทางนี้,บทเรียน/เทรนนิ่ง,409729
+409730,Call in a Glider,เรียกเครื่องร่อนเข้ามา,บทเรียน/เทรนนิ่ง,409730
+409731,Left-click here to bring in the Glider at this location,คลิกซ้ายที่นี่เพื่อนำ Glider เข้ามาที่ตำแหน่งนี้,บทเรียน/เทรนนิ่ง,409731
+409732,Left-click here to call in the Glider in this direction,คลิกซ้ายที่นี่เพื่อเรียกเครื่องร่อนไปในทิศทางนี้,บทเรียน/เทรนนิ่ง,409732
+409733,Select this Infantry Section ,เลือกหมู่ทหารราบนี้,บทเรียน/เทรนนิ่ง,409733
+409734,Select this Lieutenant,เลือกผู้หมวดนี้,บทเรียน/เทรนนิ่ง,409734|1329166
+409735,Select this Command Truck,เลือกรถบังคับการนี้,บทเรียน/เทรนนิ่ง,409735|1329205
+409736,Select the Infantry Section and RIGHT-CLICK on the MG Emplacement to continue construction,เลือกหมู่ทหารราบและคลิกขวาที่ MG Emplacement เพื่อดำเนินการก่อสร้างต่อ,บทเรียน/เทรนนิ่ง,409736
+409737,Select the Infantry Section and RIGHT-CLICK on the Slit Trench to continue construction,เลือกหมู่ทหารราบและคลิกขวาที่ร่องลึกเพื่อดำเนินการก่อสร้างต่อ,บทเรียน/เทรนนิ่ง,409737
+409750,Garrison Grenadiers,เข้าประจำการพลเกรนาเดียร์,บทเรียน/เทรนนิ่ง,409750
+409751,Garrison the Grenadier squad inside the indicated Halftrack,ส่งหมู่พลเกรนาเดียร์เข้าประจำการในรถสายพานกึ่งล้อยาง ที่ระบุ,บทเรียน/เทรนนิ่ง,409751
+409752,Attack Enemy Squad,โจมตีหน่วยศัตรู,บทเรียน/เทรนนิ่ง,409752
+409753,"Order the Halftrack, with the garrisoned Grenadier squad, to attack the indicated position.",สั่งให้รถสายพานกึ่งล้อยาง พร้อมหมู่พลเกรนาเดียร์ที่ประจำการอยู่ โจมตีตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,409753
+409760,Eliminate the Enemy,กำจัดศัตรู,บทเรียน/เทรนนิ่ง,409760
+409761,Attack and kill all enemy in the area,โจมตีและสังหารศัตรูทั้งหมดในพื้นที่,บทเรียน/เทรนนิ่ง,409761
+409762,Ungarrison the Grenadiers,ปลดพลเกรนาเดียร์ออกจากยาน,บทเรียน/เทรนนิ่ง,409762
+409763,Unload the Grenadiers from the Halftrack,ปลดเกรนาเดียร์ออกจากรถสายพานกึ่งล้อยาง,บทเรียน/เทรนนิ่ง,409763
+409765,Throw Incendiary Grenades,ขว้างระเบิดเพลิง,บทเรียน/เทรนนิ่ง,409765
+409766,Use the Incendiary Grenade Ability on the barn.,ใช้ความสามารถขว้างระเบิดเพลิงใส่โรงนา,บทเรียน/เทรนนิ่ง,409766
+409767,Eliminate the Enemy Base,กำจัดฐานศัตรู,บทเรียน/เทรนนิ่ง,409767
+409768,Attack and kill the enemy base using indirect fire abilities.,โจมตีและสังหารฐานศัตรูโดยใช้ความสามารถในการยิงทางอ้อม,บทเรียน/เทรนนิ่ง,409768
+409770,Move Mortar Halftrack into Range,เคลื่อนย้ายรถสายพานกึ่งล้อยางปืนครกเข้าสู่ระยะยิง,บทเรียน/เทรนนิ่ง,409770
+409771,Move the Mortar Halftrack up to the field to have range on the enemy position.,เคลื่อนย้ายรถสายพานกึ่งล้อยางปืนครกขึ้นสู่ทุ่งนาเพื่อให้ได้ระยะยิงตำแหน่งข้าศึก,บทเรียน/เทรนนิ่ง,409771
+409772,Use Incendiary Mortar Barrage,ใช้คำสั่งระดมยิงปืนครกกระสุนเพลิง,บทเรียน/เทรนนิ่ง,409772
+409773,Target the enemy with an Incendiary Mortar Barrage.,เล็งเป้าหมายข้าศึกด้วยการระดมยิงปืนครกกระสุนเพลิง,บทเรียน/เทรนนิ่ง,409773
+409775,Move Munitions Halftrack,ย้ายอาวุธยุทโธปกรณ์ รถสายพานกึ่งล้อยาง,บทเรียน/เทรนนิ่ง,409775
+409776,Move the Munitions Halftrack so that it is near the Mortar Halftrack,เคลื่อนย้ายรถส่งกำลังกระสุนให้อยู่ใกล้กับรถสายพานกึ่งล้อยางปืนครก,บทเรียน/เทรนนิ่ง,409776
+409777,Barrage the Enemy,ระดมยิงถล่มข้าศึก,บทเรียน/เทรนนิ่ง,409777
+409778,Eliminate the enemy with the Mortar Halftrack until it is eliminated.,ใช้รถสายพานกึ่งล้อยางปืนครกโจมตีกำจัดข้าศึกจนกว่าพวกมันจะถูกทำลาย,บทเรียน/เทรนนิ่ง,409778
+409781,Use the Scout Car to Capture the Strategic Point.,ใช้รถลาดตระเวนเข้ายึดจุดยุทธศาสตร์,บทเรียน/เทรนนิ่ง,409781
+409782,Upgrade the Scout Car,อัปเกรดรถลาดตระเวน,บทเรียน/เทรนนิ่ง,409782
+409783,Upgrade the Scout Car so that it may Secure the Strategic Point.,อัปเกรดรถลาดตระเวนเพื่อให้สามารถควบคุมจุดยุทธศาสตร์ไว้ได้,บทเรียน/เทรนนิ่ง,409783
+409785,Secure the Strategic Point,รักษาจุดยุทธศาสตร์,บทเรียน/เทรนนิ่ง,409785
+409786,Use the Scout Car to Secure the Strategic Point.,ใช้รถลาดตระเวนเพื่อควบคุมจุดยุทธศาสตร์,บทเรียน/เทรนนิ่ง,409786
+409787,Defend the Strategic Point,ปกป้องจุดยุทธศาสตร์,บทเรียน/เทรนนิ่ง,409787
+409788,Use the resources at your disposal to Defend the Strategic Point.,ใช้ทรัพยากรตามที่คุณต้องการเพื่อปกป้องจุดยุทธศาสตร์,บทเรียน/เทรนนิ่ง,409788
+409790,Move the Stubby into Position,ย้าย Stubby ไปที่ตำแหน่ง,บทเรียน/เทรนนิ่ง,409790
+409791,Move the Stubby to the indicated position.,ย้าย Stubby ไปยังตำแหน่งที่ระบุ,บทเรียน/เทรนนิ่ง,409791
+409792,Lockdown the Stubby,ล็อคดาวน์เดอะStubby,บทเรียน/เทรนนิ่ง,409792
+409793,Use the Stubby's Lockdown ability to increase its rate of fire.,ใช้ความสามารถในการ Lockdown ของ Stubby เพื่อเพิ่มอัตราการยิง,บทเรียน/เทรนนิ่ง,409793
+409795,Upgrade Stubby Veterancy,อัพเกรด Stubby Veterancy,บทเรียน/เทรนนิ่ง,409795
+409796,Upgrade the Stubby so that it may benefit from the Veterancy it has earned,อัปเกรด Stubby เพื่อให้ได้รับประโยชน์จาก Veterancy ที่มันได้รับ,บทเรียน/เทรนนิ่ง,409796
+409797,Destroy Armour Column,ทำลายขบวนยานเกราะ,บทเรียน/เทรนนิ่ง,409797
+409798,Stop the Commonwealth armoured column before it reaches the Strategic Point.,หยุดขบวนยานเกราะเครือจักรภพก่อนที่จะถึงจุดยุทธศาสตร์,บทเรียน/เทรนนิ่ง,409798
+409800,Call in Henshel Airstrike,เรียกการโจมตีทางอากาศของ Henshel,บทเรียน/เทรนนิ่ง,409800
+409801,Use the Henshel Airstrike ability to lay a trap for the incoming Commonwealth tanks.,ใช้ความสามารถ Henshel Airstrike เพื่อวางกับดักสำหรับรถถังเครือจักรภพที่กำลังเข้ามา,บทเรียน/เทรนนิ่ง,409801
+409810,Select this Panzer Grenadier squad ,เลือกหน่วย Panzer เกรนาเดียร์ นี้,บทเรียน/เทรนนิ่ง,409810
+409811,Garrison this Halftrack,เข้าประจำการในอาคาร รถสายพานกึ่งล้อยาง นี้,บทเรียน/เทรนนิ่ง,409811
+409812,Right-Click to Move the Halftrack here,คลิกขวาเพื่อย้าย รถสายพานกึ่งล้อยาง ที่นี่,บทเรียน/เทรนนิ่ง,409812
+409813,Select this Halftrack,เลือก รถสายพานกึ่งล้อยาง นี้,บทเรียน/เทรนนิ่ง,409813
+409814,Right-Click to Attack this enemy squad,คลิกขวาเพื่อโจมตีหน่วยศัตรูนี้,บทเรียน/เทรนนิ่ง,409814
+409815,Attack-Move here,โจมตี-เคลื่อนที่ที่นี่,บทเรียน/เทรนนิ่ง,409815
+409816,Throw an Incendiary Grenade here,ขว้างระเบิดเพลิงใส่ตำแหน่งนี้,บทเรียน/เทรนนิ่ง,409816
+409817,Select this Mortar Halftrack,เลือกรถสายพานกึ่งล้อยางปืนครกคันนี้,บทเรียน/เทรนนิ่ง,409817
+409818,Right-Click to move your Mortar Halftrack here,คลิกขวาเพื่อเคลื่อนย้ายรถสายพานกึ่งล้อยางปืนครกของคุณมาที่นี่,บทเรียน/เทรนนิ่ง,409818
+409819,Target your Incendiary Mortar Barrage here,เล็งเป้าหมายระดมยิงปืนครกกระสุนเพลิงมาที่นี่,บทเรียน/เทรนนิ่ง,409819
+409820,Right-Click to move your Munitions Halftrack here,คลิกขวาเพื่อย้าย Munitions รถสายพานกึ่งล้อยาง ของคุณที่นี่,บทเรียน/เทรนนิ่ง,409820
+409821,Eliminate Enemy,กำจัดศัตรู,บทเรียน/เทรนนิ่ง,409821
+409823,Select this Scout Car,เลือกรถลาดตระเวนคันนี้,บทเรียน/เทรนนิ่ง,409823
+409824,RIGHT-CLICK to Capture this Strategic Point,คลิกขวาเพื่อยึดจุดยุทธศาสตร์นี้,บทเรียน/เทรนนิ่ง,409824
+409825,Upgrade to Logistik Car,อัปเกรดเป็น Logistik Car,บทเรียน/เทรนนิ่ง,409825|1429052
+409826,LEFT-CLICK to Secure Territory,คลิกซ้ายเพื่อรักษาความปลอดภัยอาณาเขต,บทเรียน/เทรนนิ่ง,409826
+409827,Support Panzer (Stubby),ยานเกราะสนับสนุน,บทเรียน/เทรนนิ่ง,409827
+409828,Select this Support Panzer ,เลือกยานเกราะสนับสนุนนี้,บทเรียน/เทรนนิ่ง,409828
+409829,Right-Click to move the Support Panzer here,คลิกขวาเพื่อย้าย Support Panzer ที่นี่,บทเรียน/เทรนนิ่ง,409829
+409830,LEFT-CLICK to enable Rapid Fire,คลิกซ้ายเพื่อเปิดใช้งาน ยิงเร็ว,บทเรียน/เทรนนิ่ง,409830
+409831,LEFT-CLICK to call in an Airstrike,คลิกซ้ายเพื่อเรียกการโจมตีทางอากาศ,บทเรียน/เทรนนิ่ง,409831
+409833,Target the Airstrike here,กำหนดเป้าหมายการโจมตีทางอากาศที่นี่,บทเรียน/เทรนนิ่ง,409833
+409834,Grant an Offensive Veterancy bonus,ให้โบนัส Offensive Veterancy,บทเรียน/เทรนนิ่ง,409834
+409835,LEFT-CLICK here to deploy the Logistik Car and secure territory,คลิกซ้ายที่นี่เพื่อส่งกำลังรบ Logistik Car และรักษาอาณาเขต,บทเรียน/เทรนนิ่ง,409835
+409836,Select this Munitions Halftrack,เลือกรถสายพานกึ่งล้อยางยุทโธปกรณ์ คันนี้,บทเรียน/เทรนนิ่ง,409836
+409850,Activate Rapid Fire,เปิดใช้งาน ยิงเร็ว,บทเรียน/เทรนนิ่ง,409850
+409852,Activate Overdrive,เปิดใช้งานโอเวอร์ไดรฟ์,บทเรียน/เทรนนิ่ง,409852
+409853,Activate Focused Firing,เปิดใช้งานการยิงแบบโฟกัส,บทเรียน/เทรนนิ่ง,409853
+409854,Target Tank with Treadbreaker,กำหนดเป้าหมายรถถังด้วยการยิงตัดตีนตะขาบ,บทเรียน/เทรนนิ่ง,409854
+409875,Target with AVRE Mortar Round,ระดมยิงด้วยกระสุนปืนครกหนักรถถัง AVRE,บทเรียน/เทรนนิ่ง,409875
+409876,Target Infantry with Marksman Shot,กำหนดเป้าหมายทหารราบด้วย Marksman Shot,บทเรียน/เทรนนิ่ง,409876
+409877,Victory Target,เป้าหมายแห่งชัยชนะ,บทเรียน/เทรนนิ่ง,409877
+409878,Target Infantry with Tank Shock,กำหนดเป้าหมายทหารราบด้วย Tank Shock,บทเรียน/เทรนนิ่ง,409878
+409879,Activate Hull Down,เปิดใช้งานฮัลล์ดาวน์,บทเรียน/เทรนนิ่ง,409879
+409880,Withdraw to Captain,ถอนตัวเป็นกัปตัน,บทเรียน/เทรนนิ่ง,409880
+409881,Activate Rifle Smoke Grenade,เปิดใช้งานระเบิดควันไรเฟิล,บทเรียน/เทรนนิ่ง,409881
+409882,Activate Flanking Speed,เปิดใช้งานความเร็วขนาบข้าง,บทเรียน/เทรนนิ่ง,409882
+409883,Activate Heroic Charge,เปิดใช้งานการบุกตะลุยฮีโร่,บทเรียน/เทรนนิ่ง,409883
+409884,Activate PIAT Ambush,เปิดใช้งาน PIAT Ambush,บทเรียน/เทรนนิ่ง,409884
+409885,Target Infantry with Canister Round,กำหนดเป้าหมายทหารราบด้วยกระสุนลูกปราย,บทเรียน/เทรนนิ่ง,409885
+409886,Activate Armor Piercing Rounds,เปิดใช้งานการเจาะเกราะ,บทเรียน/เทรนนิ่ง,409886
+409887,Activate Overwatch,เปิดใช้งานโอเวอร์วอช,บทเรียน/เทรนนิ่ง,409887
+409888,Activate Counter Battery,เปิดใช้งานการยิงโต้ตอบปืนใหญ่,บทเรียน/เทรนนิ่ง,409888
+409889,Activate Armor Piercing Burst,เปิดใช้งานการเจาะเกราะระเบิด,บทเรียน/เทรนนิ่ง,409889
+409890,Activate Medical Supplies,เปิดใช้งานเวชภัณฑ์,บทเรียน/เทรนนิ่ง,409890
+409893,Provide Cover with Smoke Grenades,ให้กำบังด้วยระเบิดควัน,บทเรียน/เทรนนิ่ง,409893
+409894,Target Area with Overwatch Artillery,พื้นที่เป้าหมายด้วยปืนใหญ่ โอเวอร์วอช,บทเรียน/เทรนนิ่ง,409894|1319400
+409912,Resources Training,การฝึกอบรมทรัพยากร,บทเรียน/เทรนนิ่ง,409912
+409914,Advanced Training,การฝึกอบรมขั้นสูง,บทเรียน/เทรนนิ่ง,409914
+409920,Infantry Combat Training Complete,การฝึกการต่อสู้ของทหารราบเสร็จสมบูรณ์,บทเรียน/เทรนนิ่ง,409920
+409921,Armor Training Complete,การฝึกรบยานเกราะเสร็จสมบูรณ์,บทเรียน/เทรนนิ่ง,409921
+409922,Resources Training Complete,การฝึกอบรมทรัพยากรเสร็จสมบูรณ์,บทเรียน/เทรนนิ่ง,409922
+409923,Base Operations Training Complete,การฝึกอบรมปฏิบัติการฐานเสร็จสมบูรณ์,บทเรียน/เทรนนิ่ง,409923
+409924,Advanced Training Complete,การฝึกอบรมขั้นสูงเสร็จสมบูรณ์,บทเรียน/เทรนนิ่ง,409924
+409925,Basic Training Complete,การฝึกอบรมขั้นพื้นฐานเสร็จสมบูรณ์,บทเรียน/เทรนนิ่ง,409925
+409926,2nd British Army Training Complete,การฝึกกองทัพอังกฤษที่ 2 เสร็จสิ้น,บทเรียน/เทรนนิ่ง,409926
+409927,Panzer Elite Training Complete,การฝึกยานเกราะชั้นยอดเสร็จสมบูรณ์,บทเรียน/เทรนนิ่ง,409927
+409930,You have no units selected,คุณไม่ได้เลือกหน่วย,บทเรียน/เทรนนิ่ง,409930
+409940,Keyboard Alternative: Cursor Keys,ทางเลือกแป้นพิมพ์: ปุ่มเคอร์เซอร์,บทเรียน/เทรนนิ่ง,409940
+409941,Keyboard Alternative: PAGE UP and PAGE DOWN,ทางเลือกแป้นพิมพ์: PAGE UP และ PAGE DOWN,บทเรียน/เทรนนิ่ง,409941
+480000,St. Hilliare,เซนต์ฮิลเลียร์,บทเรียน/เทรนนิ่ง,480000
+480001,Real Soldiers,ทหารจริง,บทเรียน/เทรนนิ่ง,480001
+480002,Real Battlefields,สนามรบจริง,บทเรียน/เทรนนิ่ง,480002
+480003,Environmental Strategy,ยุทธศาสตร์สิ่งแวดล้อม,บทเรียน/เทรนนิ่ง,480003
+480004,Frontline Base,ฐานทัพหน้า,บทเรียน/เทรนนิ่ง,480004
+480006,Button 6,ปุ่ม 6,บทเรียน/เทรนนิ่ง,480006
+480007,Button 7,ปุ่ม 7,บทเรียน/เทรนนิ่ง,480007
+480008,Button 8,ปุ่ม 8,บทเรียน/เทรนนิ่ง,480008
+480009,Button 9,ปุ่ม 9,บทเรียน/เทรนนิ่ง,480009
+480010,Scene 1,ฉากที่ 1,บทเรียน/เทรนนิ่ง,480010|490010
+480011,Cafe Normandie,คาเฟ่ นอร์มังดี,บทเรียน/เทรนนิ่ง,480011|490011
+480012,Scene 2,ฉากที่ 2,บทเรียน/เทรนนิ่ง,480012|490012
+480013,Gauntlet,ฝ่าด่าน,บทเรียน/เทรนนิ่ง,480013|490013
+480014,Scene 3,ฉากที่ 3,บทเรียน/เทรนนิ่ง,480014|490014
+480015,Courtyard,ลาน,บทเรียน/เทรนนิ่ง,480015|490015
+480016,Scene 4,ฉากที่ 4,บทเรียน/เทรนนิ่ง,480016|490016
+480017,City Square,จัตุรัสกลางเมือง,บทเรียน/เทรนนิ่ง,480017|490017
+480018,Scene 5,ฉากที่ 5,บทเรียน/เทรนนิ่ง,480018|490018
+480019,Shermans,เชอร์แมน,บทเรียน/เทรนนิ่ง,480019|490019
+480020,Scene 6,ฉากที่ 6,บทเรียน/เทรนนิ่ง,480020|490020
+480021,Tigers,ไทเกอร์,บทเรียน/เทรนนิ่ง,480021|490021
+480022,Scene 7,ฉากที่ 7,บทเรียน/เทรนนิ่ง,480022|490022
+480023,Longest Day,วันที่ยาวนานที่สุด,บทเรียน/เทรนนิ่ง,480023|490023
+480024,Scene 8,ฉากที่ 8,บทเรียน/เทรนนิ่ง,480024|490024
+480025,Finale,ตอนจบ,บทเรียน/เทรนนิ่ง,480025|490025

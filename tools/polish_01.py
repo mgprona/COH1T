@@ -5,7 +5,7 @@ import re
 import sys
 from pathlib import Path
 
-sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[attr-defined]
 
 ROOT = Path("work/translate_parts_v2/01_ui")
 LATIN_PAREN = re.compile(r"\s*\([A-Za-z0-9 &'\-\.:/]+\)\s*$")
@@ -15,7 +15,8 @@ FIXES = {"FSAA": "FSAA"}
 def main() -> None:
     total = 0
     for p in sorted(ROOT.rglob("*.csv")):
-        rows = list(csv.DictReader(open(p, encoding="utf-8-sig", newline="")))
+        with open(p, encoding="utf-8-sig", newline="") as fh:
+            rows = list(csv.DictReader(fh))
         changed = False
         for r in rows:
             t = r["thai"].strip()

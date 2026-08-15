@@ -1,0 +1,22 @@
+﻿id,english,thai,context,all_ids
+12000000,Unpublished,ไม่ได้เผยแพร่,UI: Steam Workshop,12000000|12000017
+12000001,Publishing: %i%%,กำลังเผยแพร่: %i%%,UI: Steam Workshop,12000001
+12000002,Published,เผยแพร่แล้ว,UI: Steam Workshop,12000002|12000018
+12000003,Unsubscribed,ยกเลิกการสมัคร,UI: Steam Workshop,12000003|12000019
+12000004,Subscribed,สมัครสมาชิกแล้ว,UI: Steam Workshop,12000004|12000020
+12000005,Subscribing,กำลังสมัครสมาชิก,UI: Steam Workshop,12000005
+12000006,Downloading: %i%%,กำลังดาวน์โหลด: %i%%,UI: Steam Workshop,12000006
+12000007,Unsubscribing,กำลังยกเลิกการสมัคร,UI: Steam Workshop,12000007
+12000008,Updating,กำลังอัปเดต,UI: Steam Workshop,12000008
+12000009,Most Popular (Today),ยอดนิยมที่สุด (วันนี้),UI: Steam Workshop,12000009
+12000011,Most Popular (Three Months),ยอดนิยมที่สุด (สามเดือน),UI: Steam Workshop,12000011
+12000012,Most Popular (Six Months),ยอดนิยมที่สุด (หกเดือน),UI: Steam Workshop,12000012
+12000013,Most Popular (One Year),ยอดนิยมที่สุด (หนึ่งปี),UI: Steam Workshop,12000013
+12000014,Top Rated All Time,เรตติ้งสูงสุดตลอดกาล,UI: Steam Workshop,12000014
+12000022,Update this map with any local changes you have made,อัปเดตแผนที่นี้ด้วยการเปลี่ยนแปลงในเครื่องของคุณ,UI: Steam Workshop,12000022
+12000023,Delete this map from Steam Workshop,ลบแผนที่นี้ออกจาก Steam Workshop,UI: Steam Workshop,12000023
+12000025,Overwrite the Steam Workshop file with your local copy?,เขียนทับไฟล์ Steam Workshop ด้วยสำเนาในเครื่องของคุณหรือไม่?,UI: Steam Workshop,12000025
+12000026,Publish this file to Steam Workshop?,เผยแพร่ไฟล์นี้ไปยัง Steam Workshop หรือไม่?,UI: Steam Workshop,12000026
+12000027,Delete this file from Steam Workshop?,ลบไฟล์นี้ออกจาก Steam Workshop หรือไม่?,UI: Steam Workshop,12000027
+12000028,Remove this file from your hard drive?,ลบไฟล์นี้ออกจากฮาร์ดไดรฟ์ของคุณหรือไม่?,UI: Steam Workshop,12000028
+12000029,Preparing to Play: Downloading %i%%...,กำลังเตรียมเล่น: กำลังดาวน์โหลด %i%%...,UI: Steam Workshop,12000029

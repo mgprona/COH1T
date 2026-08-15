@@ -16,7 +16,7 @@ LATIN = re.compile(r"[A-Za-z]{2,}")
 
 def main() -> None:
     try:
-        sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[attr-defined]
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[attr-defined]  # type: ignore[attr-defined]
     except (AttributeError, ValueError):
         pass
     parts = Path(sys.argv[1])

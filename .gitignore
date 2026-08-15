@@ -1,5 +1,6 @@
 backup/
-work/
+work/*
+!work/translate_parts_v2/
 .venv/
 __pycache__/
 *.pyc

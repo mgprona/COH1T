@@ -4,13 +4,14 @@ import csv
 import sys
 from pathlib import Path
 
-sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+sys.stdout.reconfigure(encoding="utf-8", errors="replace")  # type: ignore[attr-defined]
 
 P = Path("work/translate_parts_v2/01_ui/01_system.csv")
 
 
 def main() -> None:
-    rows = list(csv.DictReader(open(P, encoding="utf-8-sig", newline="")))
+    with open(P, encoding="utf-8-sig", newline="") as fh:
+            rows = list(csv.DictReader(fh))
     for r in rows:
         if r["id"] in ("1702", "12508") and r["english"].strip() in ("Hard", "HARD"):
             r["thai"] = "ยาก"
