@@ -5,3 +5,5 @@ work/*
 __pycache__/
 *.pyc
 font/
+release/patch.json
+release/RelicCOH.English.ucs
