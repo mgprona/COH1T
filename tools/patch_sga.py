@@ -1,3 +1,4 @@
+import sys
 import zlib
 from pathlib import Path
 
@@ -5,17 +6,14 @@ from pathlib import Path
 # each entry: data immediately follows its u32 CRC32 field in the TOC.
 FONT_SLOTS = {
     # path in archive -> (file offset, store length, replacement source file)
-    r"font\trebuc.ttf": (0x12092B73, 134108, r"C:\Windows\Fonts\leelawad.ttf"),
-    r"font\trebucbd.ttf": (0x120B3853, 123096, r"C:\Windows\Fonts\leelawdb.ttf"),
-    r"font\impact.ttf": (0x120716E3, 136076, r"C:\Windows\Fonts\leelawad.ttf"),
+    r"font\trebuc.ttf": (0x12092B73, 134108, r"font\LeelawUI-PUA.ttf"),
+    r"font\trebucbd.ttf": (0x120B3853, 123096, r"font\LeelaUIb-PUA.ttf"),
+    r"font\impact.ttf": (0x120716E3, 136076, r"font\LeelawUI-PUA.ttf"),
 }
 
-SRC = Path(r"backup\Engine.sga")
-DST = Path(r"work\Engine_patched.sga")
 
-
-def main() -> None:
-    data = bytearray(SRC.read_bytes())
+def run(src: str, dst: str) -> None:
+    data = bytearray(Path(src).read_bytes())
     for path, (off, length, replacement) in FONT_SLOTS.items():
         ttf = Path(replacement).read_bytes()
         assert len(ttf) <= length, f"{path}: {len(ttf)} > slot {length}"
@@ -25,8 +23,14 @@ def main() -> None:
         crc = zlib.crc32(padded) & 0xFFFFFFFF
         data[off - 4 : off] = crc.to_bytes(4, "little")
         print(f"patched {path}: {len(ttf)} bytes + {length - len(ttf)} pad, crc={crc:08X}")
-    DST.write_bytes(data)
-    print(f"wrote {DST} ({len(data)} bytes)")
+    Path(dst).write_bytes(data)
+    print(f"wrote {dst} ({len(data)} bytes)")
+
+
+def main() -> None:
+    src = sys.argv[1] if len(sys.argv) > 1 else r"backup\Engine.sga"
+    dst = sys.argv[2] if len(sys.argv) > 2 else r"work\Engine_patched.sga"
+    run(src, dst)
 
 
 if __name__ == "__main__":
